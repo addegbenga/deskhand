@@ -64,18 +64,8 @@
   "accepted": "Suggestion gardée en brouillon — elle doit encore être validée.",
   "dismissed": "Suggestion ignorée",
   "setupBoard": {
-    "title": "Configuration et blocages",
-    "body": "Ce qu’il reste à faire pour l’équipe, et ce que cela empêche.",
-    "blocking": "Bloquant",
-    "blocksGoLive": "Cela bloque la mise en ligne, le pilote automatique, les réservations, les messages ou la connexion d’un membre.",
-    "blocksBookings": "Les clients ne peuvent pas réserver tant que vous n’ajoutez pas une prestation.",
-    "impactConnection": "Corrigez-le pour que ce canal puisse à nouveau envoyer et se synchroniser.",
-    "open": "À configurer",
-    "milestones": "Après la mise en ligne",
-    "clear": "La configuration est terminée. Rien ne bloque la mise en ligne.",
-    "fix": "Corriger",
-    "resume": "Reprendre la configuration",
-    "team": "Configuration de l’équipe",
-    "teamBody": "Agendas, double authentification et demandes d’adhésion pour les personnes de ce compte."
+    "title": "Terminer la configuration",
+    "progress": "{done} sur {total} étapes terminées.",
+    "resume": "Reprendre la configuration"
   }
 }

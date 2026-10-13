@@ -218,12 +218,14 @@ export function CurrencyInput({
     value === null ? '' : focused ? String(value) : new Intl.NumberFormat(locale, { maximumFractionDigits: 2 }).format(value)
 
   return (
-    <div className="relative" dir="ltr">
-      <span className="pointer-events-none absolute inset-y-0 start-3 flex items-center text-sm text-fg-muted">{symbol}</span>
+    <div className="flex min-w-0" dir="ltr">
+      <span className="inline-flex shrink-0 items-center rounded-s-md border border-e-0 border-border bg-surface-2 px-2.5 text-sm text-fg-muted">
+        {symbol}
+      </span>
       <Input
         id={id}
         inputMode="decimal"
-        className="tabular ps-10"
+        className="min-w-0 rounded-s-none tabular"
         value={display}
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}

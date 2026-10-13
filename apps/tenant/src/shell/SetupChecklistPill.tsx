@@ -234,9 +234,6 @@ function Milestones({ view }: { view: OnboardingView }) {
             )
           })}
         </ul>
-        <Button asChild size="sm" variant="ghost" className="mt-4 w-full">
-          <Link to="/app/home">{t('setup.seeBoard')}</Link>
-        </Button>
       </PopoverContent>
     </Popover>
   )

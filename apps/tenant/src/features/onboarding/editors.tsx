@@ -43,38 +43,43 @@ export function ServicesEditor({
       {services.map((service) => {
         const sample = samples.get(service.name.toLowerCase())
         return (
-          <div key={service.id} className="grid gap-3 rounded-lg border border-border bg-surface p-3 sm:grid-cols-[minmax(0,1fr)_6rem_9rem_auto] sm:items-end">
-            <div className="flex flex-col gap-1.5">
-              <Label htmlFor={`${service.id}-name`} className="flex items-center gap-2">
-                {t('services.name')}
-                <SourceBadge source={service.source} />
-              </Label>
-              <Input id={`${service.id}-name`} value={service.name} onChange={(e) => update(service.id, { name: e.target.value, source: 'owner' })} />
+          <div key={service.id} className="flex flex-col gap-3 rounded-lg border border-border bg-surface p-3">
+            <div className="flex items-start gap-2">
+              <div className="flex min-w-0 flex-1 flex-col gap-1.5">
+                <Label htmlFor={`${service.id}-name`} className="flex flex-wrap items-center gap-2">
+                  {t('services.name')}
+                  <SourceBadge source={service.source} />
+                </Label>
+                <Input id={`${service.id}-name`} value={service.name} onChange={(e) => update(service.id, { name: e.target.value, source: 'owner' })} />
+              </div>
+              <IconButton className="mt-7" label={t('services.remove', { name: service.name })} onClick={() => onChange(services.filter((s) => s.id !== service.id))}>
+                <Trash2 />
+              </IconButton>
             </div>
-            <div className="flex flex-col gap-1.5">
-              <Label htmlFor={`${service.id}-duration`}>{t('services.duration')}</Label>
-              <Input
-                id={`${service.id}-duration`}
-                type="number"
-                inputMode="numeric"
-                min={5}
-                step={5}
-                value={service.durationMin}
-                onChange={(e) => update(service.id, { durationMin: Math.max(5, Number(e.target.value) || 5) })}
-              />
-            </div>
-            <div className="flex flex-col gap-1.5">
-              <Label htmlFor={`${service.id}-price`}>{t('services.price')}</Label>
-              <CurrencyInput
-                id={`${service.id}-price`}
-                value={service.price}
-                onChange={(price) => update(service.id, { price, verified: price === null ? false : service.verified })}
-                currency={currency}
-                locale={locale}
-              />
-            </div>
-            <div className="flex items-center gap-1 sm:pb-1.5">
-              <label className="flex items-center gap-2 text-[13px] whitespace-nowrap">
+            <div className="flex flex-wrap items-end gap-3">
+              <div className="flex w-24 shrink-0 flex-col gap-1.5">
+                <Label htmlFor={`${service.id}-duration`}>{t('services.duration')}</Label>
+                <Input
+                  id={`${service.id}-duration`}
+                  type="number"
+                  inputMode="numeric"
+                  min={5}
+                  step={5}
+                  value={service.durationMin}
+                  onChange={(e) => update(service.id, { durationMin: Math.max(5, Number(e.target.value) || 5) })}
+                />
+              </div>
+              <div className="flex w-40 min-w-[10rem] flex-1 flex-col gap-1.5 sm:max-w-56">
+                <Label htmlFor={`${service.id}-price`}>{t('services.price')}</Label>
+                <CurrencyInput
+                  id={`${service.id}-price`}
+                  value={service.price}
+                  onChange={(price) => update(service.id, { price, verified: price === null ? false : service.verified })}
+                  currency={currency}
+                  locale={locale}
+                />
+              </div>
+              <label className="flex items-center gap-2 pb-1.5 text-[13px] whitespace-nowrap">
                 <Checkbox
                   checked={service.verified}
                   disabled={service.price === null}
@@ -82,12 +87,9 @@ export function ServicesEditor({
                 />
                 {t('services.confirmed')}
               </label>
-              <IconButton label={t('services.remove', { name: service.name })} onClick={() => onChange(services.filter((s) => s.id !== service.id))}>
-                <Trash2 />
-              </IconButton>
             </div>
             {service.price === null && (
-              <p className="text-[13px] text-attention sm:col-span-4">
+              <p className="text-[13px] text-attention">
                 {sample
                   ? t('services.noPriceTypical', { price: formatMoney(samplePrice(sample, market), currency, locale) })
                   : t('services.noPrice')}

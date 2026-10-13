@@ -25,7 +25,7 @@ export function KnowledgePreview({ view }: { view: OnboardingView }) {
   const k = view.knowledge
   const gate = view.gates.find((g) => g.id === 'knowledge')
   return (
-    <Card className="sticky top-24 p-4">
+    <Card className="p-4">
       <p className="flex items-center gap-2 text-sm font-semibold">
         <BookOpenCheck className="size-4 text-ai" aria-hidden />
         {t('knowledge.preview.title')}

@@ -113,9 +113,9 @@ export function WizardLayout({
           </p>
           <h1 className="mt-1 text-2xl font-semibold text-balance md:text-[28px]">{title}</h1>
           {description && <div className="mt-2 max-w-2xl text-[15px] text-fg-muted">{description}</div>}
-          <div className={cn('mt-8', aside && 'grid gap-8 xl:grid-cols-[minmax(0,1fr)_20rem]')}>
+          <div className={cn('mt-8', aside && 'grid gap-8 xl:grid-cols-[minmax(0,1fr)_18rem]')}>
             <div className="min-w-0">{children}</div>
-            {aside && <aside className="min-w-0">{aside}</aside>}
+            {aside && <aside className="min-w-0 xl:sticky xl:top-24 xl:self-start">{aside}</aside>}
           </div>
         </main>
       </div>

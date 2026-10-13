@@ -84,7 +84,7 @@ export function Readiness({ view }: { view: OnboardingView }) {
   const { t } = useTranslation('onboarding')
   const blocking = view.gates.filter((g) => g.status === 'blocking').length
   return (
-    <Card className="sticky top-24 p-4">
+    <Card className="p-4">
       <p className="text-sm font-semibold">{t('gates.title')}</p>
       <p className={cn('mt-1 text-[13px]', blocking ? 'text-attention' : 'text-success')}>
         {blocking ? t('gates.blocking', { count: blocking }) : t('gates.allClear')}

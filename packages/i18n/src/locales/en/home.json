@@ -64,18 +64,8 @@
   "accepted": "Suggestion kept as a draft — it still needs approval.",
   "dismissed": "Suggestion dismissed",
   "setupBoard": {
-    "title": "Setup and blockers",
-    "body": "What the team still needs to finish, and what that is holding back.",
-    "blocking": "Blocking",
-    "blocksGoLive": "These hold back go-live, Autopilot, bookings, messages, or a teammate signing in.",
-    "blocksBookings": "Customers cannot book until you add a service.",
-    "impactConnection": "Fix it so this channel can send and sync again.",
-    "open": "Still to set up",
-    "milestones": "After go-live",
-    "clear": "Setup is complete. Nothing is blocking go-live.",
-    "fix": "Fix",
-    "resume": "Continue setup",
-    "team": "Team setup",
-    "teamBody": "Calendar connections, two-factor, and join requests for people on this account."
+    "title": "Finish setup",
+    "progress": "{done} of {total} steps done.",
+    "resume": "Continue setup"
   }
 }

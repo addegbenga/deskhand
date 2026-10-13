@@ -124,7 +124,7 @@ export function ProfileStep({ view, session }: StepProps) {
         },
       }}
       aside={
-        <Card className="sticky top-24 p-4">
+        <Card className="p-4">
           <p className="flex items-center gap-2 text-sm font-semibold">
             <PackageCheck className="size-4 text-brand" aria-hidden />
             {t('profile.pack.title', { industry: t(`industries.${profile.industry}`) })}
