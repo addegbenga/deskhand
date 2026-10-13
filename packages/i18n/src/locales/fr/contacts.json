@@ -1,0 +1,225 @@
+{
+  "title": "Contacts",
+  "search": "Nom, téléphone, e-mail ou tags",
+  "add": "Ajouter un contact",
+  "import": "Importer",
+  "duplicates": "Doublons",
+  "companies": "Entreprises",
+  "filters": {
+    "button": "Filtres",
+    "title": "Filtres",
+    "clear": "Effacer",
+    "all": "Tous",
+    "source": "Source",
+    "stage": "Étape",
+    "tag": "Tag",
+    "since": "Dernière activité",
+    "field": "Champ perso"
+  },
+  "groups": {
+    "placeholder": "Tout le monde",
+    "search": "Rechercher un groupe",
+    "empty": "Aucun groupe de ce nom",
+    "all": "Tout le monde",
+    "new": "Nouveau groupe",
+    "name": "Nom du groupe",
+    "nameHint": "ex. VIP WhatsApp, clients du samedi",
+    "createTitle": "Nouveau groupe",
+    "createBody": "Un groupe, ce sont les personnes qui correspondent à des règles. Envoyez-leur une campagne ensemble. Les nouveaux contacts qui correspondent y entrent tout seuls.",
+    "create": "Enregistrer le groupe",
+    "saved": "Groupe enregistré",
+    "deleted": "Groupe supprimé",
+    "delete": "Supprimer le groupe",
+    "send": "Envoyer une campagne",
+    "hint": "Enregistrez un groupe pour recontacter le même type de personnes — VIP, WhatsApp, réservés, etc.",
+    "selected": "{name} · {count, plural, one {# personne} other {# personnes}} qui correspondent",
+    "saveFromFilters": "Enregistrer comme groupe",
+    "needRules": "Choisissez au moins une règle, sinon le groupe est tout le monde.",
+    "preview": "Quiconque correspond à ces règles reste dans le groupe, y compris plus tard."
+  },
+  "since": {
+    "7d": "7 derniers jours",
+    "30d": "30 derniers jours",
+    "90d": "90 derniers jours"
+  },
+  "export": "Exporter",
+  "empty": {
+    "title": "Pas encore de contacts",
+    "body": "Ajoutez quelqu'un, importez un CSV, ou partagez la page de réservation. Les gens apparaissent aussi quand ils vous écrivent."
+  },
+  "columns": {
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "tags": "Tags",
+    "stage": "Étape",
+    "source": "Source",
+    "language": "Langue",
+    "company": "Entreprise"
+  },
+  "create": {
+    "title": "Nouveau contact",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "save": "Enregistrer"
+  },
+  "created": "Contact ajouté",
+  "saved": "Contact enregistré",
+  "actions": {
+    "message": "Ouvrir la conversation",
+    "whatsapp": "WhatsApp"
+  },
+  "fields": {
+    "owner": "Responsable",
+    "unassigned": "Non assigné",
+    "value": "Valeur",
+    "added": "Ajouté",
+    "noChannel": "Pas encore de téléphone ni d’e-mail",
+    "company": "Entreprise",
+    "none": "Aucune"
+  },
+  "source": {
+    "whatsapp": "WhatsApp",
+    "webchat": "Chat web",
+    "email": "E-mail",
+    "sms": "SMS",
+    "instagram": "Instagram",
+    "form": "Formulaire",
+    "booking_page": "Page de réservation",
+    "import": "Import",
+    "manual": "Ajouté à la main"
+  },
+  "timeline": {
+    "message": "Message",
+    "note": "Note",
+    "booking": "Rendez-vous",
+    "payment": "Paiement",
+    "consent": "Consentement",
+    "import": "Import",
+    "merge": "Fusion",
+    "system": "Système"
+  },
+  "emptyTab": {
+    "timeline": "Rien sur le fil pour l’instant",
+    "timelineBody": "Messages, rendez-vous, notes et consentement apparaissent ici.",
+    "conversations": "Pas encore de conversations",
+    "conversationsBody": "Quand la personne écrit, le fil apparaît ici.",
+    "bookings": "Pas encore de rendez-vous",
+    "bookingsBody": "Les rendez-vous de cette personne s’afficheront ici.",
+    "payments": "Pas encore de paiements",
+    "paymentsBody": "Les acomptes et paiements s’afficheront ici.",
+    "filesBody": "Les images et fichiers de ses chats s’affichent ici."
+  },
+  "tasks": {
+    "title": "Tâches",
+    "open": "Ouvrir les tâches",
+    "add": "Ajouter une tâche",
+    "empty": "Aucune tâche liée à cette personne."
+  },
+  "tabs": {
+    "overview": "Aperçu",
+    "timeline": "Fil",
+    "conversations": "Conversations",
+    "bookings": "Rendez-vous",
+    "payments": "Paiements",
+    "notes": "Notes et tâches",
+    "files": "Fichiers",
+    "consent": "Consentement",
+    "memory": "Mémoire IA"
+  },
+  "memory": {
+    "empty": "L'IA n'a encore rien enregistré sur cette personne.",
+    "emptyBody": "Les préférences apprises par l’IA apparaissent ici. Vous pouvez les modifier ou les supprimer ; la prochaine réponse s’y conforme.",
+    "deleted": "Retiré de la mémoire IA",
+    "saved": "Mémoire IA mise à jour",
+    "delete": "Supprimer",
+    "keys": {
+      "preferred_style": "Style préféré",
+      "allergies": "Allergies"
+    }
+  },
+  "consent": {
+    "empty": "Aucun enregistrement de consentement.",
+    "wording": "Texte {version}",
+    "at": "Enregistré {date}",
+    "channels": "Par canal",
+    "ledger": "Registre",
+    "record": "Enregistrer le consentement",
+    "recorded": "Consentement enregistré",
+    "suppressed": "Cette personne est sur la liste d’exclusion. N’envoyez rien tant qu’elle ne vous a pas réécrit.",
+    "sources": {
+      "signup": "Inscription",
+      "import": "Import",
+      "inbox": "Boîte de réception",
+      "form": "Formulaire",
+      "booking_page": "Page de réservation",
+      "preference_center": "Centre de préférences",
+      "widget": "Widget de chat"
+    },
+    "purpose": {
+      "service": "Messages de service",
+      "marketing": "Marketing",
+      "ai_voice": "Voix IA"
+    }
+  },
+  "notes": {
+    "add": "Ajouter une note",
+    "placeholder": "Visible par l'équipe seulement",
+    "empty": "Pas encore de notes."
+  },
+  "filesEmpty": "Les fichiers apparaissent ici une fois joints.",
+  "bulk": {
+    "tag": "Ajouter un tag",
+    "delete": "Supprimer",
+    "confirmTitle": "Supprimer {count, plural, one {# contact} other {# contacts}} ?",
+    "confirmBody": "Tapez DELETE pour confirmer. Les conversations de ces personnes sont aussi retirées.",
+    "confirmLabel": "Tapez DELETE",
+    "deleted": "Contacts supprimés",
+    "tagged": "Tag ajouté",
+    "company": "Ajouter à une entreprise",
+    "assigned": "Ajouté à l'entreprise"
+  },
+  "companiesPage": {
+    "title": "Entreprises",
+    "add": "Ajouter une entreprise",
+    "name": "Nom",
+    "notes": "Notes",
+    "people": "Personnes",
+    "empty": "Pas encore d'entreprises",
+    "emptyBody": "Regroupez des contacts sous une entreprise quand plusieurs personnes travaillent au même endroit.",
+    "created": "Entreprise ajoutée",
+    "saved": "Entreprise enregistrée",
+    "deleted": "Entreprise supprimée",
+    "delete": "Supprimer l'entreprise",
+    "unlink": "Retirer",
+    "noPeople": "Aucun contact lié.",
+    "open": "Ouvrir l'entreprise"
+  },
+  "duplicatesPage": {
+    "title": "Doublons probables",
+    "body": "Correspondance par téléphone ou e-mail. Les fusions sont annulables 30 jours.",
+    "empty": "Aucun doublon probable.",
+    "keep": "Garder celui-ci",
+    "merge": "Fusionner dans la sélection",
+    "merged": "Contacts fusionnés",
+    "reason": {
+      "phone": "Même téléphone",
+      "email": "Même e-mail"
+    }
+  },
+  "importPage": {
+    "title": "Importer des contacts",
+    "step1": "Téléverser un CSV",
+    "step2": "Aperçu",
+    "step3": "Consentement",
+    "hint": "Colonnes : firstName, lastName, phone, email",
+    "attestation": "Je confirme que ces personnes ont accepté d'être contactées et que j'ai le droit de les importer.",
+    "run": "Importer",
+    "done": "{count, plural, one {# contact importé} other {# contacts importés}}",
+    "undo": "Annuler l'import",
+    "undone": "Import annulé",
+    "errors": "{count, plural, one {# ligne ignorée} other {# lignes ignorées}}",
+    "needAttest": "Cochez la case de consentement pour continuer."
+  },
+  "noPermission": "Les contacts sont pour qui gère les clients."
+}

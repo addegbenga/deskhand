@@ -1,0 +1,57 @@
+{
+  "title": "Tasks",
+  "create": "New task",
+  "views": {
+    "mine": "My tasks",
+    "team": "Team",
+    "today": "Due today",
+    "overdue": "Overdue",
+    "done": "Completed"
+  },
+  "empty": {
+    "title": "Nothing on this list",
+    "body": "Create a task, or wait for a handoff from the inbox."
+  },
+  "due": "Due {when}",
+  "complete": "Mark done",
+  "reopen": "Reopen",
+  "titleLabel": "Title",
+  "dueLabel": "Due",
+  "notesLabel": "Notes",
+  "assigneeLabel": "Assignee",
+  "priorityLabel": "Priority",
+  "linkedKind": "Linked to",
+  "linkedRecord": "Record",
+  "linkedNone": "Nothing",
+  "linked": {
+    "kinds": {
+      "contact": "Contact",
+      "conversation": "Conversation",
+      "opportunity": "Opportunity",
+      "booking": "Booking"
+    },
+    "search": "Search records",
+    "empty": "No matching records"
+  },
+  "filters": {
+    "button": "Filters",
+    "kind": "Linked to",
+    "createdBy": "Created by",
+    "assignee": "Assignee",
+    "all": "All",
+    "person": "A person",
+    "ai": "AI"
+  },
+  "search": "Search tasks",
+  "save": "Add task",
+  "saveEdit": "Save changes",
+  "edit": "Edit",
+  "snooze": "Snooze 1 day",
+  "statusOpen": "Open",
+  "statusDone": "Done",
+  "created": "Created",
+  "notesEmpty": "No notes yet.",
+  "openLink": "Open linked record",
+  "needRecord": "Optional — pick a record, or leave this and the task still saves.",
+  "aiWhy": "Created because the AI could not finish this itself."
+}

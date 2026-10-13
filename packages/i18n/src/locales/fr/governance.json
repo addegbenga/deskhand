@@ -1,0 +1,208 @@
+{
+  "title": "Conformité",
+  "readiness": "Préparation {score}% — indication seulement, pas une certification.",
+  "notAdvice": "Ce centre n’est pas un avis juridique. Il montre ce qui est configuré et ce qu’il vous reste à faire.",
+  "previewMarket": "Prévisualiser un autre marché",
+  "marketHint": "La liste et les textes viennent du pack marché. Un nouveau pays n’exige pas de changement de code.",
+  "law": "Règles applicables",
+  "productDoes": "Ce que Deskhand fait",
+  "ownerDoes": "Ce que vous devez encore faire",
+  "blockingBanner": "Un point bloquant empêche la mise en ligne et l’autopilote.",
+  "fix": "Corriger",
+  "save": "Enregistrer",
+  "saved": "Enregistré",
+  "search": "Rechercher",
+  "escalate": "Escaladé",
+  "whatThisMeans": "Ce que cela signifie",
+  "export": "Exporter",
+  "pages": {
+    "overview": "Aperçu",
+    "disclosure": "Divulgation",
+    "consent": "Consentement",
+    "recording": "Enregistrement",
+    "data": "Données",
+    "requests": "Demandes",
+    "ai": "Gouvernance IA",
+    "audit": "Journal d’audit",
+    "access": "Accès",
+    "legal": "Juridique"
+  },
+  "status": {
+    "done": "Fait",
+    "attention": "À traiter",
+    "blocking": "Bloque la mise en ligne"
+  },
+  "areas": {
+    "disclosure": "Divulgation",
+    "consent": "Consentement",
+    "recording": "Enregistrement",
+    "data": "Données",
+    "requests": "Demandes",
+    "ai": "Gouvernance IA",
+    "legal": "Documents juridiques"
+  },
+  "items": {
+    "disclosure": "Divulgation IA au premier message",
+    "consent_wording": "Texte de consentement",
+    "marketing_opt_in": "Opt-in marketing (PECR / équivalent)",
+    "sms_consent": "Consentement SMS strict",
+    "quiet_hours": "Heures calmes",
+    "all_party": "Consentement de toutes les parties à l’enregistrement",
+    "recording_notice": "Avis d’enregistrement",
+    "data_region": "Région des données",
+    "dsr_queue": "Demandes des personnes",
+    "dsr_deadline": "Une demande approche de l’échéance",
+    "dsr_overdue": "Une demande est en retard",
+    "prohibited_uses": "Accusé des usages interdits",
+    "regulator_register": "Inscription auprès de l’autorité",
+    "legal_docs": "Documents juridiques acceptés"
+  },
+  "reasons": {
+    "ok": "Configuré pour ce marché.",
+    "missing": "Ce point n’est pas encore complet.",
+    "overdue": "Au moins une demande dépasse le délai de réponse.",
+    "soon": "Une demande arrive à échéance sous 48 heures."
+  },
+  "does": {
+    "disclosure": "Affiche une divulgation IA au premier message.",
+    "consent_capture": "Enregistre le consentement et honore STOP.",
+    "dsr_queue": "Suit les demandes d’accès et de suppression avec des délais.",
+    "audit": "Conserve une piste d’audit.",
+    "register": "Vous inscrire auprès de l’autorité si cela est requis.",
+    "opt_in": "Obtenir un opt-in clair avant tout message marketing.",
+    "recording_consent": "Obtenir le consentement de toutes les parties avant d’enregistrer.",
+    "marketing_truth": "Rester exact dans les offres."
+  },
+  "regulators": {
+    "ndpc": "Commission nigériane de protection des données",
+    "odpc": "Bureau du commissaire à la protection des données",
+    "popia": "Information Regulator (POPIA)",
+    "ico": "Information Commissioner’s Office (Royaume-Uni)",
+    "gdpr": "Autorité européenne de protection des données",
+    "state": "Règles US d’État, TCPA"
+  },
+  "disclosure": {
+    "language": "Langue",
+    "preview": "Aperçu",
+    "cannotOff": "La divulgation ne peut pas être désactivée. Vous pouvez modifier le texte.",
+    "notice": "Avis de conservation des conversations",
+    "verify": "Lancer un test de vérification",
+    "channel": "Canal",
+    "verified": "La divulgation est apparue dans le test.",
+    "failed": "Le test n’a pas trouvé la divulgation.",
+    "lastTest": "Dernier test",
+    "legalName": "Nom légal montré aux clients",
+    "privacyEmail": "Contact confidentialité"
+  },
+  "consent": {
+    "ledger": "Registre des consentements",
+    "wordings": "Versions de texte",
+    "suppression": "Liste de suppression",
+    "imports": "Attestations d’import",
+    "reconsent": "Lancer une campagne de re-consentement",
+    "campaignStarted": "Campagne de re-consentement en file.",
+    "addSuppression": "Ajouter à la liste de suppression",
+    "reason": "Motif",
+    "name": "Nom",
+    "quiet": "Heures calmes {start}–{end}",
+    "smsStrict": "Ce marché exige un consentement SMS documenté.",
+    "current": "En cours"
+  },
+  "recording": {
+    "enabled": "Enregistrement activé",
+    "notice": "Texte de l’avis",
+    "allParty": "Ce marché attend le consentement de toutes les parties. En cas de refus, l’appel continue sans enregistrement.",
+    "acknowledge": "Je comprends le consentement de toutes les parties",
+    "staff": "La surveillance du personnel est une obligation de droit du travail de l’entreprise, pas de Deskhand.",
+    "acceptStaff": "J’accepte cette responsabilité",
+    "listen": "Qui peut écouter",
+    "retention": "Audio conservé {days} jours"
+  },
+  "data": {
+    "region": "Région actuelle",
+    "requestChange": "Demander un changement de région",
+    "requested": "Le support aidera à déplacer ce compte.",
+    "legalHold": "Conservation légale (pause des suppressions)",
+    "retention": "Rétention (jours)",
+    "documents": "Documents",
+    "jobs": "Tâches de suppression",
+    "doc": {
+      "dpa": "Accord de traitement",
+      "sub_processors": "Liste des sous-traitants",
+      "ropo": "Registre des traitements",
+      "dpia": "Modèle d’AIPD"
+    }
+  },
+  "requests": {
+    "type": "Type",
+    "requester": "Demandeur",
+    "due": "Échéance",
+    "log": "Enregistrer une demande",
+    "complete": "Marquer comme terminée",
+    "preview": "Aperçu export ou suppression",
+    "exportKinds": "Inclus dans un export",
+    "removeKinds": "Serait supprimé",
+    "keepKinds": "Conservé (obligation légale ou facturation)",
+    "types": {
+      "access": "Accès",
+      "correct": "Correction",
+      "delete": "Suppression",
+      "restrict": "Limitation",
+      "object": "Opposition",
+      "human_review": "Revue humaine"
+    },
+    "statuses": {
+      "received": "Reçue",
+      "verified": "Vérifiée",
+      "in_progress": "En cours",
+      "completed": "Terminée"
+    },
+    "overdue": "En retard",
+    "hoursLeft": "{count, plural, one {# heure restante} other {# heures restantes}}",
+    "keep": {
+      "legal": "Requis pour la fiscalité ou une conservation légale",
+      "retention": "Rétention d’audit"
+    }
+  },
+  "aiGov": {
+    "matrix": "Matrice de politique",
+    "guardrails": "Garde-fous",
+    "platform": "Plancher plateforme (lecture seule)",
+    "business": "Vos règles",
+    "incidents": "Incidents",
+    "report": "Signaler un incident",
+    "summary": "Ce qui s’est passé",
+    "prohibited": "Usages interdits",
+    "acceptProhibited": "Je reconnais les usages interdits",
+    "transparency": "Dossier de transparence",
+    "eval": "Dernière évaluation"
+  },
+  "audit": {
+    "search": "Rechercher dans le journal"
+  },
+  "access": {
+    "members": "Qui a accès",
+    "support": "Accès support",
+    "approve": "Approuver",
+    "deny": "Refuser",
+    "breach": "Sécurité et violation",
+    "notify_us": "Prévenez-nous si vous apprenez une violation concernant ce compte.",
+    "owner_duty": "Votre marché peut aussi exiger de prévenir les personnes et l’autorité."
+  },
+  "legal": {
+    "accept": "Accepter cette version",
+    "accepted": "Accepté {version}",
+    "pending": "Un changement important nécessite une nouvelle acceptation.",
+    "addenda": "Addenda de marché",
+    "docs": {
+      "terms": "Conditions d’utilisation",
+      "dpa": "Accord de traitement",
+      "privacy_template": "Modèle d’avis de confidentialité",
+      "sub_processors": "Liste des sous-traitants"
+    }
+  },
+  "empty": {
+    "ledger": "Aucun enregistrement de consentement.",
+    "requests": "Aucune demande pour le moment."
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "title": "Settings",
+  "pages": {
+    "business": "Business",
+    "locations": "Locations",
+    "team": "Team",
+    "languages": "Languages",
+    "branding": "Branding",
+    "channels": "Channels",
+    "notifications": "Notifications",
+    "billing": "Billing",
+    "usage": "Usage",
+    "security": "Security",
+    "data": "Data",
+    "api": "API",
+    "audit": "Audit log",
+    "replies": "Saved replies"
+  },
+  "save": "Save",
+  "saved": "Saved",
+  "business": {
+    "hubHint": "Everything you entered during setup lives here. Update it any time — the AI, booking page and automations use this same data.",
+    "legal": "Legal and contact",
+    "legalName": "Legal name",
+    "registration": "Registration number",
+    "description": "Description",
+    "website": "Website",
+    "instagram": "Instagram",
+    "phone": "Phone",
+    "email": "Email",
+    "privacy": "Privacy contact",
+    "pack": "Industry pack",
+    "packHint": "Pack items stay until you edit them. Changing industry adds missing pack services and FAQs; it never overwrites what you already changed.",
+    "needsInput": "Needs your input",
+    "needsInputBody": "{count, plural, one {# pack item still needs a confirmed price or answer.} other {# pack items still need a confirmed price or answer.}}",
+    "faqs": "Common questions",
+    "policies": "Policies the AI should know",
+    "jumpKnowledge": "Knowledge",
+    "jumpServices": "Booking services",
+    "jumpChannels": "Channels",
+    "jumpEmployee": "AI employee",
+    "jumpCompliance": "Compliance"
+  },
+  "branding": {
+    "logo": "Logo text",
+    "color": "Brand color",
+    "font": "Font",
+    "sans": "Sans",
+    "serif": "Serif",
+    "poweredBy": "Show Powered by Deskhand"
+  },
+  "notifications": {
+    "email": "Email alerts",
+    "inApp": "In-app",
+    "whatsapp": "WhatsApp (needs consent)",
+    "quiet": "Quiet hours",
+    "digest": "Digest hour"
+  },
+  "languages": {
+    "market": "Market pack",
+    "region": "Data region",
+    "default": "Default language",
+    "served": "Languages served",
+    "currency": "Currency",
+    "changeRegion": "Request a region change through support."
+  },
+  "connections": {
+    "title": "Connections",
+    "weManage": "We manage",
+    "youConnect": "You connect",
+    "connect": "Connect",
+    "test": "Test",
+    "fix": "Fix",
+    "disconnect": "Disconnect",
+    "history": "History",
+    "scopes": "Scopes",
+    "lastSync": "Last sync",
+    "status": {
+      "connected": "Connected",
+      "needs_attention": "Needs attention",
+      "not_connected": "Not connected"
+    },
+    "health": { "healthy": "Healthy", "degraded": "Needs attention", "broken": "Broken" },
+    "problem": {
+      "dns_unverified": "DNS records are not verified yet.",
+      "token_expired": "The calendar token expired.",
+      "quality_low": "WhatsApp quality is low."
+    },
+    "groups": {
+      "messaging": "Messaging",
+      "calendar": "Calendar",
+      "gbp": "Google Business Profile",
+      "payments": "Payments",
+      "social": "Social",
+      "contacts": "Contacts",
+      "voice": "Voice and SMS"
+    },
+    "kinds": {
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "webchat": "Web chat",
+      "messenger": "Messenger",
+      "instagram": "Instagram",
+      "google_calendar": "Google Calendar",
+      "outlook": "Outlook",
+      "gbp": "Google Business Profile",
+      "payments": "Payments",
+      "google_contacts": "Google Contacts",
+      "sms": "SMS"
+    }
+  },
+  "team": {
+    "invite": "Invite",
+    "emails": "Email addresses",
+    "emailsHint": "Paste up to 50 addresses, one per line or comma-separated.",
+    "role": "Role",
+    "note": "Note",
+    "send": "Send invites",
+    "pending": "Pending invitations",
+    "resend": "Resend",
+    "revoke": "Revoke",
+    "copyLink": "Copy invite link",
+    "joinLink": "Join link",
+    "createLink": "Create 24-hour join link",
+    "requests": "Join requests",
+    "approve": "Approve",
+    "offboard": "Remove",
+    "reassign": "Reassign work to",
+    "confirmName": "Type their name to confirm",
+    "twoFactor": "Two-factor",
+    "twoFactorOn": "Two-factor on",
+    "twoFactorOff": "Two-factor off",
+    "calendarOn": "Calendar connected",
+    "calendarOff": "Calendar not connected",
+    "lastActive": "Last active",
+    "locations": "Locations",
+    "needsTitle": "What the team still needs",
+    "needsBody": "Calendar, two-factor and join requests in one place. Owner and Admin must turn on two-factor. Bookable staff connect their own calendar.",
+    "needsClear": "No team setup left.",
+    "needMfa": "{name} has not set up two-factor yet.",
+    "needMfaRequired": "{name} must set up two-factor (required for Owner and Admin).",
+    "needCalendar": "{name} still needs to connect a calendar.",
+    "needJoin": "{count, plural, one {# join request waiting} other {# join requests waiting}}",
+    "impactMfaRequired": "Owner and Admin cannot keep using the account without two-factor.",
+    "impactMfa": "Recommended so their sign-in is harder to take over.",
+    "impactCalendar": "New bookings cannot write to their diary until they connect.",
+    "impactJoin": "They cannot work in this account until you approve.",
+    "blocking": "Blocking",
+    "recommended": "Recommended",
+    "fix": "Fix",
+    "results": {
+      "sent": "Sent",
+      "already_member": "Already a member",
+      "invalid": "Invalid address",
+      "blocked": "Blocked domain",
+      "plan_limit": "No seats left"
+    }
+  },
+  "billing": {
+    "plan": "Plan",
+    "method": "Payment method",
+    "tax": "Tax ID",
+    "contact": "Billing email",
+    "invoices": "Invoices",
+    "change": "Change plan",
+    "cancel": "Cancel plan",
+    "starter": "Starter",
+    "growth": "Growth",
+    "pro": "Pro",
+    "included": "{unit}: {count} included"
+  },
+  "usage": {
+    "title": "Usage",
+    "projected": "Projected month-end",
+    "cap": "Cap",
+    "hard": "Hard cap (stop at the limit)",
+    "soft": "Soft cap (monthly ceiling)",
+    "ceiling": "Spending ceiling",
+    "simulate": "Simulate hitting a limit",
+    "upgrade": "You have reached a plan limit. Upgrade to keep going.",
+    "units": {
+      "seats": "Seats",
+      "locations": "Locations",
+      "aiEmployees": "AI employees",
+      "contacts": "Contacts",
+      "aiConversations": "AI conversations",
+      "emails": "Emails"
+    }
+  },
+  "security": {
+    "twoFactor": "Two-factor authentication",
+    "alerts": "Sign-in alerts",
+    "sessions": "Devices",
+    "signOut": "Sign out device",
+    "calendar": "My calendar",
+    "required": "Required for Owner and Admin"
+  },
+  "data": {
+    "export": "Export data",
+    "contacts": "Contacts",
+    "conversations": "Conversations",
+    "bookings": "Bookings",
+    "reviews": "Reviews",
+    "download": "Download",
+    "close": "Close account",
+    "confirm": "Type {name} to close this account",
+    "closed": "This account is closed. You can still export."
+  },
+  "api": {
+    "keys": "API keys",
+    "webhooks": "Webhook log",
+    "lastUsed": "Last used",
+    "replay": "Replay is not available in the mock."
+  },
+  "audit": {
+    "search": "Search the log"
+  },
+  "replies": {
+    "hint": "Saved replies live with marketing templates."
+  },
+  "channels": {
+    "hint": "Channel health and tests live in Connections.",
+    "widget": "Web chat script",
+    "widgetHint": "Paste this before the closing body tag on every page of your site.",
+    "widgetConsent": "The visitor must allow chat on the first screen (privacy notice plus I agree). That is what records web-chat consent. Staff should not skip it. If you already have a cookie banner, call this after they accept:",
+    "widgetConsentHook": "Cookie banner hook",
+    "previewWidget": "Preview widget",
+    "booking": "Booking embed script",
+    "bookingHint": "Inline booking flow for a page on your site. Popup and floating variants are on the booking page settings.",
+    "bookingSettings": "Booking page settings"
+  }
+}

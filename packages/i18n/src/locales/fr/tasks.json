@@ -1,0 +1,57 @@
+{
+  "title": "Tâches",
+  "create": "Nouvelle tâche",
+  "views": {
+    "mine": "Mes tâches",
+    "team": "Équipe",
+    "today": "Aujourd’hui",
+    "overdue": "En retard",
+    "done": "Terminées"
+  },
+  "empty": {
+    "title": "Rien sur cette liste",
+    "body": "Créez une tâche, ou attendez un transfert depuis la boîte de réception."
+  },
+  "due": "Pour {when}",
+  "complete": "Terminer",
+  "reopen": "Rouvrir",
+  "titleLabel": "Titre",
+  "dueLabel": "Échéance",
+  "notesLabel": "Notes",
+  "assigneeLabel": "Assignée à",
+  "priorityLabel": "Priorité",
+  "linkedKind": "Liée à",
+  "linkedRecord": "Enregistrement",
+  "linkedNone": "Rien",
+  "linked": {
+    "kinds": {
+      "contact": "Contact",
+      "conversation": "Conversation",
+      "opportunity": "Opportunité",
+      "booking": "Réservation"
+    },
+    "search": "Rechercher des enregistrements",
+    "empty": "Aucun enregistrement"
+  },
+  "filters": {
+    "button": "Filtres",
+    "kind": "Liée à",
+    "createdBy": "Créée par",
+    "assignee": "Assignée à",
+    "all": "Tous",
+    "person": "Une personne",
+    "ai": "IA"
+  },
+  "search": "Rechercher des tâches",
+  "save": "Ajouter",
+  "saveEdit": "Enregistrer",
+  "edit": "Modifier",
+  "snooze": "Reporter d’un jour",
+  "statusOpen": "Ouverte",
+  "statusDone": "Terminée",
+  "created": "Créée",
+  "notesEmpty": "Pas encore de notes.",
+  "openLink": "Ouvrir l’enregistrement lié",
+  "needRecord": "Facultatif — choisissez un enregistrement, ou laissez vide : la tâche s’enregistre quand même.",
+  "aiWhy": "Créée parce que l’IA n’a pas pu terminer seule."
+}

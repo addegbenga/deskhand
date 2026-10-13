@@ -1,0 +1,225 @@
+{
+  "title": "Contacts",
+  "search": "Search name, phone, email or tags",
+  "add": "Add contact",
+  "import": "Import",
+  "duplicates": "Duplicates",
+  "companies": "Companies",
+  "filters": {
+    "button": "Filters",
+    "title": "Filters",
+    "clear": "Clear",
+    "all": "All",
+    "source": "Source",
+    "stage": "Stage",
+    "tag": "Tag",
+    "since": "Last activity",
+    "field": "Custom field"
+  },
+  "groups": {
+    "placeholder": "Everyone",
+    "search": "Search groups",
+    "empty": "No group with that name",
+    "all": "Everyone",
+    "new": "New group",
+    "name": "Group name",
+    "nameHint": "e.g. VIP WhatsApp, Saturday clients",
+    "createTitle": "New group",
+    "createBody": "A group is people who match rules you pick. Message them together in a campaign. New contacts who match join automatically.",
+    "create": "Save group",
+    "saved": "Group saved",
+    "deleted": "Group deleted",
+    "delete": "Delete group",
+    "send": "Send campaign",
+    "hint": "Save a group when you want to message the same kind of people again — VIPs, WhatsApp, booked, and so on.",
+    "selected": "{name} · {count, plural, one {# person} other {# people}} who match these rules",
+    "saveFromFilters": "Save as group",
+    "needRules": "Pick at least one rule so the group is not everyone.",
+    "preview": "Anyone who matches these rules stays in the group, including people who match later."
+  },
+  "since": {
+    "7d": "Last 7 days",
+    "30d": "Last 30 days",
+    "90d": "Last 90 days"
+  },
+  "export": "Export",
+  "empty": {
+    "title": "No contacts yet",
+    "body": "Add someone by hand, import a CSV, or share your booking page and forms. People also appear when they message you."
+  },
+  "columns": {
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "tags": "Tags",
+    "stage": "Stage",
+    "source": "Source",
+    "language": "Language",
+    "company": "Company"
+  },
+  "create": {
+    "title": "New contact",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "save": "Save contact"
+  },
+  "created": "Contact added",
+  "saved": "Contact saved",
+  "actions": {
+    "message": "Open conversation",
+    "whatsapp": "WhatsApp"
+  },
+  "fields": {
+    "owner": "Owner",
+    "unassigned": "Unassigned",
+    "value": "Value",
+    "added": "Added",
+    "noChannel": "No phone or email yet",
+    "company": "Company",
+    "none": "None"
+  },
+  "source": {
+    "whatsapp": "WhatsApp",
+    "webchat": "Web chat",
+    "email": "Email",
+    "sms": "SMS",
+    "instagram": "Instagram",
+    "form": "Form",
+    "booking_page": "Booking page",
+    "import": "Import",
+    "manual": "Added by hand"
+  },
+  "timeline": {
+    "message": "Message",
+    "note": "Note",
+    "booking": "Booking",
+    "payment": "Payment",
+    "consent": "Consent",
+    "import": "Import",
+    "merge": "Merge",
+    "system": "System"
+  },
+  "emptyTab": {
+    "timeline": "Nothing on the timeline yet",
+    "timelineBody": "Messages, bookings, notes and consent show up here.",
+    "conversations": "No conversations yet",
+    "conversationsBody": "When they message you, the thread appears here.",
+    "bookings": "No bookings yet",
+    "bookingsBody": "Appointments for this person will list here.",
+    "payments": "No payments yet",
+    "paymentsBody": "Deposits and charges for this person will list here.",
+    "filesBody": "Images and files from their chats will list here."
+  },
+  "tasks": {
+    "title": "Tasks",
+    "open": "Open tasks",
+    "add": "Add task",
+    "empty": "No tasks linked to this person."
+  },
+  "tabs": {
+    "overview": "Overview",
+    "timeline": "Timeline",
+    "conversations": "Conversations",
+    "bookings": "Bookings",
+    "payments": "Payments",
+    "notes": "Notes and tasks",
+    "files": "Files",
+    "consent": "Consent",
+    "memory": "AI memory"
+  },
+  "memory": {
+    "empty": "The AI has not saved anything about this person yet.",
+    "emptyBody": "Preferences the AI learns appear here. You can edit or delete them, and the next reply will honor that.",
+    "deleted": "Removed from AI memory",
+    "saved": "AI memory updated",
+    "delete": "Delete",
+    "keys": {
+      "preferred_style": "Preferred style",
+      "allergies": "Allergies"
+    }
+  },
+  "consent": {
+    "empty": "No consent records yet.",
+    "wording": "Wording {version}",
+    "at": "Recorded {date}",
+    "channels": "Per channel",
+    "ledger": "Ledger",
+    "record": "Record consent",
+    "recorded": "Consent recorded",
+    "suppressed": "This person is on the suppression list. Do not send until they contact you again.",
+    "sources": {
+      "signup": "Sign-up",
+      "import": "Import",
+      "inbox": "Inbox",
+      "form": "Form",
+      "booking_page": "Booking page",
+      "preference_center": "Preference center",
+      "widget": "Web chat widget"
+    },
+    "purpose": {
+      "service": "Service messages",
+      "marketing": "Marketing",
+      "ai_voice": "AI voice"
+    }
+  },
+  "notes": {
+    "add": "Add a note",
+    "placeholder": "Visible to the team only",
+    "empty": "No notes yet."
+  },
+  "filesEmpty": "Files appear here when someone attaches them.",
+  "bulk": {
+    "tag": "Add tag",
+    "delete": "Delete",
+    "confirmTitle": "Delete {count, plural, one {# contact} other {# contacts}}?",
+    "confirmBody": "Type DELETE to confirm. Conversations for these people are removed too.",
+    "confirmLabel": "Type DELETE",
+    "deleted": "Contacts deleted",
+    "tagged": "Tag added",
+    "company": "Add to company",
+    "assigned": "Added to company"
+  },
+  "companiesPage": {
+    "title": "Companies",
+    "add": "Add company",
+    "name": "Name",
+    "notes": "Notes",
+    "people": "People",
+    "empty": "No companies yet",
+    "emptyBody": "Group contacts under a company when several people work at the same place.",
+    "created": "Company added",
+    "saved": "Company saved",
+    "deleted": "Company deleted",
+    "delete": "Delete company",
+    "unlink": "Remove",
+    "noPeople": "No contacts linked yet.",
+    "open": "Open company"
+  },
+  "duplicatesPage": {
+    "title": "Likely duplicates",
+    "body": "Matched by phone or email. Merges can be undone for 30 days.",
+    "empty": "No likely duplicates right now.",
+    "keep": "Keep this one",
+    "merge": "Merge into selected",
+    "merged": "Contacts merged",
+    "reason": {
+      "phone": "Same phone",
+      "email": "Same email"
+    }
+  },
+  "importPage": {
+    "title": "Import contacts",
+    "step1": "Upload CSV",
+    "step2": "Preview",
+    "step3": "Consent",
+    "hint": "Columns: firstName, lastName, phone, email",
+    "attestation": "I confirm these people agreed to be contacted, and I am allowed to import them.",
+    "run": "Import",
+    "done": "{count, plural, one {# contact imported} other {# contacts imported}}",
+    "undo": "Undo import",
+    "undone": "Import undone",
+    "errors": "{count, plural, one {# row skipped} other {# rows skipped}}",
+    "needAttest": "Confirm the consent box to continue."
+  },
+  "noPermission": "Contacts are for people who handle customers."
+}

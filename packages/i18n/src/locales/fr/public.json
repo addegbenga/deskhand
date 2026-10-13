@@ -1,0 +1,153 @@
+{
+  "poweredBy": "Propulsé par {brand}",
+  "language": "Langue",
+  "consentFooter": "Vos informations servent uniquement à vous répondre et à gérer votre réservation.",
+  "privacy": "Politique de confidentialité",
+  "notFound": {
+    "title": "Cette page n'est pas disponible",
+    "body": "Le lien est peut-être incorrect ou l'entreprise l'a déplacée."
+  },
+  "booking": {
+    "title": "Réserver chez {business}",
+    "subtitle": "{city}",
+    "businessTz": "Heure du salon : {zone}",
+    "yourTz": "Horaires dans votre fuseau.",
+    "service": "Choisissez une prestation",
+    "staff": "Choisissez qui",
+    "anyone": "Première disponibilité",
+    "slot": "Choisissez un horaire",
+    "details": "Vos informations",
+    "deposit": "Acompte",
+    "confirm": "C’est réservé",
+    "next": "Continuer",
+    "back": "Retour",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail (facultatif)",
+    "notes": "Notes (facultatif)",
+    "serviceConsent": "J’accepte d’être contacté au sujet de cette réservation",
+    "marketing": "Recevoir des offres (facultatif)",
+    "pay": "Payer l’acompte de {amount}",
+    "skipPay": "Payer plus tard",
+    "policy": "Les acomptes suivent la politique d’annulation affichée ici.",
+    "hold": "Ce créneau est retenu {minutes} minutes.",
+    "expired": "La retenue a expiré. Choisissez un autre horaire.",
+    "clash": "Quelqu’un vient de prendre ce créneau.",
+    "none": "Aucun horaire ce jour-là.",
+    "messageUs": "Nous écrire",
+    "waitlist": "Liste d’attente",
+    "waitlisted": "Nous vous préviendrons si une place se libère.",
+    "manage": "Gérer cette réservation",
+    "addToCalendar": "Ajouter à l’agenda",
+    "summary": "{service} avec {staff}",
+    "when": "{when}",
+    "remaining": "{count, plural, one {# place} other {# places}}",
+    "honeypot": "Site de l’entreprise",
+    "durationPrice": "{minutes} min · {price}"
+  },
+  "manage": {
+    "title": "Votre réservation chez {business}",
+    "cancel": "Annuler",
+    "reschedule": "Déplacer",
+    "policy": "{policy}",
+    "cancelled": "Cette réservation est annulée.",
+    "blocked": "Il est trop tard pour modifier en ligne. Contactez l’entreprise."
+  },
+  "embed": {
+    "open": "Réserver",
+    "title": "Aperçu de l’intégration"
+  },
+  "index": {
+    "title": "Pages publiques",
+    "body": "Les pages destinées aux clients de chaque entreprise. Essayez une entreprise de démo :"
+  },
+  "landing": {
+    "consent": "Vous pouvez me contacter au sujet de cette page par WhatsApp ou e-mail.",
+    "book": "Réserver une visite",
+    "whatsapp": "Écrire sur WhatsApp"
+  },
+  "widget": {
+    "open": "Discuter",
+    "close": "Fermer le chat",
+    "title": "Chat",
+    "preamble": "Laissez votre nom et votre numéro WhatsApp pour continuer plus tard.",
+    "name": "Votre nom",
+    "phone": "Numéro WhatsApp",
+    "start": "Commencer",
+    "placeholder": "Écrire un message",
+    "send": "Envoyer",
+    "human": "Parler à quelqu’un",
+    "whatsapp": "Continuer sur WhatsApp",
+    "consent": "J’accepte que cette discussion soit enregistrée pour que l’équipe puisse m’aider.",
+    "allow": "Autoriser et discuter",
+    "notice": "{notice}",
+    "offline": "Hors horaires",
+    "online": "Répond en général en quelques minutes",
+    "aiIntro": "{name} est un assistant IA. Vous pouvez demander une personne à tout moment.",
+    "typing": "{name} écrit…",
+    "book": "Ouvrir la réservation",
+    "api": "API JavaScript",
+    "sendFailed": "Le message n’a pas été envoyé. Réessayez."
+  },
+  "form": {
+    "submit": "Envoyer",
+    "thanks": "Merci — nous vous répondrons bientôt.",
+    "popup": "Ouvrir le formulaire"
+  },
+  "pay": {
+    "title": "Payer {business}",
+    "for": "Pour {name}",
+    "card": "Payer maintenant",
+    "done": "Payé. Reçu {receipt}",
+    "expired": "Ce lien a expiré."
+  },
+  "review": {
+    "title": "Avis {business}",
+    "body": "Un bouton ouvre Google pour {location}. Nous ne filtrons jamais les avis.",
+    "cta": "Laisser un avis Google"
+  },
+  "hub": {
+    "title": "{business}",
+    "book": "Réserver",
+    "whatsapp": "WhatsApp",
+    "call": "Appeler",
+    "directions": "Itinéraire",
+    "reviews": "Avis",
+    "menu": "Menu"
+  },
+  "prefs": {
+    "title": "Vos préférences de messages",
+    "hello": "Bonjour {name}",
+    "all": "Se désinscrire de tout",
+    "saved": "Enregistré"
+  },
+  "privacyPage": {
+    "title": "Demande de confidentialité",
+    "intro": "Demandez à {business} une copie, une correction ou une suppression. Un code arrive par e-mail pour confirmer votre identité.",
+    "type": "Que souhaitez-vous ?",
+    "name": "Votre nom",
+    "email": "E-mail",
+    "send": "Envoyer",
+    "code": "Code reçu par e-mail",
+    "verify": "Confirmer",
+    "done": "Nous avons votre demande. L’équipe répondra dans le délai légal.",
+    "types": {
+      "access": "Une copie de mes données",
+      "correct": "Corriger une information",
+      "delete": "Supprimer mes données",
+      "restrict": "Limiter le traitement",
+      "object": "M’opposer au traitement",
+      "human_review": "Revue humaine d’une décision automatisée"
+    }
+  },
+  "demo": {
+    "title": "Démo du widget",
+    "body": "Ceci simule le site du salon. Ouvrez le chat, donnez un numéro, puis testez les boutons d’API. Ça tient en largeur téléphone.",
+    "open": "Widget.open()",
+    "identify": "Widget.identify()",
+    "consent": "Widget.consent(true)",
+    "booking": "Widget.showBooking()",
+    "form": "Ouvrir le formulaire"
+  }
+}

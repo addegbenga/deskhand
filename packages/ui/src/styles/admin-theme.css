@@ -1,0 +1,20 @@
+/* Admin console accent: ink and slate instead of teal, so staff never confuse it with the tenant app (FE-DOC 5). */
+:root {
+  --brand: #1e293b;
+  --brand-fg: #f8fafc;
+  --sidebar: #0f172a;
+  --sidebar-fg: #f1f5f9;
+  --sidebar-fg-muted: #94a3b8;
+  --sidebar-hover: #1e293b;
+  --sidebar-active: #334155;
+  --sidebar-active-fg: #f8fafc;
+  --sidebar-border: #1e293b;
+}
+
+.dark {
+  --brand: #cbd5e1;
+  --brand-fg: #0f172a;
+  --sidebar: #020617;
+  --sidebar-hover: #0f172a;
+  --sidebar-active: #1e293b;
+}

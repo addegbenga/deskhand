@@ -1,0 +1,81 @@
+{
+  "attention": "Needs your attention",
+  "today": "Today",
+  "results": "Results this month",
+  "aiActivity": "AI activity",
+  "suggestions": "Suggestions",
+  "viewAllActivity": "Full activity",
+  "emptyAttention": "You're all caught up. New items appear here when a conversation or review needs you.",
+  "emptyToday": "No bookings or tasks for today yet.",
+  "emptyResults": "Numbers appear after your first lead, booking or payment.",
+  "emptyAi": "AI actions show up here once an employee is live.",
+  "emptySuggestions": "No suggestions right now.",
+  "demoRibbon": "Showing sample data so you can see how Home looks with a live business.",
+  "range": {
+    "7d": "Last 7 days",
+    "30d": "Last 30 days",
+    "month": "This month"
+  },
+  "cards": {
+    "approvals": "{count, plural, one {# draft waiting} other {# drafts waiting}}",
+    "needs_human": "{count, plural, one {# conversation needs a person} other {# conversations need a person}}",
+    "unanswered": "{count, plural, one {# unanswered conversation} other {# unanswered conversations}}",
+    "negative_review": "{count, plural, one {# negative review without a reply} other {# negative reviews without a reply}}",
+    "broken_connection": "{connection} needs a fix",
+    "rejected_template": "{count, plural, one {# template rejected} other {# templates rejected}}",
+    "compliance": "A compliance step is blocking go-live"
+  },
+  "actions": {
+    "approvals": "Review",
+    "needs_human": "Open",
+    "unanswered": "Open",
+    "negative_review": "Reply",
+    "broken_connection": "Fix",
+    "rejected_template": "Fix",
+    "compliance": "Fix",
+    "createBooking": "New booking",
+    "accept": "Do this",
+    "dismiss": "Dismiss"
+  },
+  "wait": "Waiting {minutes} min",
+  "metrics": {
+    "leads": "Leads",
+    "response_time": "Median first reply",
+    "bookings": "Bookings",
+    "revenue": "Revenue",
+    "reviews": "Rating"
+  },
+  "changeUp": "Up from {previous}",
+  "changeDown": "Down from {previous}",
+  "changeSame": "Same as last period",
+  "minutes": "{value} min",
+  "timeline": {
+    "booking": "{contact} · {title}",
+    "task": "{title}",
+    "noshow_risk": "No-show risk · {contact}"
+  },
+  "activity": {
+    "replied": "Replied",
+    "booked": "Booked",
+    "handed_off": "Handed off",
+    "asked_clarification": "Asked to check",
+    "opted_out": "Confirmed opt-out"
+  },
+  "accepted": "Suggestion kept as a draft — it still needs approval.",
+  "dismissed": "Suggestion dismissed",
+  "setupBoard": {
+    "title": "Setup and blockers",
+    "body": "What the team still needs to finish, and what that is holding back.",
+    "blocking": "Blocking",
+    "blocksGoLive": "These hold back go-live, Autopilot, bookings, messages, or a teammate signing in.",
+    "blocksBookings": "Customers cannot book until you add a service.",
+    "impactConnection": "Fix it so this channel can send and sync again.",
+    "open": "Still to set up",
+    "milestones": "After go-live",
+    "clear": "Setup is complete. Nothing is blocking go-live.",
+    "fix": "Fix",
+    "resume": "Continue setup",
+    "team": "Team setup",
+    "teamBody": "Calendar connections, two-factor, and join requests for people on this account."
+  }
+}

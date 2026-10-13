@@ -1,0 +1,81 @@
+{
+  "attention": "يحتاج انتباهك",
+  "today": "اليوم",
+  "results": "نتائج هذا الشهر",
+  "aiActivity": "نشاط الذكاء الاصطناعي",
+  "suggestions": "اقتراحات",
+  "viewAllActivity": "كل النشاط",
+  "emptyAttention": "لا شيء ينتظرك. تظهر العناصر الجديدة هنا.",
+  "emptyToday": "لا حجوزات أو مهام لليوم بعد.",
+  "emptyResults": "تظهر الأرقام بعد أول عميل أو حجز أو دفعة.",
+  "emptyAi": "تظهر إجراءات الذكاء الاصطناعي هنا بعد تشغيل الموظف.",
+  "emptySuggestions": "لا اقتراحات الآن.",
+  "demoRibbon": "بيانات تجريبية لتوضيح الصفحة الرئيسية لعمل قائم.",
+  "range": {
+    "7d": "آخر 7 أيام",
+    "30d": "آخر 30 يومًا",
+    "month": "هذا الشهر"
+  },
+  "cards": {
+    "approvals": "{count, plural, one {مسودة واحدة تنتظر} other {# مسودات تنتظر}}",
+    "needs_human": "{count, plural, one {محادثة تحتاج شخصًا} other {# محادثات تحتاج شخصًا}}",
+    "unanswered": "{count, plural, one {محادثة بلا رد} other {# محادثات بلا رد}}",
+    "negative_review": "{count, plural, one {تقييم سلبي بلا رد} other {# تقييمات سلبية بلا رد}}",
+    "broken_connection": "{connection} يحتاج إصلاحًا",
+    "rejected_template": "{count, plural, one {قالب مرفوض} other {# قوالب مرفوضة}}",
+    "compliance": "خطوة امتثال تمنع الإطلاق"
+  },
+  "actions": {
+    "approvals": "مراجعة",
+    "needs_human": "فتح",
+    "unanswered": "فتح",
+    "negative_review": "رد",
+    "broken_connection": "إصلاح",
+    "rejected_template": "إصلاح",
+    "compliance": "إصلاح",
+    "createBooking": "حجز جديد",
+    "accept": "نفّذ",
+    "dismiss": "تجاهل"
+  },
+  "wait": "ينتظر {minutes} د",
+  "metrics": {
+    "leads": "عملاء محتملون",
+    "response_time": "متوسط أول رد",
+    "bookings": "حجوزات",
+    "revenue": "إيراد",
+    "reviews": "تقييم"
+  },
+  "changeUp": "ارتفاع عن {previous}",
+  "changeDown": "انخفاض عن {previous}",
+  "changeSame": "كما في الفترة السابقة",
+  "minutes": "{value} د",
+  "timeline": {
+    "booking": "{contact} · {title}",
+    "task": "{title}",
+    "noshow_risk": "خطر عدم الحضور · {contact}"
+  },
+  "activity": {
+    "replied": "رد",
+    "booked": "حجز",
+    "handed_off": "حوّل",
+    "asked_clarification": "طلب تحققًا",
+    "opted_out": "أكد إلغاء الاشتراك"
+  },
+  "accepted": "بقيت الفكرة مسودة — ما زالت تحتاج موافقة.",
+  "dismissed": "تم تجاهل الاقتراح",
+  "setupBoard": {
+    "title": "الإعداد والعوائق",
+    "body": "ما الذي يحتاج الفريق لإكماله، وما الذي يعيقه ذلك.",
+    "blocking": "يعوق التشغيل",
+    "blocksGoLive": "هذه تعيق الإطلاق أو الطيار الآلي أو الحجوزات أو الرسائل أو دخول أحد أعضاء الفريق.",
+    "blocksBookings": "لا يمكن للعملاء الحجز حتى تضيف خدمة.",
+    "impactConnection": "أصلحها حتى تتمكن هذه القناة من الإرسال والمزامنة من جديد.",
+    "open": "ما زال يحتاج إعداداً",
+    "milestones": "بعد الإطلاق",
+    "clear": "اكتمل الإعداد. لا شيء يمنع الإطلاق.",
+    "fix": "إصلاح",
+    "resume": "متابعة الإعداد",
+    "team": "إعداد الفريق",
+    "teamBody": "ربط التقويم والتحقق بخطوتين وطلبات الانضمام لأعضاء هذا الحساب."
+  }
+}

@@ -1,0 +1,9 @@
+@import '@deskhand/ui/styles.css';
+
+html.embed-frame,
+html.embed-frame body,
+html.embed-frame #root {
+  background: transparent;
+  height: 100%;
+  overflow: hidden;
+}

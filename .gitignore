@@ -1,0 +1,10 @@
+node_modules
+dist
+.vercel
+storybook-static
+coverage
+*.local
+.DS_Store
+.vite
+*.tsbuildinfo
+.pnpm-store

@@ -1,0 +1,81 @@
+{
+  "attention": "Besoin de vous",
+  "today": "Aujourd'hui",
+  "results": "Résultats du mois",
+  "aiActivity": "Activité IA",
+  "suggestions": "Suggestions",
+  "viewAllActivity": "Toute l'activité",
+  "emptyAttention": "Rien n'attend. Les nouveaux éléments apparaissent ici.",
+  "emptyToday": "Pas encore de rendez-vous ni de tâches aujourd'hui.",
+  "emptyResults": "Les chiffres apparaissent après le premier lead, rendez-vous ou paiement.",
+  "emptyAi": "Les actions IA apparaissent ici une fois l'employé en ligne.",
+  "emptySuggestions": "Aucune suggestion pour le moment.",
+  "demoRibbon": "Données d'exemple pour montrer l'accueil d'une entreprise en activité.",
+  "range": {
+    "7d": "7 derniers jours",
+    "30d": "30 derniers jours",
+    "month": "Ce mois"
+  },
+  "cards": {
+    "approvals": "{count, plural, one {# brouillon en attente} other {# brouillons en attente}}",
+    "needs_human": "{count, plural, one {# conversation a besoin d'une personne} other {# conversations ont besoin d'une personne}}",
+    "unanswered": "{count, plural, one {# conversation sans réponse} other {# conversations sans réponse}}",
+    "negative_review": "{count, plural, one {# avis négatif sans réponse} other {# avis négatifs sans réponse}}",
+    "broken_connection": "{connection} à réparer",
+    "rejected_template": "{count, plural, one {# modèle rejeté} other {# modèles rejetés}}",
+    "compliance": "Une étape de conformité bloque le lancement"
+  },
+  "actions": {
+    "approvals": "Relire",
+    "needs_human": "Ouvrir",
+    "unanswered": "Ouvrir",
+    "negative_review": "Répondre",
+    "broken_connection": "Réparer",
+    "rejected_template": "Réparer",
+    "compliance": "Réparer",
+    "createBooking": "Nouveau rendez-vous",
+    "accept": "Faire cela",
+    "dismiss": "Ignorer"
+  },
+  "wait": "Attend depuis {minutes} min",
+  "metrics": {
+    "leads": "Leads",
+    "response_time": "Délai médian de 1re réponse",
+    "bookings": "Rendez-vous",
+    "revenue": "Revenu",
+    "reviews": "Note"
+  },
+  "changeUp": "En hausse vs {previous}",
+  "changeDown": "En baisse vs {previous}",
+  "changeSame": "Identique à la période précédente",
+  "minutes": "{value} min",
+  "timeline": {
+    "booking": "{contact} · {title}",
+    "task": "{title}",
+    "noshow_risk": "Risque d'absence · {contact}"
+  },
+  "activity": {
+    "replied": "A répondu",
+    "booked": "A réservé",
+    "handed_off": "A transféré",
+    "asked_clarification": "A demandé une vérif",
+    "opted_out": "Désinscription confirmée"
+  },
+  "accepted": "Suggestion gardée en brouillon — elle doit encore être validée.",
+  "dismissed": "Suggestion ignorée",
+  "setupBoard": {
+    "title": "Configuration et blocages",
+    "body": "Ce qu’il reste à faire pour l’équipe, et ce que cela empêche.",
+    "blocking": "Bloquant",
+    "blocksGoLive": "Cela bloque la mise en ligne, le pilote automatique, les réservations, les messages ou la connexion d’un membre.",
+    "blocksBookings": "Les clients ne peuvent pas réserver tant que vous n’ajoutez pas une prestation.",
+    "impactConnection": "Corrigez-le pour que ce canal puisse à nouveau envoyer et se synchroniser.",
+    "open": "À configurer",
+    "milestones": "Après la mise en ligne",
+    "clear": "La configuration est terminée. Rien ne bloque la mise en ligne.",
+    "fix": "Corriger",
+    "resume": "Reprendre la configuration",
+    "team": "Configuration de l’équipe",
+    "teamBody": "Agendas, double authentification et demandes d’adhésion pour les personnes de ce compte."
+  }
+}

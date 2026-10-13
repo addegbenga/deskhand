@@ -1,0 +1,5 @@
+pnpm-lock.yaml
+**/routeTree.gen.ts
+**/mockServiceWorker.js
+PRD.md
+FE-DOC.md

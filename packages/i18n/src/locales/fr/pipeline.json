@@ -1,0 +1,69 @@
+{
+  "title": "Pipeline",
+  "salesTitle": "Ventes",
+  "salesHint": "D’abord les leads. Une affaire seulement quand quelqu’un est qualifié.",
+  "tabs": {
+    "leads": "Tous les leads",
+    "pipeline": "Pipeline",
+    "opportunities": "Opportunités"
+  },
+  "list": "Liste",
+  "board": "Tableau",
+  "search": "Rechercher des affaires",
+  "empty": {
+    "title": "Aucune affaire pour l’instant",
+    "body": "Qualifiez un lead pour le mettre au tableau. Une question de prix n’est pas une affaire tant que vous ne le décidez pas."
+  },
+  "noResults": {
+    "title": "Aucune affaire correspondante",
+    "body": "Essayez un nom, une source, un responsable, une étape ou une prochaine tâche."
+  },
+  "leads": {
+    "search": "Rechercher des leads",
+    "contact": "Contact",
+    "status": "Statut",
+    "owner": "Responsable",
+    "activity": "Dernière activité",
+    "followUp": "Prochaine relance",
+    "qualify": "Créer une affaire",
+    "qualified": "Affaire créée sur le pipeline",
+    "suggested": "L’IA suggère de qualifier ce lead",
+    "empty": {
+      "title": "Aucun lead pour l’instant",
+      "body": "Les personnes qui écrivent, envoient un formulaire ou abandonnent une réservation apparaissent ici. Ce ne sont pas des affaires tant que vous ne les qualifiez pas."
+    },
+    "noResults": {
+      "title": "Aucun lead correspondant",
+      "body": "Essayez un nom, une source, un responsable ou un statut."
+    },
+    "statuses": {
+      "new": "Nouveau",
+      "working": "En cours",
+      "qualified": "Qualifié",
+      "disqualified": "Non poursuivi",
+      "converted": "Converti"
+    }
+  },
+  "opps": {
+    "stage": "Étape",
+    "value": "Valeur",
+    "probability": "Probabilité",
+    "forecast": "Prévision",
+    "close": "Clôture prévue",
+    "percent": "{value} %"
+  },
+  "value": "{amount}",
+  "age": "{days, plural, one {# jour dans l’étape} other {# jours dans l’étape}}",
+  "stale": "Plus ancien que la limite de {days} jours pour cette étape",
+  "ai": "L’IA s’en occupe",
+  "count": "{count}",
+  "move": "Déplacer vers {stage}",
+  "reason": "Motif",
+  "reasonNeeded": "Indiquez pourquoi c’est {outcome}",
+  "won": "gagné",
+  "lost": "perdu",
+  "confirm": "Enregistrer",
+  "settings": "Paramètres d’étape",
+  "nextTask": "Suivant : {task}",
+  "source": "Source"
+}

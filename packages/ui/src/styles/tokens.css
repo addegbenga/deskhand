@@ -1,0 +1,85 @@
+/* Design tokens (FE-DOC 4.2). The only place raw colors are allowed. */
+:root {
+  --bg: #fafaf9;
+  --surface: #ffffff;
+  --surface-2: #f4f4f2;
+  --border: #e5e5e0;
+  --fg: #1c1917;
+  --fg-muted: #57534e;
+  --brand: #0f766e;
+  --brand-fg: #ffffff;
+  --ai: #7c3aed;
+  --ai-fg: #ffffff;
+  --attention: #b45309;
+  --attention-fg: #ffffff;
+  --success: #15803d;
+  --success-fg: #ffffff;
+  --danger: #b91c1c;
+  --danger-fg: #ffffff;
+  --info: #1d4ed8;
+  --info-fg: #ffffff;
+  --overlay: rgb(12 10 9 / 0.45);
+  /* Text on tenant brand colors, picked by luminance at runtime (public pages). */
+  --on-dark: #ffffff;
+  --on-light: #0c0a09;
+  --sidebar: #f4f4f2;
+  --sidebar-fg: var(--fg);
+  --sidebar-fg-muted: var(--fg-muted);
+  --sidebar-hover: #e9e9e5;
+  --sidebar-active: color-mix(in srgb, var(--brand) 10%, transparent);
+  --sidebar-active-fg: var(--brand);
+  --sidebar-border: var(--border);
+
+  /* Okabe-Ito palette: distinguishable for color-blind users. */
+  --chart-1: #0072b2;
+  --chart-2: #e69f00;
+  --chart-3: #009e73;
+  --chart-4: #cc79a7;
+  --chart-5: #56b4e9;
+  --chart-6: #d55e00;
+
+  --control-h: 2.5rem;
+  --row-h: 3rem;
+  --pad-y: 0.75rem;
+
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0c0a09;
+  --surface: #1c1917;
+  --surface-2: #292524;
+  --border: #44403c;
+  --fg: #fafaf9;
+  --fg-muted: #a8a29e;
+  --brand: #2dd4bf;
+  --brand-fg: #042f2e;
+  --ai: #a78bfa;
+  --ai-fg: #1e1033;
+  --attention: #fbbf24;
+  --attention-fg: #1c1303;
+  --success: #4ade80;
+  --success-fg: #052e16;
+  --danger: #f87171;
+  --danger-fg: #2a0707;
+  --info: #60a5fa;
+  --info-fg: #0b1a33;
+  --overlay: rgb(0 0 0 / 0.6);
+  --sidebar: #161412;
+  --sidebar-hover: #292524;
+
+  color-scheme: dark;
+}
+
+[data-density='compact'] {
+  --control-h: 2.125rem;
+  --row-h: 2.25rem;
+  --pad-y: 0.375rem;
+}
+
+@media (pointer: coarse) {
+  :root,
+  [data-density='compact'] {
+    --control-h: 2.75rem;
+  }
+}

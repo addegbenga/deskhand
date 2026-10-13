@@ -1,0 +1,565 @@
+{
+  "frame": {
+    "setup": "Setup",
+    "saveExit": "Save and exit",
+    "back": "Back",
+    "continue": "Continue",
+    "skip": "Skip for now",
+    "backHome": "Back to home"
+  },
+  "steps": {
+    "profile": {
+      "short": "Business profile",
+      "title": "Tell us about your business",
+      "body": "Share your website or Instagram and we'll fill in what we can. Check everything before you continue."
+    },
+    "goals": {
+      "short": "Goals",
+      "title": "What do you want help with first?",
+      "body": "Pick as many as you like. We'll suggest automations that match."
+    },
+    "knowledge": {
+      "short": "Teach the AI",
+      "title": "Teach your AI employee",
+      "body": "A few answers in your own words. The AI only says what you confirm here, and passes anything else to your team."
+    },
+    "channels": {
+      "short": "Channels",
+      "title": "Where do your customers message you?",
+      "body": "Connect any mix of channels. Every conversation lands in one inbox."
+    },
+    "services": {
+      "short": "Services and calendar",
+      "title": "Services, team and calendar",
+      "body": "What customers can book, who does the work, and which calendar to keep free."
+    },
+    "employee": {
+      "short": "AI employee",
+      "title": "Create your AI employee",
+      "body": "Your AI employee drafts replies and bookings for your team to approve. Prefer to start without one? That's fine too."
+    },
+    "compliance": {
+      "short": "Compliance",
+      "title": "Stay on the right side of the rules",
+      "body": "We've prepared wording that fits {law}. Check it and make it yours."
+    },
+    "launch": {
+      "short": "Test and go live",
+      "title": "Test, then go live",
+      "liveTitle": "You're live",
+      "body": "Try your AI employee on real-looking questions, send yourself a test, and choose who steps in when the AI can't help.",
+      "manualBody": "Send yourself a test message, check the list, and go live. Your team handles every reply."
+    }
+  },
+  "errors": {
+    "required": "This is required.",
+    "language": "Pick at least one language.",
+    "url": "Enter a full link starting with https://",
+    "generic": "Something went wrong. Try again."
+  },
+  "sources": {
+    "pack": "Starter pack",
+    "import": "From your page",
+    "owner": "Added by you"
+  },
+  "industries": {
+    "salon": "Hair and beauty salon",
+    "barber": "Barbershop",
+    "clinic": "Clinic",
+    "real_estate": "Real estate",
+    "bakery": "Bakery and cakes",
+    "restaurant": "Restaurant",
+    "gym": "Gym and fitness",
+    "school": "School and tutoring",
+    "home_services": "Home services",
+    "general": "Other business"
+  },
+  "tones": {
+    "warm": {
+      "name": "Warm",
+      "example": "\"Hi! Lovely to hear from you. Let me check that for you.\""
+    },
+    "professional": {
+      "name": "Professional",
+      "example": "\"Good afternoon. Thank you for your message. Here are the details.\""
+    },
+    "playful": {
+      "name": "Playful",
+      "example": "\"Hey there! Ooh, great choice. Let's get you sorted.\""
+    }
+  },
+  "profile": {
+    "import": {
+      "title": "Start from your website or Instagram",
+      "body": "We'll read your public page for your name, hours, services and common questions. Nothing is used until you confirm it.",
+      "label": "Website or Instagram link",
+      "placeholder": "yourbusiness.com or instagram.com/yourbusiness",
+      "cta": "Read my page",
+      "reading": "Reading…",
+      "found": {
+        "website": "Here's what we found on your website",
+        "instagram": "Here's what we found on your Instagram",
+        "google": "Here's what we found on your Google profile"
+      },
+      "foundName": "Name: {name}",
+      "foundIndustry": "Looks like: {industry}",
+      "foundServices": "{count, plural, =0 {No services} one {# service} other {# services}}",
+      "foundFaqs": "{count, plural, =0 {No questions} one {# common question} other {# common questions}}",
+      "foundHours": "Opening hours",
+      "foundAddress": "Address",
+      "confirmLater": "Prices and answers stay unconfirmed until you check them in the next steps.",
+      "use": "Use these details",
+      "ignore": "Ignore",
+      "errors": {
+        "unreachable": "We couldn't open that page. Check the link, or fill in the details below.",
+        "invalid_link": "That doesn't look like a link. Try something like yourbusiness.com.",
+        "generic": "We couldn't read that page right now. Fill in the details below instead."
+      }
+    },
+    "details": "Business details",
+    "name": "Business name",
+    "industry": "Industry",
+    "searchIndustry": "Search industries…",
+    "noIndustry": "No industry matches.",
+    "description": "What you do, in a sentence or two",
+    "descriptionPlaceholder": "e.g. Custom cakes and small chops for birthdays and weddings in Lekki.",
+    "address": "Address",
+    "addressHint": "The AI shares this when customers ask where you are.",
+    "city": "City",
+    "phone": "Business phone",
+    "hours": "Opening hours",
+    "hoursBody": "Used for bookings and so the AI can tell customers when you're open.",
+    "openOn": "Open on {day}",
+    "opens": "Opens",
+    "closes": "Closes",
+    "closed": "Closed",
+    "languages": "Languages your customers use",
+    "languagesBody": "The AI replies in the customer's language when it's one of these.",
+    "tier": {
+      "B": "Good",
+      "C": "Basic"
+    },
+    "tone": "How should replies sound?",
+    "toneBody": "You can fine-tune this later.",
+    "pack": {
+      "title": "Starter pack: {industry}",
+      "body": "{services, plural, one {# service} other {# services}} and {faqs, plural, one {# common question} other {# common questions}} are added for you to check. Prices stay empty until you set them.",
+      "imported": "Plus {services, plural, one {# service} other {# services}} and {faqs, plural, one {# question} other {# questions}} from your page."
+    }
+  },
+  "goals": {
+    "recipes": "Suggested automations",
+    "note": "Nothing switches on by itself. You'll review each automation after you go live.",
+    "reply_faster": {
+      "title": "Reply to customers faster",
+      "body": "Answer common questions in seconds, day or night."
+    },
+    "more_bookings": {
+      "title": "Get more bookings",
+      "body": "Turn chats into appointments and cut no-shows."
+    },
+    "collect_reviews": {
+      "title": "Collect more reviews",
+      "body": "Ask happy customers for a review at the right moment."
+    },
+    "run_promotions": {
+      "title": "Run promotions",
+      "body": "Bring back past customers with timely offers."
+    }
+  },
+  "recipes": {
+    "instant_reply": "Instant reply",
+    "missed_message_followup": "Missed message follow-up",
+    "booking_reminder": "Booking reminder",
+    "no_show_recovery": "No-show recovery",
+    "rebooking": "Rebooking nudge",
+    "review_request": "Review request",
+    "win_back": "Win-back offer",
+    "seasonal_offer": "Seasonal offer"
+  },
+  "services": {
+    "title": "Services",
+    "body": "Confirm each price. The AI never quotes a price you haven't confirmed.",
+    "empty": "No services yet. Add what customers can book.",
+    "name": "Service",
+    "duration": "Minutes",
+    "price": "Price",
+    "confirmed": "Confirmed",
+    "remove": "Remove {name}",
+    "noPrice": "No price yet. The AI will pass price questions to your team.",
+    "noPriceTypical": "No price yet (similar businesses charge around {price}). The AI will pass price questions to your team.",
+    "add": "Add service",
+    "confirmAll": "{count, plural, one {Confirm # price} other {Confirm # prices}}",
+    "staffTitle": "Who does the work",
+    "staffBody": "Bookings are given to these people. You can invite them as team members later.",
+    "staffName": "Name",
+    "removeStaff": "Remove {name}",
+    "addStaff": "Add person",
+    "calendar": {
+      "title": "Calendar",
+      "body": "Connect a calendar so the AI never books you when you're busy.",
+      "connect": "Connect {provider}",
+      "later": "Skip for now",
+      "deferred": "No calendar yet. Bookings follow your opening hours.",
+      "connectNow": "Connect now",
+      "providers": {
+        "google": "Google Calendar",
+        "outlook": "Outlook Calendar"
+      },
+      "dialogTitle": "Connect {provider}",
+      "dialogBody": "Demo only: a real build opens the provider's own permission screen.",
+      "account": "Calendar account",
+      "scopeBusy": "See when you're busy",
+      "scopeEvents": "Add bookings as events",
+      "allow": "Allow"
+    },
+    "bookingPage": "Your booking page",
+    "bookingPageBody": "Customers can book here as soon as you go live.",
+    "preview": "Preview"
+  },
+  "faqs": {
+    "question": "Question",
+    "answer": "Answer",
+    "confirmed": "Confirmed",
+    "remove": "Remove question",
+    "add": "Add question",
+    "confirmAll": "Confirm all answered"
+  },
+  "knowledge": {
+    "manual": "Skip, run manually",
+    "continueAnyway": "You can continue and come back. Going live with the AI needs every price confirmed, opening hours, your location and at least 3 confirmed answers.",
+    "servicesTitle": "Services and prices",
+    "servicesBody": "Check what we prepared. Confirm a price to let the AI quote it.",
+    "interviewTitle": "A few questions",
+    "interviewBody": "Answer in your own words. Suggestions come from businesses like yours; use them only if they're true for you.",
+    "useSuggestion": "Use suggestion: \"{text}\"",
+    "faqsTitle": "Common questions",
+    "faqsBody": "Confirm the answers you're happy for the AI to give.",
+    "preview": {
+      "title": "What the AI knows",
+      "services": "{ready} of {total} prices confirmed",
+      "faqs": "{count, plural, =0 {No confirmed answers} one {# confirmed answer} other {# confirmed answers}}",
+      "hours": "Your opening hours",
+      "noHours": "No opening hours yet",
+      "location": "Where you are",
+      "noLocation": "No address yet",
+      "answers": "{count, plural, =0 {No interview answers} one {# interview answer} other {# interview answers}}",
+      "ready": "Enough to go live. The AI hands anything else to your team.",
+      "unknown": "For anything not listed here, the AI says it will check and passes the chat to your team."
+    }
+  },
+  "interview": {
+    "location": {
+      "question": "How do customers find you?",
+      "placeholder": "Landmarks, parking, which floor…"
+    },
+    "booking": {
+      "question": "How does booking work?",
+      "placeholder": "Walk-ins, deposits, how far ahead…"
+    },
+    "cancellation": {
+      "question": "What's your cancellation policy?",
+      "placeholder": "Notice needed, fees, rescheduling…"
+    },
+    "payment": {
+      "question": "How can customers pay?",
+      "placeholder": "Cash, transfer, card, deposits…"
+    },
+    "delivery": {
+      "question": "Do you deliver or come to customers?",
+      "placeholder": "Areas, fees, lead time… or leave empty"
+    },
+    "never_promise": {
+      "question": "What should the AI never promise?",
+      "placeholder": "Discounts, same-day slots, medical advice…"
+    },
+    "handoff": {
+      "question": "When should a person take over?",
+      "placeholder": "Complaints, big orders, anything urgent…"
+    }
+  },
+  "channels": {
+    "kinds": {
+      "whatsapp": "WhatsApp",
+      "webchat": "Web chat",
+      "email": "Email",
+      "sms": "SMS",
+      "messenger": "Messenger",
+      "instagram": "Instagram",
+      "voice": "Phone calls"
+    },
+    "blurb": {
+      "whatsapp": "Your business number on the WhatsApp Business Platform.",
+      "webchat": "A chat bubble on your booking page or website.",
+      "email": "Reply to customer emails from the inbox.",
+      "sms": "Text messages for reminders and quick replies.",
+      "messenger": "Messages to your Facebook page.",
+      "instagram": "Direct messages to your Instagram account.",
+      "voice": "Answering calls is coming in a later release."
+    },
+    "later": "Coming later",
+    "connected": "Connected",
+    "disconnect": "Disconnect",
+    "summary": "{count, plural, one {# channel connected.} other {# channels connected.}}",
+    "noneYet": "Connect at least one channel before going live.",
+    "whatsapp": {
+      "body": "You'll sign in with Meta and pick the number to use. It can't be in use on the WhatsApp app at the same time.",
+      "connect": "Connect WhatsApp",
+      "templates": "Message templates",
+      "templatesPending": "{count, plural, one {Meta is reviewing # template.} other {Meta is reviewing # templates.}} This usually takes a few minutes.",
+      "templatesReady": "All templates approved. Reminders and follow-ups can go out.",
+      "category": {
+        "utility": "Utility",
+        "marketing": "Marketing"
+      },
+      "dialog": {
+        "title": "Connect WhatsApp",
+        "loginBody": "Sign in to Meta to link your business.",
+        "businessBody": "Choose the Meta business portfolio this number belongs to.",
+        "numberBody": "Add the phone number customers message.",
+        "simulated": "Demo only: this stands in for Meta's own sign-up window.",
+        "continueAs": "Continue as {name}",
+        "portfolio": "Business portfolio name",
+        "portfolioHint": "We'll create one if you don't have it yet.",
+        "number": "WhatsApp number",
+        "numberHint": "Meta sends a code to this number to confirm it.",
+        "displayName": "Display name customers see",
+        "finish": "Finish"
+      }
+    },
+    "email": {
+      "managed": "Use a ready-made address",
+      "managedBody": "Works straight away. Good to start with.",
+      "domain": "Use your own domain",
+      "domainBody": "Send from your own address. Needs a few DNS records.",
+      "useManaged": "Use this address",
+      "domainLabel": "Domain",
+      "domainPlaceholder": "yourbusiness.com",
+      "address": "Address name",
+      "addDomain": "Add domain",
+      "addRecords": "Add these records at the company you bought {domain} from, then check.",
+      "host": "Host",
+      "value": "Value",
+      "purpose": {
+        "spf": "Lets us send for you (SPF)",
+        "dkim": "Signs your emails (DKIM)",
+        "dmarc": "Protects your domain (DMARC)",
+        "return_path": "Handles bounces"
+      },
+      "recordStatus": {
+        "pending": "Not found yet",
+        "verified": "Verified"
+      },
+      "verify": "Check DNS",
+      "checking": "Checking…",
+      "partial": "{verified} of {total} found. New records can take a few minutes to show up.",
+      "changeDomain": "Use a different domain"
+    },
+    "webchat": {
+      "placement": {
+        "booking_page": "On your booking page",
+        "website": "On your website too"
+      },
+      "bookingPageBody": "Nothing to install.",
+      "websiteBody": "Paste one line of code on your site.",
+      "turnOn": "Turn on web chat",
+      "snippet": "Web chat code",
+      "snippetBody": "Paste this before the closing body tag on every page. Visitors must allow chat on the first screen; that records web-chat consent."
+    },
+    "messenger": {
+      "label": "Facebook page",
+      "hint": "Demo only: a real build lets you pick the page after signing in to Facebook.",
+      "connect": "Connect page"
+    },
+    "instagram": {
+      "label": "Instagram handle",
+      "hint": "Must be a business or creator account linked to a Facebook page.",
+      "connect": "Connect Instagram"
+    },
+    "sms": {
+      "label": "Sender name",
+      "hint": "Up to 11 letters or numbers. Some networks need it registered first.",
+      "connect": "Set up SMS"
+    }
+  },
+  "employee": {
+    "ai": "Create an AI employee",
+    "aiBody": "Drafts replies and bookings. You start in Suggest mode: your team approves everything before it's sent.",
+    "recommended": "Recommended",
+    "manual": "Manual only for now",
+    "manualBody": "Your team replies to every message. Add an AI employee whenever you're ready.",
+    "pick": "Choose one to continue.",
+    "nameTitle": "Give it a name",
+    "nameBody": "Customers always see that it's an AI assistant.",
+    "name": "Name",
+    "toneTitle": "Tone of voice",
+    "previewTitle": "How it introduces itself",
+    "previewBody": "A preview. Real replies use what you taught it.",
+    "greeting": {
+      "warm": "Hi there! I'm {name}, the AI assistant for {business}. How can I help you today?",
+      "professional": "Good day. I'm {name}, the AI assistant for {business}. How may I help you?",
+      "playful": "Hey! I'm {name}, {business}'s AI assistant. What can I do for you?"
+    },
+    "needsKnowledge": "You skipped teaching the AI. You'll need to finish that step before going live with it.",
+    "manualNote": "Everything still works: the shared inbox, bookings, reminders and your booking page. Your setup checklist will offer the AI employee again later."
+  },
+  "compliance": {
+    "business": "Legal details",
+    "legalName": "Registered business name",
+    "legalNameHint": "Shown in your privacy policy and message footers.",
+    "registeredAddress": "Registered address",
+    "disclosure": "AI disclosure",
+    "disclosureBody": "Customers are told they're talking to an AI. This can't be turned off while an AI employee is replying.",
+    "disclosureManual": "You're not using an AI employee, so this is optional for now.",
+    "disclosureSwitch": "Tell customers when a reply comes from the AI",
+    "locked": "Required",
+    "disclosureText": "Disclosure message",
+    "consent": "Message consent",
+    "consentBody": "How customers agree to receive messages from you. Reminders and offers only go to people who agreed.",
+    "consentText": "Consent wording",
+    "consentConfirm": "I'll only message customers who agreed, and stop when they ask.",
+    "privacy": "Privacy policy",
+    "privacyBody": "Required under {law}. Linked from your booking page and web chat.",
+    "generate": "Create one for me",
+    "generateBody": "A simple policy based on your answers, hosted on your booking page.",
+    "ownLink": "Link to my own policy",
+    "ownLinkBody": "Use the policy on your website.",
+    "privacyUrl": "Policy link",
+    "privacyPlaceholder": "https://yourbusiness.com/privacy",
+    "recording": "Phone calls aren't recorded. Call handling comes in a later release.",
+    "agreements": "Agreements",
+    "acceptPrefix": "I accept the",
+    "terms": "Terms of service ({version})",
+    "dpa": "Data processing agreement ({version})",
+    "incomplete": "Add your legal name, confirm consent and accept both agreements to continue."
+  },
+  "gates": {
+    "title": "Ready to go live?",
+    "blocking": "{count, plural, one {# check left} other {# checks left}}",
+    "allClear": "Everything's ready.",
+    "notNeeded": "Not needed without an AI employee.",
+    "fix": "Fix this",
+    "status": {
+      "done": "Done",
+      "blocking": "Blocking go-live",
+      "not_needed": "Not needed"
+    },
+    "channel": "A channel is connected",
+    "templates": "WhatsApp templates approved",
+    "knowledge": "The AI knows enough",
+    "compliance": "Compliance set up",
+    "sandbox": "Sandbox tests passed",
+    "handoff": "Someone receives handoffs",
+    "missing": {
+      "channel": "Connect at least one channel.",
+      "templates": "{count, plural, one {# template is waiting for Meta.} other {# templates are waiting for Meta.}}",
+      "services": "Add at least one service.",
+      "prices": "{count, plural, one {Confirm # price.} other {Confirm # prices.}}",
+      "hours": "Set your opening hours.",
+      "location": "Add your address.",
+      "faqs": "{count, plural, one {Confirm # more answer.} other {Confirm # more answers.}}",
+      "legalName": "Add your registered business name.",
+      "disclosure": "Turn on the AI disclosure.",
+      "consent": "Confirm your consent wording.",
+      "privacy": "Choose a privacy policy.",
+      "terms": "Accept the terms and data processing agreement.",
+      "sandbox": "{count, plural, one {Mark # more test as right.} other {Mark # more tests as right.}}",
+      "sandboxRequired": "Required test not passed yet: {script}.",
+      "handoff": "Confirm who receives handoffs."
+    }
+  },
+  "sandbox": {
+    "title": "Try it in the sandbox",
+    "body": "Ten real-looking customer messages. Nothing is sent to anyone. Mark each reply right or wrong.",
+    "runAll": "{count, plural, one {Run # test} other {Run # tests}}",
+    "runAgain": "Run all again",
+    "running": "Running…",
+    "acceptAll": "{count, plural, one {Mark # as right} other {Mark # as right}}",
+    "progress": "{passed} of {total} marked right.",
+    "required": "Required",
+    "wasItRight": "Was this right?",
+    "right": "Right",
+    "wrong": "Wrong",
+    "fixHint": "Fix the answer, then run this test again.",
+    "fixLink": "Edit what the AI knows",
+    "rerun": "Run again",
+    "sources": "Based on: {sources}",
+    "chatTitle": "Ask your own questions",
+    "chatBody": "Type anything a customer might send.",
+    "chatLabel": "Message as a customer",
+    "chatPlaceholder": "e.g. Do you open on Sundays?",
+    "send": "Send",
+    "scripts": {
+      "price": "Asks a price",
+      "booking": "Wants to book",
+      "hours": "Asks opening hours",
+      "location": "Asks where you are",
+      "cancellation": "Wants to cancel",
+      "discount": "Asks for a discount",
+      "language": "Writes in another language",
+      "unknown_price": "Asks a price you haven't confirmed",
+      "angry": "Angry customer",
+      "off_topic": "Off-topic request"
+    },
+    "kinds": {
+      "answer": "Answer",
+      "handoff": "Passed to your team",
+      "refusal": "Politely declined",
+      "booking_offer": "Booking offer"
+    },
+    "sourceKinds": {
+      "service": "Service",
+      "faq": "Answer",
+      "hours": "Hours",
+      "answer": "Interview",
+      "rule": "Rule"
+    }
+  },
+  "test": {
+    "title": "Send yourself a test",
+    "body": "Check a real message arrives the way customers will see it.",
+    "noChannel": "Connect a channel first to send a test.",
+    "channel": "Channel",
+    "to": "Send to",
+    "send": "Send test",
+    "sending": "Sending…",
+    "sent": "Test sent to {to} by {channel} at {time}."
+  },
+  "handoff": {
+    "title": "Who steps in",
+    "body": "When the AI can't help, this person is alerted straight away. We'll send them a test alert.",
+    "person": "Person",
+    "channel": "Alert by",
+    "channels": {
+      "in_app": "In the app",
+      "email": "Email",
+      "whatsapp": "WhatsApp"
+    },
+    "sendTest": "Send test alert",
+    "sent": "Test alert sent to {name} by {channel}. Did it arrive?",
+    "gotIt": "Yes, it arrived",
+    "confirmed": "{name} receives handoffs."
+  },
+  "launch": {
+    "suggestNote": "{name} starts in Suggest mode: it drafts replies and your team approves each one. You can give it more freedom later.",
+    "goLive": "Go live in Suggest mode",
+    "goLiveManual": "Go live",
+    "blocked": "Some checks aren't done yet. See the list."
+  },
+  "live": {
+    "title": "{business} is live",
+    "suggest": "{name} is drafting replies for your team to approve. New messages show up in your inbox.",
+    "manual": "Your inbox and booking page are ready. Your team handles every reply.",
+    "home": "Go to home",
+    "bookingPage": "View booking page"
+  },
+  "milestones": {
+    "profile_complete": "Business profile done",
+    "first_channel_live": "Your first channel is connected",
+    "ai_taught": "Your AI employee knows enough to go live",
+    "ai_live": "You're live in Suggest mode",
+    "first_lead_handled": "First lead answered",
+    "first_booking_or_payment": "First booking or payment",
+    "autopilot_replies": "Replies on Autopilot"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "title": "Inbox",
+  "search": "Search conversations",
+  "views": {
+    "all": "All",
+    "mine": "Mine",
+    "unassigned": "Unassigned",
+    "needs_human": "Needs human",
+    "ai_handled": "AI-handled",
+    "waiting": "Waiting on customer",
+    "snoozed": "Snoozed",
+    "closed": "Closed"
+  },
+  "unread": "{count, plural, one {# unread} other {# unread}}",
+  "waiting": "Waiting {minutes} min",
+  "humanOnly": "Human only",
+  "windowOpen": "WhatsApp window open",
+  "windowClosed": "WhatsApp window closed — only approved templates",
+  "filters": {
+    "button": "Filters",
+    "title": "Filters",
+    "clear": "Clear",
+    "all": "All",
+    "channel": "Channel",
+    "location": "Location",
+    "employee": "Assigned",
+    "tag": "Tag",
+    "stage": "Stage",
+    "language": "Language",
+    "date": "Date",
+    "dates": {
+      "all": "Any time",
+      "today": "Today",
+      "7d": "Last 7 days",
+      "30d": "Last 30 days"
+    }
+  },
+  "channelDown": "{channel} is down. Sends are paused until it is fixed.",
+  "channelDownFix": "Fix connection",
+  "updated": "Conversation updated",
+  "empty": {
+    "title": "No conversations yet",
+    "body": "Messages from {channels} appear here. Send a test to see the thread fill in.",
+    "test": "Send a test message",
+    "none": "Nothing in this view."
+  },
+  "select": "Pick a conversation",
+  "selectBody": "Choose a thread to read and reply.",
+  "composer": {
+    "placeholder": "Write a message",
+    "note": "Internal note",
+    "send": "Send",
+    "schedule": "Schedule send",
+    "templates": "Templates",
+    "replies": "Saved replies",
+    "attach": "Attach",
+    "attachHint": "File upload is a stub in this demo.",
+    "emoji": "Emoji",
+    "scheduled": "Message scheduled",
+    "sendAt": "Will send at {when}",
+    "translate": "Translate preview",
+    "translating": "Preview",
+    "blocked": {
+      "opted_out": "This person asked you to stop. Sending is blocked.",
+      "consent_missing": "No consent on file for this channel.",
+      "window_closed": "The 24-hour WhatsApp window is closed. Pick an approved template.",
+      "channel_down": "This channel is down. Sending is paused until it is fixed.",
+      "readonly": "Your role can read conversations but cannot send."
+    },
+    "blockedHint": {
+      "opted_out": "They opted out of {channel}. You can still leave an internal note. They have to message you again before you can send.",
+      "consent_missing": "Deskhand has no recorded opt-in for {channel} for this person. Record it only if they already agreed (for example on a call). Otherwise wait until they opt in, or open their consent record.",
+      "consent_missing_webchat": "This person started on web chat. They must allow chat on the widget first screen (privacy notice plus I agree). That is the visitor’s consent — not something staff should tick for them unless they already agreed elsewhere.",
+      "window_closed": "More than 24 hours since their last WhatsApp message. Use an approved template, or wait until they write first.",
+      "channel_down": "{channel} is disconnected, so nothing can go out. Fix the connection, then try again.",
+      "readonly": "Ask an owner or admin if you need to reply."
+    },
+    "recordConsent": "Record {channel} consent",
+    "consentRecorded": "Consent recorded. You can send now.",
+    "consentFailed": "Could not record consent.",
+    "seeConsent": "See consent on this thread",
+    "openContact": "Open contact",
+    "openWidget": "Open the chat widget"
+  },
+  "ai": {
+    "takeOver": "Take over",
+    "handBack": "Hand back to AI",
+    "accept": "Send this",
+    "edit": "Edit then send",
+    "discard": "Discard draft",
+    "good": "Good reply",
+    "bad": "Needs work",
+    "taken": "AI paused on this conversation",
+    "handed": "AI is handling this conversation again"
+  },
+  "collision": "{name} is also looking at this thread",
+  "actions": {
+    "more": "More actions",
+    "assign": "Assign",
+    "assignMe": "Assign to me",
+    "snooze": "Snooze for 4 hours",
+    "close": "Close",
+    "reopen": "Reopen",
+    "markRead": "Mark read",
+    "booking": "Create booking",
+    "payment": "Send payment link",
+    "task": "Add task",
+    "contact": "Open contact"
+  },
+  "bulk": {
+    "selected": "{count, plural, one {# selected} other {# selected}}",
+    "close": "Close selected",
+    "assign": "Assign to me"
+  },
+  "shortcuts": "j/k next and previous · e assign to me · s snooze · c close · / composer",
+  "call": {
+    "title": "Call recording",
+    "play": "Play recording (stub)",
+    "logged": "Playback is logged."
+  },
+  "panel": {
+    "open": "Contact",
+    "stage": "Stage",
+    "value": "Value",
+    "bookings": "Upcoming bookings",
+    "consent": "Consent",
+    "summary": "Conversation summary",
+    "next": "Next suggested action",
+    "language": "Language",
+    "optedOut": "Opted out",
+    "noContact": "No phone or email yet",
+    "payments": "Payments",
+    "timeline": "Timeline"
+  },
+  "sent": "Message sent",
+  "noted": "Note added",
+  "noPermission": "Inbox is for people who handle conversations."
+}

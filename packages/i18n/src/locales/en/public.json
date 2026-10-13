@@ -1,0 +1,153 @@
+{
+  "poweredBy": "Powered by {brand}",
+  "language": "Language",
+  "consentFooter": "We use your details only to reply and manage your booking.",
+  "privacy": "Privacy notice",
+  "notFound": {
+    "title": "This page isn't available",
+    "body": "The link may be wrong or the business may have moved it."
+  },
+  "booking": {
+    "title": "Book with {business}",
+    "subtitle": "{city}",
+    "businessTz": "Salon time: {zone}",
+    "yourTz": "Showing times in your timezone.",
+    "service": "Choose a service",
+    "staff": "Choose who",
+    "anyone": "Anyone available",
+    "slot": "Pick a time",
+    "details": "Your details",
+    "deposit": "Deposit",
+    "confirm": "You're booked",
+    "next": "Continue",
+    "back": "Back",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "notes": "Notes (optional)",
+    "serviceConsent": "I agree to be contacted about this booking",
+    "marketing": "Send me offers (optional)",
+    "pay": "Pay {amount} deposit",
+    "skipPay": "Pay later",
+    "policy": "Deposits follow the cancellation policy shown here.",
+    "hold": "This time is held for {minutes} minutes.",
+    "expired": "The hold expired. Pick another time.",
+    "clash": "Someone else just took that slot.",
+    "none": "No times on this day.",
+    "messageUs": "Message us",
+    "waitlist": "Join waitlist",
+    "waitlisted": "We'll text you if a spot opens.",
+    "manage": "Manage this booking",
+    "addToCalendar": "Add to calendar",
+    "summary": "{service} with {staff}",
+    "when": "{when}",
+    "remaining": "{count, plural, one {# spot left} other {# spots left}}",
+    "honeypot": "Company website",
+    "durationPrice": "{minutes} min · {price}"
+  },
+  "manage": {
+    "title": "Your booking at {business}",
+    "cancel": "Cancel",
+    "reschedule": "Reschedule",
+    "policy": "{policy}",
+    "cancelled": "This booking is cancelled.",
+    "blocked": "It's too close to the appointment to change it online. Message the business."
+  },
+  "embed": {
+    "open": "Book now",
+    "title": "Booking embed preview"
+  },
+  "index": {
+    "title": "Public pages",
+    "body": "Customer-facing pages for each business. Try one of the demo businesses:"
+  },
+  "landing": {
+    "consent": "You may contact me about this page on WhatsApp or email.",
+    "book": "Book a visit",
+    "whatsapp": "Message on WhatsApp"
+  },
+  "widget": {
+    "open": "Chat with us",
+    "close": "Close chat",
+    "title": "Chat",
+    "preamble": "Leave your name and WhatsApp number so we can continue later.",
+    "name": "Your name",
+    "phone": "WhatsApp number",
+    "start": "Start chat",
+    "placeholder": "Write a message",
+    "send": "Send",
+    "human": "Talk to a person",
+    "whatsapp": "Continue on WhatsApp",
+    "consent": "I agree this chat is stored so the team can help me.",
+    "allow": "Allow and chat",
+    "notice": "{notice}",
+    "offline": "After hours",
+    "online": "Usually replies in a few minutes",
+    "aiIntro": "{name} is an AI assistant. You can ask for a person at any time.",
+    "typing": "{name} is typing…",
+    "book": "Open booking",
+    "api": "JavaScript API",
+    "sendFailed": "Message didn’t send. Try again."
+  },
+  "form": {
+    "submit": "Send",
+    "thanks": "Thanks — we’ll message you shortly.",
+    "popup": "Open form"
+  },
+  "pay": {
+    "title": "Pay {business}",
+    "for": "For {name}",
+    "card": "Pay now",
+    "done": "Paid. Receipt {receipt}",
+    "expired": "This link has expired."
+  },
+  "review": {
+    "title": "Review {business}",
+    "body": "One tap takes you to Google for {location}. We never hide a review.",
+    "cta": "Leave a Google review"
+  },
+  "hub": {
+    "title": "{business}",
+    "book": "Book",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "directions": "Directions",
+    "reviews": "Reviews",
+    "menu": "Menu"
+  },
+  "prefs": {
+    "title": "Your message preferences",
+    "hello": "Hi {name}",
+    "all": "Unsubscribe from all",
+    "saved": "Saved"
+  },
+  "privacyPage": {
+    "title": "Privacy request",
+    "intro": "Ask {business} for a copy of your data, a correction, or deletion. We email a code to confirm it’s you.",
+    "type": "What do you need?",
+    "name": "Your name",
+    "email": "Email",
+    "send": "Submit request",
+    "code": "Code from your email",
+    "verify": "Confirm",
+    "done": "We have your request. The team will reply within the legal deadline.",
+    "types": {
+      "access": "A copy of my data",
+      "correct": "Correct something",
+      "delete": "Delete my data",
+      "restrict": "Restrict processing",
+      "object": "Object to processing",
+      "human_review": "Human review of an automated decision"
+    }
+  },
+  "demo": {
+    "title": "Widget demo",
+    "body": "This is a stand-in for the salon’s own website. Open the chat, give a phone number, then try the API buttons. Works at phone width.",
+    "open": "Widget.open()",
+    "identify": "Widget.identify()",
+    "consent": "Widget.consent(true)",
+    "booking": "Widget.showBooking()",
+    "form": "Open intake form"
+  }
+}

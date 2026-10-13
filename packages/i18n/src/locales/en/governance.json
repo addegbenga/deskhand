@@ -1,0 +1,208 @@
+{
+  "title": "Compliance",
+  "readiness": "Readiness {score}% — guidance only, not a certification.",
+  "notAdvice": "This center is not legal advice. It shows what is configured and what you still need to do.",
+  "previewMarket": "Preview another market",
+  "marketHint": "Checklist and wording come from the market pack. No code change is required for a new country.",
+  "law": "Applicable rules",
+  "productDoes": "What Deskhand does",
+  "ownerDoes": "What you still do",
+  "blockingBanner": "A blocking item prevents go-live and Autopilot.",
+  "fix": "Fix",
+  "save": "Save",
+  "saved": "Saved",
+  "search": "Search",
+  "escalate": "Escalated",
+  "whatThisMeans": "What this means",
+  "export": "Export",
+  "pages": {
+    "overview": "Overview",
+    "disclosure": "Disclosure",
+    "consent": "Consent",
+    "recording": "Recording",
+    "data": "Data",
+    "requests": "Requests",
+    "ai": "AI governance",
+    "audit": "Audit log",
+    "access": "Access",
+    "legal": "Legal"
+  },
+  "status": {
+    "done": "Done",
+    "attention": "Needs attention",
+    "blocking": "Blocking go-live"
+  },
+  "areas": {
+    "disclosure": "Disclosure",
+    "consent": "Consent",
+    "recording": "Recording",
+    "data": "Data",
+    "requests": "Requests",
+    "ai": "AI governance",
+    "legal": "Legal documents"
+  },
+  "items": {
+    "disclosure": "AI disclosure on first messages",
+    "consent_wording": "Consent wording",
+    "marketing_opt_in": "Marketing opt-in (PECR / similar)",
+    "sms_consent": "Strict SMS consent",
+    "quiet_hours": "Quiet hours",
+    "all_party": "All-party recording consent",
+    "recording_notice": "Recording notice",
+    "data_region": "Data region",
+    "dsr_queue": "Data subject requests",
+    "dsr_deadline": "A request is nearing its deadline",
+    "dsr_overdue": "A request is overdue",
+    "prohibited_uses": "Prohibited-uses acknowledgement",
+    "regulator_register": "Owner registration with the regulator",
+    "legal_docs": "Legal documents accepted"
+  },
+  "reasons": {
+    "ok": "Configured for this market.",
+    "missing": "This is not complete yet.",
+    "overdue": "At least one request is past its response period.",
+    "soon": "A request is due within 48 hours."
+  },
+  "does": {
+    "disclosure": "Shows an AI disclosure on first messages.",
+    "consent_capture": "Stores consent and honours STOP.",
+    "dsr_queue": "Tracks access and deletion requests with deadlines.",
+    "audit": "Keeps an audit trail of changes.",
+    "register": "Register with the data regulator if you are required to.",
+    "opt_in": "Get a clear opt-in before marketing messages.",
+    "recording_consent": "Get all-party consent before recording a call.",
+    "marketing_truth": "Stay truthful in ads and offers."
+  },
+  "regulators": {
+    "ndpc": "Nigeria Data Protection Commission",
+    "odpc": "Office of the Data Protection Commissioner",
+    "popia": "Information Regulator (POPIA)",
+    "ico": "UK Information Commissioner’s Office",
+    "gdpr": "EU data protection authority",
+    "state": "US state privacy and TCPA rules"
+  },
+  "disclosure": {
+    "language": "Language",
+    "preview": "Preview",
+    "cannotOff": "The disclosure cannot be turned off. You can edit the wording.",
+    "notice": "Stored-conversation notice",
+    "verify": "Run a verification test",
+    "channel": "Channel",
+    "verified": "Disclosure appeared in the test.",
+    "failed": "The test did not find the disclosure.",
+    "lastTest": "Last test",
+    "legalName": "Legal name shown to customers",
+    "privacyEmail": "Privacy contact"
+  },
+  "consent": {
+    "ledger": "Consent ledger",
+    "wordings": "Wording versions",
+    "suppression": "Suppression list",
+    "imports": "Import attestations",
+    "reconsent": "Start a re-consent campaign",
+    "campaignStarted": "Re-consent campaign queued.",
+    "addSuppression": "Add to suppression list",
+    "reason": "Reason",
+    "name": "Name",
+    "quiet": "Quiet hours {start}–{end}",
+    "smsStrict": "This market requires documented SMS consent.",
+    "current": "In use"
+  },
+  "recording": {
+    "enabled": "Recording on",
+    "notice": "Notice text",
+    "allParty": "This market expects all-party consent. If someone declines, the call continues unrecorded.",
+    "acknowledge": "I understand all-party consent",
+    "staff": "Staff monitoring is an employment-law duty of the business, not of Deskhand.",
+    "acceptStaff": "I accept this responsibility",
+    "listen": "Who can listen",
+    "retention": "Audio retained for {days} days"
+  },
+  "data": {
+    "region": "Current data region",
+    "requestChange": "Request a region change",
+    "requested": "Support will help move this account.",
+    "legalHold": "Legal hold (pause deletions)",
+    "retention": "Retention (days)",
+    "documents": "Documents",
+    "jobs": "Deletion jobs",
+    "doc": {
+      "dpa": "Data processing agreement",
+      "sub_processors": "Sub-processor list",
+      "ropo": "Records of processing",
+      "dpia": "DPIA template"
+    }
+  },
+  "requests": {
+    "type": "Type",
+    "requester": "Requester",
+    "due": "Due",
+    "log": "Log a request",
+    "complete": "Mark completed",
+    "preview": "Export or delete preview",
+    "exportKinds": "Included in an export",
+    "removeKinds": "Would be deleted",
+    "keepKinds": "Kept (legal hold or billing)",
+    "types": {
+      "access": "Access",
+      "correct": "Correct",
+      "delete": "Delete",
+      "restrict": "Restrict",
+      "object": "Object",
+      "human_review": "Human review"
+    },
+    "statuses": {
+      "received": "Received",
+      "verified": "Verified",
+      "in_progress": "In progress",
+      "completed": "Completed"
+    },
+    "overdue": "Overdue",
+    "hoursLeft": "{count, plural, one {# hour left} other {# hours left}}",
+    "keep": {
+      "legal": "Required for tax or legal hold",
+      "retention": "Audit retention"
+    }
+  },
+  "aiGov": {
+    "matrix": "Policy matrix",
+    "guardrails": "Guardrails",
+    "platform": "Platform floor (read-only)",
+    "business": "Your rules",
+    "incidents": "Incidents",
+    "report": "Report an incident",
+    "summary": "What happened",
+    "prohibited": "Prohibited uses",
+    "acceptProhibited": "I acknowledge the prohibited uses",
+    "transparency": "Transparency pack",
+    "eval": "Last eval"
+  },
+  "audit": {
+    "search": "Search the audit log"
+  },
+  "access": {
+    "members": "Who has access",
+    "support": "Support access",
+    "approve": "Approve",
+    "deny": "Deny",
+    "breach": "Security and breach",
+    "notify_us": "Tell us if you learn of a breach affecting this account.",
+    "owner_duty": "Your market may also require you to notify people and the regulator."
+  },
+  "legal": {
+    "accept": "Accept this version",
+    "accepted": "Accepted {version}",
+    "pending": "A material change needs re-acceptance.",
+    "addenda": "Market addenda",
+    "docs": {
+      "terms": "Terms of use",
+      "dpa": "Data processing agreement",
+      "privacy_template": "Privacy notice template",
+      "sub_processors": "Sub-processor list"
+    }
+  },
+  "empty": {
+    "ledger": "No consent records match.",
+    "requests": "No requests yet."
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "app": {
+    "skipToContent": "Aller au contenu",
+    "demoData": "Données de démo"
+  },
+  "actions": {
+    "close": "Fermer",
+    "dismiss": "Masquer",
+    "retry": "Réessayer",
+    "refresh": "Actualiser",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  },
+  "a11y": {
+    "breadcrumbs": "Fil d'Ariane",
+    "notices": "Avis du compte"
+  },
+  "nav": {
+    "primary": "Navigation principale",
+    "home": "Accueil",
+    "inbox": "Messagerie",
+    "contacts": "Contacts",
+    "pipeline": "Pipeline",
+    "calendar": "Agenda",
+    "sales": "Ventes",
+    "bookings": "Réservations",
+    "tasks": "Tâches",
+    "employees": "Employés IA",
+    "knowledge": "Base de connaissances",
+    "approvals": "Validations",
+    "activity": "Activité",
+    "automations": "Automatisations",
+    "marketing": "Marketing",
+    "reputation": "Réputation",
+    "payments": "Paiements",
+    "reports": "Rapports",
+    "pages": "Pages",
+    "compliance": "Conformité",
+    "connections": "Connexions",
+    "settings": "Paramètres",
+    "more": "Plus",
+    "collapse": "Réduire le menu",
+    "expand": "Développer le menu",
+    "groups": {
+      "ai": "IA",
+      "grow": "Croissance",
+      "manage": "Gestion"
+    },
+    "badges": {
+      "unread": "{count, plural, one {# conversation non lue} other {# conversations non lues}}",
+      "approvals": "{count, plural, one {# validation en attente} other {# validations en attente}}"
+    }
+  },
+  "topbar": {
+    "search": "Rechercher ou aller à…",
+    "quickCreate": "Créer",
+    "create": "Nouveau",
+    "notificationsCount": "{count, plural, =0 {Notifications} one {Notifications, # non lue} other {Notifications, # non lues}}",
+    "alertsCount": "{count, plural, =0 {Alertes} one {Alertes, #} other {Alertes, #}}",
+    "help": "Aide",
+    "account": "Votre compte",
+    "location": "Établissement : {name}",
+    "locations": "Établissements",
+    "allLocations": "Tous les établissements"
+  },
+  "quickCreate": {
+    "contact": "Nouveau contact",
+    "booking": "Nouvelle réservation",
+    "message": "Nouveau message",
+    "paymentLink": "Nouveau lien de paiement",
+    "post": "Nouvelle publication",
+    "task": "Nouvelle tâche"
+  },
+  "search": {
+    "title": "Recherche",
+    "placeholder": "Rechercher des contacts, pages et actions",
+    "noResults": "Aucun résultat.",
+    "contacts": "Contacts",
+    "actionsHeading": "Actions",
+    "pages": "Aller à",
+    "actions": {
+      "invite": "Inviter un collègue",
+      "theme": "Basculer entre thème clair et sombre"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "alertsTitle": "Alertes",
+    "attention": "À traiter",
+    "activity": "Activité",
+    "markAllRead": "Tout marquer comme lu",
+    "empty": "Vous êtes à jour",
+    "emptyHint": "Nous vous préviendrons quand quelque chose demandera votre attention.",
+    "unread": "Non lu",
+    "templateStatus": {
+      "approved": "approuvé",
+      "rejected": "rejeté"
+    },
+    "kinds": {
+      "approval_waiting": "{employee} a rédigé une réponse à {contact} qui attend votre validation",
+      "needs_human": "{contact} attend la réponse d'une personne",
+      "booking_new": "{contact} a réservé {service} pour {time}",
+      "booking_cancelled": "{contact} a annulé {service}",
+      "payment_received": "{contact} a payé {amount}",
+      "review_negative": "{contact} a laissé un avis {rating} étoiles",
+      "connection_broken": "{connection} doit être reconnecté",
+      "template_status": "Le modèle {template} a été {status}",
+      "usage_threshold": "Vous avez utilisé {percent} % de vos {meter} ce mois-ci",
+      "compliance_alert": "Conformité : {item} demande votre attention",
+      "weekly_digest": "Votre résumé de la semaine est prêt",
+      "member_joined": "{name} a rejoint l’équipe en tant que {role}"
+    }
+  },
+  "connections": {
+    "whatsapp": "WhatsApp",
+    "webchat": "Chat web",
+    "email": "E-mail",
+    "sms": "SMS",
+    "messenger": "Messenger",
+    "instagram": "Instagram",
+    "voice": "Voix",
+    "google_calendar": "Google Agenda",
+    "outlook": "Outlook",
+    "gbp": "Google Business Profile",
+    "payments": "Paiements",
+    "problems": {
+      "quality_low": "La qualité des messages est faible, les envois sont limités",
+      "token_expired": "L'accès a expiré, les réservations ne se synchronisent plus",
+      "dns_unverified": "Les enregistrements DNS ne sont pas encore vérifiés",
+      "unknown": "Ne fonctionne plus"
+    }
+  },
+  "meters": {
+    "ai_replies": "réponses IA"
+  },
+  "compliance": {
+    "ai_disclosure": "Mention IA"
+  },
+  "status": {
+    "account": {
+      "trial": "Essai",
+      "trial_expired": "Essai terminé",
+      "active": "Actif",
+      "past_due": "Paiement en retard",
+      "suspended": "Suspendu",
+      "paused": "En pause",
+      "cancelled": "Résilié"
+    },
+    "connection": {
+      "healthy": "Opérationnelle",
+      "degraded": "À surveiller",
+      "broken": "Interrompue"
+    },
+    "template": {
+      "draft": "Brouillon",
+      "pending": "En attente",
+      "approved": "Approuvé",
+      "rejected": "Rejeté"
+    },
+    "post": {
+      "draft": "Brouillon",
+      "approved": "Approuvé",
+      "scheduled": "Planifié",
+      "published": "Publié"
+    },
+    "campaign": {
+      "draft": "Brouillon",
+      "checked": "Vérifié",
+      "sent": "Envoyé"
+    },
+    "booking": {
+      "booked": "Réservé",
+      "requested": "Demandé",
+      "completed": "Terminé",
+      "no_show": "Absent",
+      "cancelled": "Annulé"
+    },
+    "priority": {
+      "low": "Basse",
+      "normal": "Normale",
+      "high": "Haute"
+    },
+    "payment": {
+      "pending": "En attente",
+      "paid": "Payé",
+      "failed": "Échoué",
+      "refunded": "Remboursé"
+    },
+    "review": {
+      "new": "Nouveau",
+      "needs_reply": "À répondre",
+      "replied": "Répondu",
+      "flagged": "Signalé"
+    },
+    "knowledge": {
+      "verified": "Vérifié",
+      "unverified": "Non vérifié",
+      "needs_review": "À revoir"
+    },
+    "consent": {
+      "granted": "Accordé",
+      "withdrawn": "Retiré",
+      "missing": "Manquant"
+    },
+    "compliance": {
+      "done": "Fait",
+      "needs_attention": "À traiter",
+      "blocking": "Bloque la mise en ligne"
+    },
+    "employee": {
+      "draft": "Brouillon",
+      "testing": "En test",
+      "shadow": "Observation",
+      "live": "En ligne",
+      "paused": "En pause",
+      "archived": "Archivé"
+    }
+  },
+  "ai": {
+    "badge": "IA",
+    "badgeNamed": "{name} (IA)",
+    "confidence": {
+      "high": "Confiance élevée",
+      "medium": "Confiance moyenne",
+      "low": "Confiance faible"
+    },
+    "status": {
+      "on": "IA active",
+      "suggest_only": "Suggestions",
+      "off": "Humain uniquement",
+      "paused": "IA en pause",
+      "manual": "Manuel uniquement"
+    },
+    "statusHint": {
+      "on": "Votre employé IA répond aux clients dans les limites fixées. Les brouillons à valider attendent dans Validations.",
+      "suggest_only": "Votre employé IA rédige des réponses, et votre équipe les envoie.",
+      "off": "L'IA est désactivée. Votre équipe gère toutes les conversations.",
+      "paused": "Toute activité IA est en pause. Rien n'est envoyé par l'IA tant que vous ne reprenez pas.",
+      "manual": "Vous travaillez sans employé IA. Tout fonctionne à la main, et vous pouvez en ajouter un à tout moment."
+    },
+    "setUp": "Configurer un employé IA",
+    "killSwitch": "Mettre toute l'IA en pause",
+    "killEmployee": "Mettre cet employé en pause",
+    "tier": { "A": "Niveau A", "B": "Niveau B", "C": "Niveau C" },
+    "autonomy": { "suggest": "Suggestion", "approve": "Validation", "autopilot": "Autopilote" },
+    "evalPass": "Réussi · {score}",
+    "evalFail": "Échec · {score}",
+    "askToPause": "Seule une personne avec le rôle {role} peut mettre l'IA en pause.",
+    "resume": "Reprendre l'IA",
+    "pausedToast": "Toute activité IA est en pause",
+    "resumedToast": "L'IA est de nouveau active",
+    "why": "Pourquoi ?",
+    "whyTitle": "Pourquoi l'IA a répondu ainsi",
+    "sources": "Sources",
+    "rules": "Règles",
+    "tools": "Outils utilisés",
+    "rateGood": "Bonne réponse",
+    "rateBad": "À revoir"
+  },
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "webchat": "Chat web",
+    "email": "E-mail",
+    "sms": "SMS",
+    "messenger": "Messenger",
+    "instagram": "Instagram",
+    "voice": "Appel"
+  },
+  "delivery": {
+    "pending": "Envoi",
+    "sent": "Envoyé",
+    "delivered": "Remis",
+    "read": "Lu",
+    "failed": "Échec"
+  },
+  "createdBy": {
+    "person": "Personne",
+    "ai_employee": "Employé IA",
+    "recipe": "Recette",
+    "form": "Formulaire",
+    "booking_page": "Page de réservation",
+    "import": "Import",
+    "api": "API"
+  },
+  "setup": {
+    "pill": "Configuration {done}/{total}",
+    "title": "Terminer la configuration",
+    "body": "Chaque étape vous rapproche de votre premier prospect traité automatiquement.",
+    "done": "Fait",
+    "todo": "À faire",
+    "milestones": {
+      "profile_complete": "Profil et prestations",
+      "first_channel_live": "Connecter un premier canal",
+      "ai_taught": "Former l'IA à votre activité",
+      "ai_live": "Mise en ligne en mode Suggestions",
+      "first_lead_handled": "Premier prospect traité",
+      "first_booking_or_payment": "Première réservation ou premier paiement",
+      "autopilot_replies": "Réponses en pilote automatique"
+    },
+    "stepsPill": "Configuration {done}/{total}",
+    "finishTitle": "Terminer la configuration",
+    "finishBody": "Reprenez là où vous vous êtes arrêté. Tout ce que vous avez saisi est enregistré.",
+    "resume": "Reprendre la configuration",
+    "seeBoard": "Voir ce qui bloque",
+    "blocking": "{count, plural, one {# blocage} other {# blocages}}"
+  },
+  "help": {
+    "docs": "Articles d'aide",
+    "aiHelper": "Demander à l'assistant",
+    "support": "Contacter le support",
+    "status": "État du service",
+    "whatsNew": "Nouveautés",
+    "notInMock": "Non disponible dans cette démo.",
+    "developer": "Développeur"
+  },
+  "account": {
+    "roleAt": "{role} chez {business}",
+    "profile": "Profil",
+    "language": "Langue",
+    "theme": "Thème",
+    "density": "Densité",
+    "security": "Sécurité",
+    "signOut": "Se déconnecter",
+    "themes": {
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Comme l'appareil"
+    },
+    "densities": {
+      "comfortable": "Confortable",
+      "compact": "Compacte"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "pcm": "Pidgin nigérian",
+    "yo": "Yoruba",
+    "ha": "Haoussa",
+    "ig": "Igbo"
+  },
+  "roles": {
+    "owner": "Propriétaire",
+    "admin": "Administrateur",
+    "manager": "Responsable",
+    "staff": "Employé",
+    "readonly": "Lecture seule"
+  },
+  "banners": {
+    "trial": {
+      "title": "Votre essai se termine dans {days, plural, one {# jour} other {# jours}}",
+      "body": "Choisissez une offre pour que votre messagerie, vos réservations et votre IA continuent sans interruption.",
+      "fix": "Choisir une offre"
+    },
+    "trial_expired": {
+      "title": "Votre essai est terminé",
+      "body": "Vos données sont en sécurité et restent consultables et exportables. Choisissez une offre pour répondre et réserver à nouveau.",
+      "fix": "Choisir une offre"
+    },
+    "past_due": {
+      "title": "Votre dernier paiement n'est pas passé",
+      "body": "Mettez à jour votre moyen de paiement sous {days, plural, one {# jour} other {# jours}} pour éviter la pause des envois marketing. Les conversations en cours ne sont pas affectées.",
+      "fix": "Mettre à jour le paiement"
+    },
+    "suspended": {
+      "title": "Votre compte est suspendu",
+      "body": "Les envois et l'IA sont en pause pendant l'examen de votre compte. Vous pouvez toujours consulter et exporter vos données. Contactez le support.",
+      "fix": "Contacter le support"
+    },
+    "paused": {
+      "title": "Votre compte est en pause",
+      "body": "Tout est en lecture seule et la facturation est suspendue jusqu'à la reprise.",
+      "fix": "Reprendre le compte"
+    },
+    "cancelled": {
+      "title": "Votre abonnement est résilié",
+      "body": "Vous gardez un accès complet jusqu'à la fin de la période, puis 30 jours en lecture seule.",
+      "fix": "Réactiver"
+    },
+    "connection_broken": {
+      "title": "{connection} : {problem}",
+      "body": "Corrigez-le pour que les messages et réservations continuent.",
+      "fix": "Corriger la connexion"
+    },
+    "template_rejected": {
+      "title": "WhatsApp a rejeté votre modèle {template}",
+      "body": "Les messages qui l'utilisent hors de la fenêtre de 24 heures ne peuvent pas être envoyés. Modifiez-le et renvoyez-le.",
+      "fix": "Revoir le modèle"
+    },
+    "compliance_blocking": {
+      "title": "Une étape de conformité bloque la mise en ligne",
+      "body": "La mention IA manque pour une de vos langues, l'IA ne peut donc pas encore écrire aux clients.",
+      "fix": "Terminer la conformité"
+    },
+    "ai_paused": {
+      "title": "Toute activité IA est en pause",
+      "body": "Votre équipe gère toutes les conversations. Rien n'est envoyé par l'IA tant que vous ne reprenez pas.",
+      "fix": "Reprendre l'IA"
+    }
+  },
+  "states": {
+    "loading": "Chargement…",
+    "error": {
+      "title": "Impossible de charger ce contenu",
+      "body": "Un problème est survenu de notre côté. Vos données sont en sécurité. Veuillez réessayer.",
+      "supportCode": "Code support : {code}"
+    },
+    "noPermission": {
+      "title": "Vous n'avez pas accès à ceci",
+      "body": "Demandez à une personne ayant le rôle {role} de le faire ou de modifier votre accès.",
+      "request": "Demander l'accès",
+      "requested": "Demande envoyée. Nous vous préviendrons dès qu'elle sera acceptée.",
+      "tooltip": "Nécessite le rôle {role}"
+    },
+    "offline": {
+      "body": "Vous êtes hors ligne. Vos modifications seront enregistrées à la reconnexion."
+    },
+    "stale": {
+      "body": "Cette page a changé depuis son ouverture."
+    },
+    "notFound": {
+      "title": "Page introuvable",
+      "body": "Elle a peut-être été déplacée. Utilisez le menu ou la recherche."
+    }
+  },
+  "login": {
+    "title": "Connexion à {brand}",
+    "body": "Ceci est une démo avec des données fictives. Utilisez la clé pour changer d'entreprise, de rôle ou de langue.",
+    "cta": "Se connecter à la démo",
+    "note": "L'inscription, la connexion par mot de passe et la récupération de compte arrivent à la prochaine étape."
+  },
+  "modules": {
+    "home": "Ce qui vous attend aujourd'hui.",
+    "inbox": "Toutes les conversations clients au même endroit.",
+    "contacts": "Vos clients, prospects et leur historique.",
+    "pipeline": "Affaires et prospects par étape.",
+    "calendar": "Réservations, prestations, équipe et page de réservation.",
+    "sales": "Leads, pipeline et affaires au même endroit.",
+    "bookings": "L’agenda, les prestations, l’équipe et la page de réservation.",
+    "tasks": "Relances et rappels pour vous et votre équipe.",
+    "employees": "Créez, testez et supervisez vos employés IA.",
+    "knowledge": "Ce que l'IA a le droit de savoir et de dire.",
+    "approvals": "Brouillons et actions en attente de votre accord.",
+    "activity": "Chaque action de l'IA.",
+    "automations": "Des recettes qui relancent pour vous.",
+    "marketing": "Contenus, campagnes, modèles, formulaires et liens.",
+    "reputation": "Avis, demandes d'avis et analyses.",
+    "payments": "Liens de paiement, paiements et acomptes.",
+    "reports": "Les performances de votre activité et de votre IA.",
+    "pages": "Pages d’atterrissage et tunnels simples.",
+    "compliance": "Consentement, mentions, demandes de données et audit.",
+    "connections": "Vos canaux, agendas et comptes de paiement.",
+    "settings": "Entreprise, équipe, facturation et sécurité.",
+    "placeholderTitle": "{module} arrive bientôt",
+    "placeholderBody": "Cet écran est construit à l'étape {slice}. La navigation, les permissions et les données sont déjà en place.",
+    "seeFoundation": "Voir les composants",
+    "noAi": {
+      "title": "Les validations apparaissent avec un employé IA",
+      "body": "Vous êtes en mode manuel. Tout fonctionne à la main, et l'IA peut être ajoutée à tout moment sans refaire la configuration."
+    }
+  },
+  "home": {
+    "greeting": {
+      "morning": "Bonjour, {name}",
+      "afternoon": "Bon après-midi, {name}",
+      "evening": "Bonsoir, {name}"
+    },
+    "subtitle": "Voici ce qui se passe chez {business}.",
+    "attention": "À traiter",
+    "stats": {
+      "unread": "Conversations non lues",
+      "approvals": "Validations en attente",
+      "notifications": "Notifications non lues"
+    }
+  },
+  "dev": {
+    "statesTitle": "Composants de base",
+    "statesIntro": "Chaque état et composant de base, relié à l'API simulée. Utilisez la clé pour changer de rôle, de réseau, de langue et de thème.",
+    "statesCard": "États vide, chargement, erreur, sans accès, hors ligne et obsolète, pastilles de statut, langage IA et champs de formulaire.",
+    "scenariosTitle": "Scénarios",
+    "scenariosCard": "Passez d'une entreprise fictive à l'autre : salon à Lagos, clinique à Abuja, barbier à Londres et plus.",
+    "open": "Ouvrir",
+    "states": {
+      "liveTitle": "États des données",
+      "liveBody": "Une vraie requête vers l'API simulée. Changez le résultat pour voir chaque état requis.",
+      "modes": {
+        "ok": "Données",
+        "empty": "Vide",
+        "error": "Erreur",
+        "forbidden": "Sans accès"
+      },
+      "forceLoading": "Afficher le chargement",
+      "forbiddenHint": "Cette requête nécessite le droit d'exporter les contacts. Propriétaires et administrateurs voient les données ; passez en Responsable, Employé ou Lecture seule pour voir l'état sans accès.",
+      "emptyTitle": "Aucun contact pour l'instant",
+      "emptyBody": "Les contacts apparaissent quand des clients vous écrivent, réservent ou remplissent un formulaire. Vous pouvez aussi les ajouter.",
+      "controlsTitle": "Champs de formulaire",
+      "controlsBody": "Les champs suivent le pays, la devise, le fuseau horaire et le début de semaine de l'établissement.",
+      "saved": "Enregistré",
+      "secondary": "Secondaire",
+      "ghost": "Discret",
+      "aiAction": "Rédiger avec l'IA",
+      "deleteContacts": "Supprimer 3 contacts",
+      "deleteTitle": "Supprimer {count, plural, one {# contact} other {# contacts}} ?",
+      "deleteBody": "{count, plural, one {Ce contact et son historique seront définitivement supprimés} other {Ces # contacts et leur historique seront définitivement supprimés}}. Action irréversible.",
+      "deleteConfirm": "Supprimer {count, plural, one {# contact} other {# contacts}}",
+      "deleted": "{count, plural, one {# contact supprimé} other {# contacts supprimés}}",
+      "openDrawer": "Ouvrir le panneau",
+      "drawerTitle": "Détails de la réservation",
+      "drawerBody": "Les panneaux s'ouvrent du côté fin et s'inversent dans les langues de droite à gauche.",
+      "tooltip": "Les infobulles expliquent sans encombrer l'écran.",
+      "hoverMe": "Survolez-moi",
+      "offlineTitle": "Hors ligne",
+      "offlineBody": "Affiché en haut de l'application quand le réseau tombe. Réglez le réseau sur Hors ligne dans la barre d'outils.",
+      "staleTitle": "Modifié entre-temps",
+      "staleBody": "Affiché quand un autre onglet ou un collègue modifie les données. Ouvrez l'application dans deux onglets et changez l'état du compte dans l'un.",
+      "refreshed": "Actualisé",
+      "permissionTitle": "Contrôles selon les droits",
+      "permissionBody": "Vous consultez en tant que {role}. Les actions déblocables sont désactivées avec la raison ; celles inaccessibles sont masquées.",
+      "exportContacts": "Exporter les contacts",
+      "manageBilling": "Gérer la facturation",
+      "inviteTeammate": "Inviter un collègue",
+      "permissionHint": "Inviter un collègue est masqué pour les rôles qui ne gèrent pas l'équipe.",
+      "bannersTitle": "Bandeaux",
+      "chipsTitle": "Pastilles de statut",
+      "chipsBody": "Un même état a toujours le même aspect, avec une icône pour ne jamais dépendre de la couleur seule.",
+      "domains": {
+        "account": "Compte",
+        "connection": "Connexion",
+        "template": "Modèle WhatsApp",
+        "booking": "Réservation",
+        "payment": "Paiement",
+        "review": "Avis",
+        "consent": "Consentement",
+        "compliance": "Point de conformité",
+        "employee": "Employé IA"
+      },
+      "aiTitle": "Langage visuel de l'IA",
+      "aiBody": "Tout ce que l'IA a écrit ou fait est signalé en violet, avec son niveau de confiance.",
+      "drafting": "Rédaction",
+      "sampleDraft": "Bonjour Chioma ! Les tresses knotless mi-longues coûtent 35 000 ₦ et prennent environ 5 heures. Je peux vous réserver samedi à 10 h ou 13 h. Qu'est-ce qui vous convient ?"
+    }
+  },
+  "fields": {
+    "name": "Nom complet",
+    "namePlaceholder": "ex. Chioma Okafor",
+    "channel": "Canal",
+    "service": "Prestation",
+    "servicePlaceholder": "Choisir une prestation",
+    "search": "Rechercher…",
+    "phone": "Numéro de téléphone",
+    "countryCode": "Indicatif pays",
+    "date": "Date",
+    "pickDate": "Choisir une date",
+    "time": "Heure ({zone})",
+    "pickTime": "Choisir une heure",
+    "amount": "Montant",
+    "note": "Note",
+    "notePlaceholder": "Ce que l'équipe doit savoir",
+    "consent": "Le client accepte de recevoir des messages",
+    "aiSuggestions": "Afficher les suggestions IA",
+    "autonomy": "Autonomie",
+    "autonomyLevels": {
+      "suggest": "Suggestion",
+      "approve": "Validation",
+      "autopilot": "Pilote automatique"
+    }
+  },
+  "wizard": {
+    "steps": "Étapes de configuration",
+    "stepOf": "Étape {current} sur {total}",
+    "status": {
+      "done": "Terminée",
+      "current": "Étape en cours",
+      "todo": "Pas commencée",
+      "skipped": "Ignorée",
+      "not_needed": "Inutile"
+    }
+  },
+  "password": {
+    "show": "Afficher le mot de passe",
+    "hide": "Masquer le mot de passe",
+    "empty": "Utilisez au moins 8 caractères",
+    "weak": "Mot de passe faible",
+    "fair": "Mot de passe moyen",
+    "good": "Bon mot de passe",
+    "strong": "Mot de passe robuste"
+  },
+  "copy": {
+    "label": "Copier {label}",
+    "done": "Copié",
+    "failed": "Copie impossible. Sélectionnez le texte et copiez-le vous-même."
+  }
+}

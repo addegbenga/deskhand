@@ -1,0 +1,594 @@
+{
+  "app": {
+    "skipToContent": "Skip to content",
+    "demoData": "Demo data"
+  },
+  "actions": {
+    "close": "Close",
+    "dismiss": "Dismiss",
+    "retry": "Try again",
+    "refresh": "Refresh",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "a11y": {
+    "breadcrumbs": "Breadcrumbs",
+    "notices": "Account notices"
+  },
+  "nav": {
+    "primary": "Main navigation",
+    "home": "Home",
+    "inbox": "Inbox",
+    "contacts": "Contacts",
+    "pipeline": "Pipeline",
+    "calendar": "Calendar",
+    "sales": "Sales",
+    "bookings": "Bookings",
+    "tasks": "Tasks",
+    "employees": "AI employees",
+    "knowledge": "Knowledge",
+    "approvals": "Approvals",
+    "activity": "Activity",
+    "automations": "Automations",
+    "marketing": "Marketing",
+    "reputation": "Reputation",
+    "payments": "Payments",
+    "reports": "Reports",
+    "pages": "Pages",
+    "compliance": "Compliance",
+    "connections": "Connections",
+    "settings": "Settings",
+    "more": "More",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar",
+    "groups": {
+      "ai": "AI",
+      "grow": "Grow",
+      "manage": "Manage"
+    },
+    "badges": {
+      "unread": "{count, plural, one {# unread conversation} other {# unread conversations}}",
+      "approvals": "{count, plural, one {# approval waiting} other {# approvals waiting}}"
+    }
+  },
+  "topbar": {
+    "search": "Search or jump to…",
+    "quickCreate": "Create new",
+    "create": "New",
+    "notificationsCount": "{count, plural, =0 {Notifications} one {Notifications, # unread} other {Notifications, # unread}}",
+    "alertsCount": "{count, plural, =0 {Alerts} one {Alerts, #} other {Alerts, #}}",
+    "help": "Help",
+    "account": "Your account",
+    "location": "Location: {name}",
+    "locations": "Locations",
+    "allLocations": "All locations"
+  },
+  "quickCreate": {
+    "contact": "New contact",
+    "booking": "New booking",
+    "message": "New message",
+    "paymentLink": "New payment link",
+    "post": "New post",
+    "task": "New task"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search contacts, pages and actions",
+    "noResults": "No results found.",
+    "contacts": "Contacts",
+    "actionsHeading": "Actions",
+    "pages": "Go to",
+    "actions": {
+      "invite": "Invite a teammate",
+      "theme": "Switch light or dark theme"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "alertsTitle": "Alerts",
+    "attention": "Needs attention",
+    "activity": "Activity",
+    "markAllRead": "Mark all as read",
+    "empty": "You're all caught up",
+    "emptyHint": "We'll let you know when something needs you.",
+    "unread": "Unread",
+    "templateStatus": {
+      "approved": "approved",
+      "rejected": "rejected"
+    },
+    "kinds": {
+      "approval_waiting": "{employee} drafted a reply to {contact} that needs your approval",
+      "needs_human": "{contact} needs a person to reply",
+      "booking_new": "{contact} booked {service} for {time}",
+      "booking_cancelled": "{contact} cancelled {service}",
+      "payment_received": "{contact} paid {amount}",
+      "review_negative": "{contact} left a {rating}-star review",
+      "connection_broken": "{connection} needs to be reconnected",
+      "template_status": "Template {template} was {status}",
+      "usage_threshold": "You've used {percent}% of your {meter} this month",
+      "compliance_alert": "Compliance: {item} needs attention",
+      "weekly_digest": "Your weekly summary is ready",
+      "member_joined": "{name} joined as {role}"
+    }
+  },
+  "connections": {
+    "whatsapp": "WhatsApp",
+    "webchat": "Web chat",
+    "email": "Email",
+    "sms": "SMS",
+    "messenger": "Messenger",
+    "instagram": "Instagram",
+    "voice": "Voice",
+    "google_calendar": "Google Calendar",
+    "outlook": "Outlook",
+    "gbp": "Google Business Profile",
+    "payments": "Payments",
+    "problems": {
+      "quality_low": "Message quality is low, so sending is limited",
+      "token_expired": "Access expired, so bookings are not syncing",
+      "dns_unverified": "DNS records are not verified yet",
+      "unknown": "It stopped working"
+    }
+  },
+  "meters": {
+    "ai_replies": "AI replies"
+  },
+  "compliance": {
+    "ai_disclosure": "AI disclosure"
+  },
+  "status": {
+    "account": {
+      "trial": "Trial",
+      "trial_expired": "Trial ended",
+      "active": "Active",
+      "past_due": "Past due",
+      "suspended": "Suspended",
+      "paused": "Paused",
+      "cancelled": "Cancelled"
+    },
+    "connection": {
+      "healthy": "Healthy",
+      "degraded": "Needs attention",
+      "broken": "Broken"
+    },
+    "template": {
+      "draft": "Draft",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "post": {
+      "draft": "Draft",
+      "approved": "Approved",
+      "scheduled": "Scheduled",
+      "published": "Published"
+    },
+    "campaign": {
+      "draft": "Draft",
+      "checked": "Checked",
+      "sent": "Sent"
+    },
+    "booking": {
+      "booked": "Booked",
+      "requested": "Requested",
+      "completed": "Completed",
+      "no_show": "No-show",
+      "cancelled": "Cancelled"
+    },
+    "priority": {
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High"
+    },
+    "payment": {
+      "pending": "Pending",
+      "paid": "Paid",
+      "failed": "Failed",
+      "refunded": "Refunded"
+    },
+    "review": {
+      "new": "New",
+      "needs_reply": "Needs reply",
+      "replied": "Replied",
+      "flagged": "Flagged"
+    },
+    "knowledge": {
+      "verified": "Verified",
+      "unverified": "Unverified",
+      "needs_review": "Needs review"
+    },
+    "consent": {
+      "granted": "Granted",
+      "withdrawn": "Withdrawn",
+      "missing": "Missing"
+    },
+    "compliance": {
+      "done": "Done",
+      "needs_attention": "Needs attention",
+      "blocking": "Blocking go-live"
+    },
+    "employee": {
+      "draft": "Draft",
+      "testing": "Testing",
+      "shadow": "Shadow",
+      "live": "Live",
+      "paused": "Paused",
+      "archived": "Archived"
+    }
+  },
+  "ai": {
+    "badge": "AI",
+    "badgeNamed": "{name} (AI)",
+    "confidence": {
+      "high": "High confidence",
+      "medium": "Medium confidence",
+      "low": "Low confidence"
+    },
+    "status": {
+      "on": "AI live",
+      "suggest_only": "Suggest only",
+      "off": "Human only",
+      "paused": "AI paused",
+      "manual": "Manual only"
+    },
+    "statusHint": {
+      "on": "Your AI employee replies to customers within the limits you set. Drafts that need approval wait in Approvals.",
+      "suggest_only": "Your AI employee drafts replies, and people on your team send them.",
+      "off": "The AI is switched off. Your team handles every conversation.",
+      "paused": "All AI activity is paused. Nothing is sent by the AI until you resume.",
+      "manual": "You're running without an AI employee. Everything works by hand, and you can add one any time."
+    },
+    "setUp": "Set up an AI employee",
+    "killSwitch": "Pause all AI now",
+    "killEmployee": "Pause this employee",
+    "tier": { "A": "Tier A", "B": "Tier B", "C": "Tier C" },
+    "autonomy": { "suggest": "Suggest", "approve": "Approve", "autopilot": "Autopilot" },
+    "evalPass": "Pass · {score}",
+    "evalFail": "Fail · {score}",
+    "askToPause": "Only someone with the {role} role can pause the AI.",
+    "resume": "Resume AI",
+    "pausedToast": "All AI activity is paused",
+    "resumedToast": "The AI is live again",
+    "why": "Why this?",
+    "whyTitle": "Why the AI answered this way",
+    "sources": "Sources",
+    "rules": "Rules",
+    "tools": "Tools used",
+    "rateGood": "Good reply",
+    "rateBad": "Needs work"
+  },
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "webchat": "Web chat",
+    "email": "Email",
+    "sms": "SMS",
+    "messenger": "Messenger",
+    "instagram": "Instagram",
+    "voice": "Call"
+  },
+  "delivery": {
+    "pending": "Sending",
+    "sent": "Sent",
+    "delivered": "Delivered",
+    "read": "Read",
+    "failed": "Failed"
+  },
+  "createdBy": {
+    "person": "Person",
+    "ai_employee": "AI employee",
+    "recipe": "Recipe",
+    "form": "Form",
+    "booking_page": "Booking page",
+    "import": "Import",
+    "api": "API"
+  },
+  "setup": {
+    "pill": "Setup {done}/{total}",
+    "title": "Finish setting up",
+    "body": "Each step gets you closer to your first lead handled automatically.",
+    "done": "Done",
+    "todo": "To do",
+    "milestones": {
+      "profile_complete": "Business profile and services",
+      "first_channel_live": "Connect your first channel",
+      "ai_taught": "Teach the AI your business",
+      "ai_live": "Go live in Suggest mode",
+      "first_lead_handled": "First lead answered",
+      "first_booking_or_payment": "First booking or payment",
+      "autopilot_replies": "Replies on Autopilot"
+    },
+    "stepsPill": "Setup {done}/{total}",
+    "finishTitle": "Finish setting up",
+    "finishBody": "Pick up where you left off. Everything you entered is saved.",
+    "resume": "Continue setup",
+    "seeBoard": "See what is blocking",
+    "blocking": "{count, plural, one {# blocking} other {# blocking}}"
+  },
+  "help": {
+    "docs": "Help articles",
+    "aiHelper": "Ask the setup helper",
+    "support": "Contact support",
+    "status": "System status",
+    "whatsNew": "What's new",
+    "notInMock": "Not available in this demo.",
+    "developer": "Developer"
+  },
+  "account": {
+    "roleAt": "{role} at {business}",
+    "profile": "Profile",
+    "language": "Language",
+    "theme": "Theme",
+    "density": "Density",
+    "security": "Security",
+    "signOut": "Sign out",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "Match device"
+    },
+    "densities": {
+      "comfortable": "Comfortable",
+      "compact": "Compact"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "pcm": "Nigerian Pidgin",
+    "yo": "Yoruba",
+    "ha": "Hausa",
+    "ig": "Igbo"
+  },
+  "roles": {
+    "owner": "Owner",
+    "admin": "Admin",
+    "manager": "Manager",
+    "staff": "Staff",
+    "readonly": "Read-only"
+  },
+  "banners": {
+    "trial": {
+      "title": "Your trial ends in {days, plural, one {# day} other {# days}}",
+      "body": "Choose a plan to keep your inbox, bookings and AI running without a break.",
+      "fix": "Choose a plan"
+    },
+    "trial_expired": {
+      "title": "Your trial has ended",
+      "body": "Your data is safe and you can still read and export it. Choose a plan to start replying and booking again.",
+      "fix": "Choose a plan"
+    },
+    "past_due": {
+      "title": "Your last payment didn't go through",
+      "body": "Update your payment method within {days, plural, one {# day} other {# days}} to avoid marketing sends being paused. Live conversations are not affected.",
+      "fix": "Update payment"
+    },
+    "suspended": {
+      "title": "Your account is suspended",
+      "body": "Sending and the AI are paused while we review your account. You can still read and export your data. Contact support to resolve this.",
+      "fix": "Contact support"
+    },
+    "paused": {
+      "title": "Your account is paused",
+      "body": "Everything is read-only and billing is paused until you resume.",
+      "fix": "Resume account"
+    },
+    "cancelled": {
+      "title": "Your plan is cancelled",
+      "body": "You have full access until the end of this billing period, then 30 days of read-only access.",
+      "fix": "Reactivate"
+    },
+    "connection_broken": {
+      "title": "{connection}: {problem}",
+      "body": "Fix it to keep messages and bookings flowing.",
+      "fix": "Fix connection"
+    },
+    "template_rejected": {
+      "title": "WhatsApp rejected your template {template}",
+      "body": "Messages that use it outside the 24-hour window can't be sent. Edit and resubmit it.",
+      "fix": "Review template"
+    },
+    "compliance_blocking": {
+      "title": "A compliance step is blocking go-live",
+      "body": "AI disclosure wording is missing for one of your languages, so the AI can't message customers yet.",
+      "fix": "Finish compliance"
+    },
+    "ai_paused": {
+      "title": "All AI activity is paused",
+      "body": "Your team is handling every conversation. Nothing is sent by the AI until you resume.",
+      "fix": "Resume AI"
+    }
+  },
+  "states": {
+    "loading": "Loading…",
+    "error": {
+      "title": "We couldn't load this",
+      "body": "Something went wrong on our side. Your data is safe. Please try again.",
+      "supportCode": "Support code: {code}"
+    },
+    "noPermission": {
+      "title": "You don't have access to this",
+      "body": "Ask someone with the {role} role to do this, or to change your access.",
+      "request": "Request access",
+      "requested": "Request sent. We'll let you know when it's approved.",
+      "tooltip": "Needs the {role} role"
+    },
+    "offline": {
+      "body": "You're offline. Changes will be saved when you reconnect."
+    },
+    "stale": {
+      "body": "This page changed since you opened it."
+    },
+    "notFound": {
+      "title": "We can't find that page",
+      "body": "It may have moved. Use the menu or search to find what you need."
+    }
+  },
+  "login": {
+    "title": "Sign in to {brand}",
+    "body": "This is a demo with sample data. Use the wrench button to switch business, role or language.",
+    "cta": "Sign in to the demo",
+    "note": "Sign-up, password sign-in and account recovery arrive in the next build step."
+  },
+  "modules": {
+    "home": "What needs you today.",
+    "inbox": "Every customer conversation in one place.",
+    "contacts": "Your customers, leads and their history.",
+    "pipeline": "Deals and leads by stage.",
+    "calendar": "Bookings, services, staff and your booking page.",
+    "sales": "Leads, pipeline and deals in one place.",
+    "bookings": "The diary, services, staff and your booking page.",
+    "tasks": "Follow-ups and reminders for you and your team.",
+    "employees": "Create, test and supervise your AI employees.",
+    "knowledge": "What the AI is allowed to know and say.",
+    "approvals": "Drafts and actions waiting for your OK.",
+    "activity": "Every action the AI took.",
+    "automations": "Recipes that follow up for you.",
+    "marketing": "Content, campaigns, templates, forms and links.",
+    "reputation": "Reviews, review requests and insights.",
+    "payments": "Payment links, payments and deposits.",
+    "reports": "How your business and your AI are doing.",
+    "pages": "Landing pages and simple funnels.",
+    "compliance": "Consent, disclosure, data requests and audit.",
+    "connections": "Your channels, calendars and payment accounts.",
+    "settings": "Business details, team, billing and security.",
+    "placeholderTitle": "{module} is on its way",
+    "placeholderBody": "This screen is built in step {slice}. The navigation, permissions and data behind it are already live.",
+    "seeFoundation": "See the building blocks",
+    "noAi": {
+      "title": "Approvals appear when you add an AI employee",
+      "body": "You're running in manual mode. Everything works by hand, and the AI can be added any time without redoing setup."
+    }
+  },
+  "home": {
+    "greeting": {
+      "morning": "Good morning, {name}",
+      "afternoon": "Good afternoon, {name}",
+      "evening": "Good evening, {name}"
+    },
+    "subtitle": "Here's what's happening at {business}.",
+    "attention": "Needs attention",
+    "stats": {
+      "unread": "Unread conversations",
+      "approvals": "Approvals waiting",
+      "notifications": "Unread notifications"
+    }
+  },
+  "dev": {
+    "statesTitle": "Building blocks",
+    "statesIntro": "Every state pattern and base component, wired to the mock API. Use the wrench button to change role, network, language and theme.",
+    "statesCard": "Empty, loading, error, no-permission, offline and stale states, status chips, AI language and form controls.",
+    "scenariosTitle": "Scenarios",
+    "scenariosCard": "Switch between seeded businesses: salon in Lagos, clinic in Abuja, barber in London and more.",
+    "open": "Open",
+    "states": {
+      "liveTitle": "Live data states",
+      "liveBody": "A real request to the mock API. Switch the outcome to see each required state.",
+      "modes": {
+        "ok": "Data",
+        "empty": "Empty",
+        "error": "Error",
+        "forbidden": "No permission"
+      },
+      "forceLoading": "Show loading",
+      "forbiddenHint": "This request needs permission to export contacts. Owners and admins see data; switch to Manager, Staff or Read-only in the toolbar to see the no-permission state.",
+      "emptyTitle": "No contacts yet",
+      "emptyBody": "Contacts appear here when customers message you, book or fill a form. You can also add them yourself.",
+      "controlsTitle": "Form controls",
+      "controlsBody": "Inputs follow the location's country, currency, time zone and week start.",
+      "saved": "Saved",
+      "secondary": "Secondary",
+      "ghost": "Ghost",
+      "aiAction": "Draft with AI",
+      "deleteContacts": "Delete 3 contacts",
+      "deleteTitle": "Delete {count, plural, one {# contact} other {# contacts}}?",
+      "deleteBody": "{count, plural, one {This contact and their conversation history} other {These # contacts and their conversation history}} will be permanently deleted. This can't be undone.",
+      "deleteConfirm": "Delete {count, plural, one {# contact} other {# contacts}}",
+      "deleted": "{count, plural, one {# contact deleted} other {# contacts deleted}}",
+      "openDrawer": "Open drawer",
+      "drawerTitle": "Booking details",
+      "drawerBody": "Drawers slide in from the end side and mirror in right-to-left languages.",
+      "tooltip": "Tooltips explain without cluttering the screen.",
+      "hoverMe": "Hover me",
+      "offlineTitle": "Offline",
+      "offlineBody": "Shown at the top of the app when the network drops. Set the network to Offline in the toolbar to try it.",
+      "staleTitle": "Changed underneath",
+      "staleBody": "Shown when another tab or teammate changes data. Open this app in two tabs and change the account state in one.",
+      "refreshed": "Refreshed",
+      "permissionTitle": "Permission-aware controls",
+      "permissionBody": "You're viewing as {role}. Controls you could unlock are disabled with the reason; controls you can never use are hidden.",
+      "exportContacts": "Export contacts",
+      "manageBilling": "Manage billing",
+      "inviteTeammate": "Invite a teammate",
+      "permissionHint": "Invite a teammate is hidden for roles that can't manage the team.",
+      "bannersTitle": "Banners",
+      "chipsTitle": "Status chips",
+      "chipsBody": "The same state always looks the same, with an icon so color is never the only signal.",
+      "domains": {
+        "account": "Account",
+        "connection": "Connection",
+        "template": "WhatsApp template",
+        "booking": "Booking",
+        "payment": "Payment",
+        "review": "Review",
+        "consent": "Consent",
+        "compliance": "Compliance item",
+        "employee": "AI employee"
+      },
+      "aiTitle": "AI visual language",
+      "aiBody": "Anything the AI wrote or did is marked in violet, with its confidence.",
+      "drafting": "Drafting",
+      "sampleDraft": "Hi Chioma! Knotless braids, medium length, are ₦35,000 and take about 5 hours. I can book you for Saturday at 10am or 1pm. Which works better?"
+    }
+  },
+  "fields": {
+    "name": "Full name",
+    "namePlaceholder": "e.g. Chioma Okafor",
+    "channel": "Channel",
+    "service": "Service",
+    "servicePlaceholder": "Choose a service",
+    "search": "Search…",
+    "phone": "Phone number",
+    "countryCode": "Country code",
+    "date": "Date",
+    "pickDate": "Pick a date",
+    "time": "Time ({zone})",
+    "pickTime": "Pick a time",
+    "amount": "Amount",
+    "note": "Note",
+    "notePlaceholder": "Anything the team should know",
+    "consent": "Customer agreed to receive messages",
+    "aiSuggestions": "Show AI suggestions",
+    "autonomy": "Autonomy",
+    "autonomyLevels": {
+      "suggest": "Suggest",
+      "approve": "Approve",
+      "autopilot": "Autopilot"
+    }
+  },
+  "wizard": {
+    "steps": "Setup steps",
+    "stepOf": "Step {current} of {total}",
+    "status": {
+      "done": "Done",
+      "current": "Current step",
+      "todo": "Not started",
+      "skipped": "Skipped",
+      "not_needed": "Not needed"
+    }
+  },
+  "password": {
+    "show": "Show password",
+    "hide": "Hide password",
+    "empty": "Use 8 or more characters",
+    "weak": "Weak password",
+    "fair": "Fair password",
+    "good": "Good password",
+    "strong": "Strong password"
+  },
+  "copy": {
+    "label": "Copy {label}",
+    "done": "Copied",
+    "failed": "Couldn't copy. Select the text and copy it yourself."
+  }
+}

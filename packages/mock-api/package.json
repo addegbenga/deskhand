@@ -1,0 +1,35 @@
+{
+  "name": "@deskhand/mock-api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./runtime": "./src/runtime.ts",
+    "./toolbar": "./src/toolbar/index.ts",
+    "./vite-plugin": "./vite-plugin.js"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@deskhand/config": "workspace:*",
+    "@deskhand/i18n": "workspace:*",
+    "@deskhand/schemas": "workspace:*",
+    "@deskhand/ui": "workspace:*",
+    "@faker-js/faker": "^9.9.0",
+    "dexie": "^4.2.0",
+    "lucide-react": "^1.55.0",
+    "msw": "^2.11.0",
+    "zod": "^4.1.0",
+    "zustand": "^5.0.8"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "fake-indexeddb": "^6.2.0",
+    "react": "^18.3.1"
+  }
+}

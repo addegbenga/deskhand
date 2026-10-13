@@ -1,0 +1,69 @@
+{
+  "title": "Pipeline",
+  "salesTitle": "Sales",
+  "salesHint": "Leads first. Deals only when someone is qualified to buy.",
+  "tabs": {
+    "leads": "All leads",
+    "pipeline": "Pipeline",
+    "opportunities": "Opportunities"
+  },
+  "list": "List",
+  "board": "Board",
+  "search": "Search deals",
+  "empty": {
+    "title": "No deals yet",
+    "body": "Qualify a lead to put a deal on the board. A price question is not a deal until you say it is."
+  },
+  "noResults": {
+    "title": "No matching deals",
+    "body": "Try a contact name, source, owner, stage or next task."
+  },
+  "leads": {
+    "search": "Search leads",
+    "contact": "Contact",
+    "status": "Status",
+    "owner": "Owner",
+    "activity": "Last activity",
+    "followUp": "Next follow-up",
+    "qualify": "Create deal",
+    "qualified": "Deal created on the pipeline",
+    "suggested": "AI suggests qualifying this lead",
+    "empty": {
+      "title": "No leads yet",
+      "body": "People who message, submit a form or abandon a booking show up here. They are not deals until you qualify them."
+    },
+    "noResults": {
+      "title": "No matching leads",
+      "body": "Try a contact name, source, owner or status."
+    },
+    "statuses": {
+      "new": "New",
+      "working": "Working",
+      "qualified": "Qualified",
+      "disqualified": "Not pursuing",
+      "converted": "Converted"
+    }
+  },
+  "opps": {
+    "stage": "Stage",
+    "value": "Value",
+    "probability": "Probability",
+    "forecast": "Forecast",
+    "close": "Expected close",
+    "percent": "{value}%"
+  },
+  "value": "{amount}",
+  "age": "{days, plural, one {# day in stage} other {# days in stage}}",
+  "stale": "Older than the {days}-day limit for this stage",
+  "ai": "AI is working this",
+  "count": "{count}",
+  "move": "Move to {stage}",
+  "reason": "Reason",
+  "reasonNeeded": "Choose why it {outcome}",
+  "won": "won",
+  "lost": "lost",
+  "confirm": "Save",
+  "settings": "Stage settings",
+  "nextTask": "Next: {task}",
+  "source": "Source"
+}

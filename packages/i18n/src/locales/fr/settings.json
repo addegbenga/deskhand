@@ -1,0 +1,232 @@
+{
+  "title": "Paramètres",
+  "pages": {
+    "business": "Entreprise",
+    "locations": "Lieux",
+    "team": "Équipe",
+    "languages": "Langues",
+    "branding": "Image de marque",
+    "channels": "Canaux",
+    "notifications": "Notifications",
+    "billing": "Facturation",
+    "usage": "Usage",
+    "security": "Sécurité",
+    "data": "Données",
+    "api": "API",
+    "audit": "Journal d’audit",
+    "replies": "Réponses enregistrées"
+  },
+  "save": "Enregistrer",
+  "saved": "Enregistré",
+  "business": {
+    "hubHint": "Tout ce que vous avez saisi à l’installation est ici. Modifiez-le à tout moment — l’IA, la page de réservation et les automatisations utilisent les mêmes données.",
+    "legal": "Mentions légales et contact",
+    "legalName": "Raison sociale",
+    "registration": "Numéro d’immatriculation",
+    "description": "Description",
+    "website": "Site web",
+    "instagram": "Instagram",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "privacy": "Contact confidentialité",
+    "pack": "Pack métier",
+    "packHint": "Les éléments du pack restent jusqu’à ce que vous les modifiiez. Changer de métier ajoute les services et questions manquants, sans écraser vos modifications.",
+    "needsInput": "À compléter",
+    "needsInputBody": "{count, plural, one {# élément du pack attend un prix ou une réponse confirmés.} other {# éléments du pack attendent un prix ou une réponse confirmés.}}",
+    "faqs": "Questions fréquentes",
+    "policies": "Règles que l’IA doit connaître",
+    "jumpKnowledge": "Connaissances",
+    "jumpServices": "Services de réservation",
+    "jumpChannels": "Canaux",
+    "jumpEmployee": "Employé IA",
+    "jumpCompliance": "Conformité"
+  },
+  "branding": {
+    "logo": "Texte du logo",
+    "color": "Couleur de marque",
+    "font": "Police",
+    "sans": "Sans",
+    "serif": "Serif",
+    "poweredBy": "Afficher Propulsé par Deskhand"
+  },
+  "notifications": {
+    "email": "Alertes e-mail",
+    "inApp": "Dans l’app",
+    "whatsapp": "WhatsApp (avec consentement)",
+    "quiet": "Heures calmes",
+    "digest": "Heure du résumé"
+  },
+  "languages": {
+    "market": "Pack marché",
+    "region": "Région des données",
+    "default": "Langue par défaut",
+    "served": "Langues servies",
+    "currency": "Devise",
+    "changeRegion": "Demandez un changement de région au support."
+  },
+  "connections": {
+    "title": "Connexions",
+    "weManage": "Nous gérons",
+    "youConnect": "Vous connectez",
+    "connect": "Connecter",
+    "test": "Tester",
+    "fix": "Réparer",
+    "disconnect": "Déconnecter",
+    "history": "Historique",
+    "scopes": "Autorisations",
+    "lastSync": "Dernière synchro",
+    "status": {
+      "connected": "Connecté",
+      "needs_attention": "À traiter",
+      "not_connected": "Non connecté"
+    },
+    "health": { "healthy": "Sain", "degraded": "À traiter", "broken": "Cassé" },
+    "problem": {
+      "dns_unverified": "Les enregistrements DNS ne sont pas encore vérifiés.",
+      "token_expired": "Le jeton du calendrier a expiré.",
+      "quality_low": "La qualité WhatsApp est basse."
+    },
+    "groups": {
+      "messaging": "Messagerie",
+      "calendar": "Calendrier",
+      "gbp": "Google Business Profile",
+      "payments": "Paiements",
+      "social": "Réseaux",
+      "contacts": "Contacts",
+      "voice": "Voix et SMS"
+    },
+    "kinds": {
+      "whatsapp": "WhatsApp",
+      "email": "E-mail",
+      "webchat": "Chat web",
+      "messenger": "Messenger",
+      "instagram": "Instagram",
+      "google_calendar": "Google Agenda",
+      "outlook": "Outlook",
+      "gbp": "Google Business Profile",
+      "payments": "Paiements",
+      "google_contacts": "Contacts Google",
+      "sms": "SMS"
+    }
+  },
+  "team": {
+    "invite": "Inviter",
+    "emails": "Adresses e-mail",
+    "emailsHint": "Collez jusqu’à 50 adresses, une par ligne ou séparées par des virgules.",
+    "role": "Rôle",
+    "note": "Note",
+    "send": "Envoyer les invitations",
+    "pending": "Invitations en attente",
+    "resend": "Renvoyer",
+    "revoke": "Révoquer",
+    "copyLink": "Copier le lien",
+    "joinLink": "Lien d’adhésion",
+    "createLink": "Créer un lien de 24 h",
+    "requests": "Demandes d’adhésion",
+    "approve": "Approuver",
+    "offboard": "Retirer",
+    "reassign": "Réassigner le travail à",
+    "confirmName": "Tapez son nom pour confirmer",
+    "twoFactor": "Double authentification",
+    "twoFactorOn": "2FA activée",
+    "twoFactorOff": "2FA désactivée",
+    "calendarOn": "Agenda connecté",
+    "calendarOff": "Agenda non connecté",
+    "lastActive": "Dernière activité",
+    "locations": "Lieux",
+    "needsTitle": "Ce que l’équipe doit encore faire",
+    "needsBody": "Agenda, double authentification et demandes d’adhésion au même endroit. Le propriétaire et l’admin doivent activer la 2FA. Le personnel qui accepte des réservations connecte son propre agenda.",
+    "needsClear": "Plus rien à configurer pour l’équipe.",
+    "needMfa": "{name} n’a pas encore activé la double authentification.",
+    "needMfaRequired": "{name} doit activer la double authentification (obligatoire pour le propriétaire et l’admin).",
+    "needCalendar": "{name} doit encore connecter un agenda.",
+    "needJoin": "{count, plural, one {# demande d’adhésion en attente} other {# demandes d’adhésion en attente}}",
+    "impactMfaRequired": "Le propriétaire et l’admin ne peuvent pas continuer sans double authentification.",
+    "impactMfa": "Recommandé pour protéger leur connexion.",
+    "impactCalendar": "Les nouvelles réservations ne peuvent pas s’écrire dans leur agenda tant qu’ils n’ont pas connecté.",
+    "impactJoin": "Ils ne peuvent pas travailler dans ce compte tant que vous n’approuvez pas.",
+    "blocking": "Bloquant",
+    "recommended": "Recommandé",
+    "fix": "Corriger",
+    "results": {
+      "sent": "Envoyé",
+      "already_member": "Déjà membre",
+      "invalid": "Adresse invalide",
+      "blocked": "Domaine bloqué",
+      "plan_limit": "Plus de sièges"
+    }
+  },
+  "billing": {
+    "plan": "Offre",
+    "method": "Moyen de paiement",
+    "tax": "N° fiscal",
+    "contact": "E-mail de facturation",
+    "invoices": "Factures",
+    "change": "Changer d’offre",
+    "cancel": "Annuler l’abonnement",
+    "starter": "Starter",
+    "growth": "Growth",
+    "pro": "Pro",
+    "included": "{unit} : {count} inclus"
+  },
+  "usage": {
+    "title": "Usage",
+    "projected": "Projection de fin de mois",
+    "cap": "Plafond",
+    "hard": "Plafond dur (arrêt à la limite)",
+    "soft": "Plafond souple (budget mensuel)",
+    "ceiling": "Plafond de dépense",
+    "simulate": "Simuler une limite atteinte",
+    "upgrade": "Vous avez atteint une limite. Passez à une offre supérieure.",
+    "units": {
+      "seats": "Sièges",
+      "locations": "Lieux",
+      "aiEmployees": "Employés IA",
+      "contacts": "Contacts",
+      "aiConversations": "Conversations IA",
+      "emails": "E-mails"
+    }
+  },
+  "security": {
+    "twoFactor": "Authentification à deux facteurs",
+    "alerts": "Alertes de connexion",
+    "sessions": "Appareils",
+    "signOut": "Déconnecter l’appareil",
+    "calendar": "Mon calendrier",
+    "required": "Obligatoire pour le propriétaire et l’admin"
+  },
+  "data": {
+    "export": "Exporter les données",
+    "contacts": "Contacts",
+    "conversations": "Conversations",
+    "bookings": "Réservations",
+    "reviews": "Avis",
+    "download": "Télécharger",
+    "close": "Fermer le compte",
+    "confirm": "Tapez {name} pour fermer ce compte",
+    "closed": "Ce compte est fermé. Vous pouvez encore exporter."
+  },
+  "api": {
+    "keys": "Clés API",
+    "webhooks": "Journal des webhooks",
+    "lastUsed": "Dernière utilisation",
+    "replay": "La relecture n’est pas disponible dans la démo."
+  },
+  "audit": {
+    "search": "Rechercher dans le journal"
+  },
+  "replies": {
+    "hint": "Les réponses enregistrées sont avec les modèles marketing."
+  },
+  "channels": {
+    "hint": "La santé des canaux se gère dans Connexions.",
+    "widget": "Script du chat web",
+    "widgetHint": "Collez ceci juste avant la balise body fermante de chaque page.",
+    "widgetConsent": "Le visiteur doit autoriser le chat sur le premier écran (avis de confidentialité et J’accepte). C’est ce qui enregistre le consentement web. L’équipe ne doit pas le contourner. Si vous avez déjà une bannière cookies, appelez ceci après acceptation :",
+    "widgetConsentHook": "Hook de la bannière cookies",
+    "previewWidget": "Aperçu du widget",
+    "booking": "Script de réservation",
+    "bookingHint": "Flux de réservation en ligne pour une page de votre site. Les variantes popup et flottante sont dans les réglages de la page de réservation.",
+    "bookingSettings": "Réglages de la page de réservation"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "consoleName": "{brand} Console",
+  "internal": "Internal",
+  "personas": {
+    "support": "Support agent",
+    "success": "Customer success",
+    "compliance": "Compliance officer",
+    "finance": "Finance and billing",
+    "ai_quality": "AI quality lead",
+    "pack_author": "Pack author",
+    "market_manager": "Market manager",
+    "sre": "Engineering and SRE",
+    "trust_safety": "Trust and safety",
+    "leadership": "Leadership"
+  },
+  "nav": {
+    "label": "Console navigation",
+    "groups": {
+      "operate": "Operate",
+      "quality": "Quality and risk",
+      "configure": "Configure",
+      "business": "Business"
+    },
+    "overview": "Overview",
+    "tenants": "Tenants",
+    "onboarding": "Setup monitor",
+    "usage": "Usage and cost",
+    "ai": "AI operations",
+    "channels": "Channels and providers",
+    "compliance": "Compliance",
+    "markets": "Markets and regions",
+    "packs": "Industry packs",
+    "billing": "Billing and revenue",
+    "plans": "Plans and entitlements",
+    "support": "Support",
+    "safety": "Trust and safety",
+    "flags": "Feature flags",
+    "system": "System health",
+    "insights": "Insights",
+    "users": "Admin users and audit"
+  },
+  "modules": {
+    "overview": "Tenants by state, activation, revenue, AI quality, incidents and compliance alerts.",
+    "tenants": "Search every tenant and open Tenant 360.",
+    "onboarding": "Funnel, stuck tenants and setup failures.",
+    "usage": "Messages, AI usage and cost per tenant, plan, market and channel.",
+    "ai": "Evals, incidents, prompt and model versions, transcript sampling.",
+    "channels": "WhatsApp quality and templates, email reputation, provider status.",
+    "compliance": "Consent audits, requests, retention jobs and legal documents.",
+    "markets": "Market packs, status, regions and local support.",
+    "packs": "Pack studio, versions, analytics and localization.",
+    "billing": "Subscriptions, invoices, dunning, credits and MRR.",
+    "plans": "Plan definitions, limits, feature gates and pricing.",
+    "support": "Tickets, notes, support-access requests and sessions.",
+    "safety": "Abuse queues, risk scores, suspensions and blocked senders.",
+    "flags": "Flags by tenant, market and plan; kill switches; experiments.",
+    "system": "Queues, workers, webhooks, error rates and deployments.",
+    "insights": "Product analytics, cohorts, funnels and custom queries.",
+    "users": "Internal users, roles, access reviews and admin audit.",
+    "placeholderTitle": "{module} is on its way",
+    "placeholderBody": "This module is built in step {slice}. Access rules for your persona already apply."
+  },
+  "noAccess": {
+    "title": "Your persona can't open this module",
+    "body": "Ask an Admin Owner to grant {module} access. Every grant is logged."
+  },
+  "search": {
+    "placeholder": "Find a tenant by name, owner, email or ID",
+    "label": "Find a tenant",
+    "empty": "No tenants match.",
+    "results": "{count, plural, one {# tenant} other {# tenants}}",
+    "viewAll": "See all results"
+  },
+  "tenants": {
+    "allMarkets": "All markets",
+    "loadMore": "Load more",
+    "showing": "Showing {shown} of {total}",
+    "emptyTitle": "No tenants match these filters",
+    "emptyBody": "Try another name, email or market, or clear the search.",
+    "clear": "Clear filters"
+  },
+  "region": {
+    "label": "Region",
+    "all": "All regions",
+    "africa": "Africa",
+    "eu": "EU",
+    "us": "US"
+  },
+  "masked": {
+    "on": "Personal data masked",
+    "off": "Personal data revealed",
+    "reveal": "Reveal personal data",
+    "hide": "Mask again",
+    "dialogTitle": "Reveal personal data",
+    "dialogBody": "Every reveal is logged with your name and reason, and the tenant can see it in their audit log.",
+    "reason": "Reason",
+    "reasonPlaceholder": "e.g. Ticket 4821: owner asked us to check a missing booking",
+    "reasonTooShort": "Please give a reason of at least 10 characters.",
+    "confirm": "Reveal and log",
+    "revealed": "Revealed for 15 minutes. Logged.",
+    "until": "Revealed until {time}"
+  },
+  "impersonation": {
+    "banner": "You're in a support session as {tenant}. Everything you do is logged.",
+    "readOnly": "Read-only",
+    "ends": "Ends at {time}",
+    "end": "End session",
+    "ended": "Support session ended"
+  },
+  "login": {
+    "title": "{brand} Console",
+    "body": "Internal tool for the {brand} team. Single sign-on and two-factor authentication are required.",
+    "cta": "Sign in with SSO",
+    "note": "Demo sign-in. Choose a persona from the wrench button."
+  },
+  "account": {
+    "label": "Your account",
+    "signOut": "Sign out"
+  },
+  "overview": {
+    "subtitle": "Signed in as {persona}.",
+    "tenants": "Tenants",
+    "byState": "By account state",
+    "byMarket": "By market",
+    "recent": "Recently created"
+  },
+  "table": {
+    "tenant": "Tenant",
+    "owner": "Owner",
+    "created": "Created",
+    "market": "Market",
+    "plan": "Plan",
+    "state": "State",
+    "health": "Health"
+  },
+  "plans": {
+    "starter": "Starter",
+    "growth": "Growth",
+    "pro": "Pro"
+  }
+}

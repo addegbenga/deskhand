@@ -1,0 +1,565 @@
+{
+  "frame": {
+    "setup": "Configuration",
+    "saveExit": "Enregistrer et quitter",
+    "back": "Retour",
+    "continue": "Continuer",
+    "skip": "Passer pour l’instant",
+    "backHome": "Retour à l’accueil"
+  },
+  "steps": {
+    "profile": {
+      "short": "Profil de l’entreprise",
+      "title": "Parlez-nous de votre entreprise",
+      "body": "Indiquez votre site ou votre Instagram et nous remplirons ce que nous pouvons. Vérifiez tout avant de continuer."
+    },
+    "goals": {
+      "short": "Objectifs",
+      "title": "Sur quoi voulez-vous de l’aide d’abord ?",
+      "body": "Choisissez-en autant que vous voulez. Nous proposerons des automatisations adaptées."
+    },
+    "knowledge": {
+      "short": "Former l’IA",
+      "title": "Formez votre employé IA",
+      "body": "Quelques réponses avec vos mots. L’IA ne dit que ce que vous confirmez ici et transmet le reste à votre équipe."
+    },
+    "channels": {
+      "short": "Canaux",
+      "title": "Où vos clients vous écrivent-ils ?",
+      "body": "Connectez les canaux de votre choix. Toutes les conversations arrivent dans une seule boîte."
+    },
+    "services": {
+      "short": "Services et agenda",
+      "title": "Services, équipe et agenda",
+      "body": "Ce que les clients peuvent réserver, qui fait le travail et quel agenda garder libre."
+    },
+    "employee": {
+      "short": "Employé IA",
+      "title": "Créez votre employé IA",
+      "body": "Votre employé IA rédige réponses et réservations que votre équipe approuve. Vous préférez commencer sans ? Aucun problème."
+    },
+    "compliance": {
+      "short": "Conformité",
+      "title": "Restez en règle",
+      "body": "Nous avons préparé des textes conformes à : {law}. Vérifiez-les et adaptez-les."
+    },
+    "launch": {
+      "short": "Tester et lancer",
+      "title": "Testez, puis lancez",
+      "liveTitle": "Vous êtes en ligne",
+      "body": "Essayez votre employé IA sur des questions réalistes, envoyez-vous un test et choisissez qui prend le relais quand l’IA ne peut pas aider.",
+      "manualBody": "Envoyez-vous un message test, vérifiez la liste et lancez. Votre équipe gère chaque réponse."
+    }
+  },
+  "errors": {
+    "required": "Ce champ est obligatoire.",
+    "language": "Choisissez au moins une langue.",
+    "url": "Saisissez un lien complet commençant par https://",
+    "generic": "Un problème est survenu. Réessayez."
+  },
+  "sources": {
+    "pack": "Pack de départ",
+    "import": "Depuis votre page",
+    "owner": "Ajouté par vous"
+  },
+  "industries": {
+    "salon": "Salon de coiffure et beauté",
+    "barber": "Barbier",
+    "clinic": "Clinique",
+    "real_estate": "Immobilier",
+    "bakery": "Boulangerie et gâteaux",
+    "restaurant": "Restaurant",
+    "gym": "Salle de sport",
+    "school": "École et soutien scolaire",
+    "home_services": "Services à domicile",
+    "general": "Autre activité"
+  },
+  "tones": {
+    "warm": {
+      "name": "Chaleureux",
+      "example": "« Bonjour ! Ravi d’avoir de vos nouvelles. Je regarde ça pour vous. »"
+    },
+    "professional": {
+      "name": "Professionnel",
+      "example": "« Bonjour. Merci pour votre message. Voici les informations. »"
+    },
+    "playful": {
+      "name": "Décontracté",
+      "example": "« Coucou ! Excellent choix. On s’occupe de vous. »"
+    }
+  },
+  "profile": {
+    "import": {
+      "title": "Partez de votre site ou de votre Instagram",
+      "body": "Nous lisons votre page publique pour trouver nom, horaires, services et questions fréquentes. Rien n’est utilisé sans votre confirmation.",
+      "label": "Lien du site ou d’Instagram",
+      "placeholder": "votreentreprise.com ou instagram.com/votreentreprise",
+      "cta": "Lire ma page",
+      "reading": "Lecture…",
+      "found": {
+        "website": "Voici ce que nous avons trouvé sur votre site",
+        "instagram": "Voici ce que nous avons trouvé sur votre Instagram",
+        "google": "Voici ce que nous avons trouvé sur votre fiche Google"
+      },
+      "foundName": "Nom : {name}",
+      "foundIndustry": "Semble être : {industry}",
+      "foundServices": "{count, plural, =0 {Aucun service} one {# service} other {# services}}",
+      "foundFaqs": "{count, plural, =0 {Aucune question} one {# question fréquente} other {# questions fréquentes}}",
+      "foundHours": "Horaires d’ouverture",
+      "foundAddress": "Adresse",
+      "confirmLater": "Les prix et réponses restent à confirmer aux étapes suivantes.",
+      "use": "Utiliser ces informations",
+      "ignore": "Ignorer",
+      "errors": {
+        "unreachable": "Impossible d’ouvrir cette page. Vérifiez le lien ou remplissez les informations ci-dessous.",
+        "invalid_link": "Cela ne ressemble pas à un lien. Essayez par exemple votreentreprise.com.",
+        "generic": "Impossible de lire cette page pour le moment. Remplissez les informations ci-dessous."
+      }
+    },
+    "details": "Informations",
+    "name": "Nom de l’entreprise",
+    "industry": "Secteur",
+    "searchIndustry": "Rechercher un secteur…",
+    "noIndustry": "Aucun secteur ne correspond.",
+    "description": "Ce que vous faites, en une ou deux phrases",
+    "descriptionPlaceholder": "ex. Gâteaux sur mesure et amuse-bouches pour anniversaires et mariages à Lekki.",
+    "address": "Adresse",
+    "addressHint": "L’IA la communique quand un client demande où vous êtes.",
+    "city": "Ville",
+    "phone": "Téléphone professionnel",
+    "hours": "Horaires d’ouverture",
+    "hoursBody": "Utilisés pour les réservations et pour que l’IA indique quand vous êtes ouvert.",
+    "openOn": "Ouvert le {day}",
+    "opens": "Ouverture",
+    "closes": "Fermeture",
+    "closed": "Fermé",
+    "languages": "Langues de vos clients",
+    "languagesBody": "L’IA répond dans la langue du client si elle figure ici.",
+    "tier": {
+      "B": "Bon niveau",
+      "C": "Niveau de base"
+    },
+    "tone": "Quel ton pour les réponses ?",
+    "toneBody": "Vous pourrez l’affiner plus tard.",
+    "pack": {
+      "title": "Pack de départ : {industry}",
+      "body": "{services, plural, one {# service} other {# services}} et {faqs, plural, one {# question fréquente} other {# questions fréquentes}} sont ajoutés pour vérification. Les prix restent vides jusqu’à ce que vous les fixiez.",
+      "imported": "Plus {services, plural, one {# service} other {# services}} et {faqs, plural, one {# question} other {# questions}} depuis votre page."
+    }
+  },
+  "goals": {
+    "recipes": "Automatisations proposées",
+    "note": "Rien ne s’active tout seul. Vous examinerez chaque automatisation après le lancement.",
+    "reply_faster": {
+      "title": "Répondre plus vite",
+      "body": "Répondez aux questions courantes en quelques secondes, jour et nuit."
+    },
+    "more_bookings": {
+      "title": "Obtenir plus de réservations",
+      "body": "Transformez les discussions en rendez-vous et réduisez les absences."
+    },
+    "collect_reviews": {
+      "title": "Récolter plus d’avis",
+      "body": "Demandez un avis aux clients satisfaits au bon moment."
+    },
+    "run_promotions": {
+      "title": "Lancer des promotions",
+      "body": "Faites revenir d’anciens clients avec des offres bien placées."
+    }
+  },
+  "recipes": {
+    "instant_reply": "Réponse instantanée",
+    "missed_message_followup": "Relance des messages manqués",
+    "booking_reminder": "Rappel de rendez-vous",
+    "no_show_recovery": "Relance après absence",
+    "rebooking": "Incitation à reprendre rendez-vous",
+    "review_request": "Demande d’avis",
+    "win_back": "Offre de reconquête",
+    "seasonal_offer": "Offre saisonnière"
+  },
+  "services": {
+    "title": "Services",
+    "body": "Confirmez chaque prix. L’IA ne cite jamais un prix non confirmé.",
+    "empty": "Aucun service. Ajoutez ce que les clients peuvent réserver.",
+    "name": "Service",
+    "duration": "Minutes",
+    "price": "Prix",
+    "confirmed": "Confirmé",
+    "remove": "Retirer {name}",
+    "noPrice": "Pas encore de prix. L’IA transmettra les questions de prix à votre équipe.",
+    "noPriceTypical": "Pas encore de prix (des entreprises similaires facturent environ {price}). L’IA transmettra les questions de prix à votre équipe.",
+    "add": "Ajouter un service",
+    "confirmAll": "{count, plural, one {Confirmer # prix} other {Confirmer # prix}}",
+    "staffTitle": "Qui fait le travail",
+    "staffBody": "Les réservations sont attribuées à ces personnes. Vous pourrez les inviter dans l’équipe plus tard.",
+    "staffName": "Nom",
+    "removeStaff": "Retirer {name}",
+    "addStaff": "Ajouter une personne",
+    "calendar": {
+      "title": "Agenda",
+      "body": "Connectez un agenda pour que l’IA ne réserve jamais quand vous êtes occupé.",
+      "connect": "Connecter {provider}",
+      "later": "Passer pour l’instant",
+      "deferred": "Pas d’agenda. Les réservations suivent vos horaires d’ouverture.",
+      "connectNow": "Connecter maintenant",
+      "providers": {
+        "google": "Google Agenda",
+        "outlook": "Agenda Outlook"
+      },
+      "dialogTitle": "Connecter {provider}",
+      "dialogBody": "Démo uniquement : une version réelle ouvre l’écran d’autorisation du fournisseur.",
+      "account": "Compte d’agenda",
+      "scopeBusy": "Voir quand vous êtes occupé",
+      "scopeEvents": "Ajouter les réservations comme événements",
+      "allow": "Autoriser"
+    },
+    "bookingPage": "Votre page de réservation",
+    "bookingPageBody": "Les clients peuvent réserver ici dès le lancement.",
+    "preview": "Aperçu"
+  },
+  "faqs": {
+    "question": "Question",
+    "answer": "Réponse",
+    "confirmed": "Confirmée",
+    "remove": "Retirer la question",
+    "add": "Ajouter une question",
+    "confirmAll": "Confirmer toutes les réponses remplies"
+  },
+  "knowledge": {
+    "manual": "Passer, tout gérer à la main",
+    "continueAnyway": "Vous pouvez continuer et revenir plus tard. Le lancement avec l’IA exige tous les prix confirmés, les horaires, votre adresse et au moins 3 réponses confirmées.",
+    "servicesTitle": "Services et prix",
+    "servicesBody": "Vérifiez ce que nous avons préparé. Confirmez un prix pour que l’IA puisse le citer.",
+    "interviewTitle": "Quelques questions",
+    "interviewBody": "Répondez avec vos mots. Les suggestions viennent d’entreprises comme la vôtre ; utilisez-les seulement si elles sont vraies pour vous.",
+    "useSuggestion": "Utiliser la suggestion : « {text} »",
+    "faqsTitle": "Questions fréquentes",
+    "faqsBody": "Confirmez les réponses que l’IA peut donner.",
+    "preview": {
+      "title": "Ce que sait l’IA",
+      "services": "{ready} prix confirmés sur {total}",
+      "faqs": "{count, plural, =0 {Aucune réponse confirmée} one {# réponse confirmée} other {# réponses confirmées}}",
+      "hours": "Vos horaires d’ouverture",
+      "noHours": "Pas encore d’horaires",
+      "location": "Où vous trouver",
+      "noLocation": "Pas encore d’adresse",
+      "answers": "{count, plural, =0 {Aucune réponse à l’entretien} one {# réponse à l’entretien} other {# réponses à l’entretien}}",
+      "ready": "Suffisant pour lancer. L’IA transmet tout le reste à votre équipe.",
+      "unknown": "Pour tout ce qui n’est pas ici, l’IA dit qu’elle vérifie et passe la conversation à votre équipe."
+    }
+  },
+  "interview": {
+    "location": {
+      "question": "Comment les clients vous trouvent-ils ?",
+      "placeholder": "Repères, parking, étage…"
+    },
+    "booking": {
+      "question": "Comment fonctionnent les réservations ?",
+      "placeholder": "Sans rendez-vous, acomptes, délai…"
+    },
+    "cancellation": {
+      "question": "Quelle est votre politique d’annulation ?",
+      "placeholder": "Préavis, frais, report…"
+    },
+    "payment": {
+      "question": "Comment les clients peuvent-ils payer ?",
+      "placeholder": "Espèces, virement, carte, acomptes…"
+    },
+    "delivery": {
+      "question": "Livrez-vous ou vous déplacez-vous ?",
+      "placeholder": "Zones, frais, délai… ou laissez vide"
+    },
+    "never_promise": {
+      "question": "Que l’IA ne doit-elle jamais promettre ?",
+      "placeholder": "Remises, créneaux le jour même, conseils médicaux…"
+    },
+    "handoff": {
+      "question": "Quand une personne doit-elle prendre le relais ?",
+      "placeholder": "Réclamations, grosses commandes, urgences…"
+    }
+  },
+  "channels": {
+    "kinds": {
+      "whatsapp": "WhatsApp",
+      "webchat": "Chat web",
+      "email": "E-mail",
+      "sms": "SMS",
+      "messenger": "Messenger",
+      "instagram": "Instagram",
+      "voice": "Appels téléphoniques"
+    },
+    "blurb": {
+      "whatsapp": "Votre numéro professionnel sur la plateforme WhatsApp Business.",
+      "webchat": "Une bulle de chat sur votre page de réservation ou votre site.",
+      "email": "Répondez aux e-mails clients depuis la boîte de réception.",
+      "sms": "Des SMS pour les rappels et réponses rapides.",
+      "messenger": "Les messages envoyés à votre page Facebook.",
+      "instagram": "Les messages privés de votre compte Instagram.",
+      "voice": "La réponse aux appels arrive dans une prochaine version."
+    },
+    "later": "Bientôt",
+    "connected": "Connecté",
+    "disconnect": "Déconnecter",
+    "summary": "{count, plural, one {# canal connecté.} other {# canaux connectés.}}",
+    "noneYet": "Connectez au moins un canal avant le lancement.",
+    "whatsapp": {
+      "body": "Vous vous connectez avec Meta et choisissez le numéro. Il ne peut pas être utilisé en même temps dans l’application WhatsApp.",
+      "connect": "Connecter WhatsApp",
+      "templates": "Modèles de message",
+      "templatesPending": "{count, plural, one {Meta examine # modèle.} other {Meta examine # modèles.}} Cela prend généralement quelques minutes.",
+      "templatesReady": "Tous les modèles sont approuvés. Rappels et relances peuvent partir.",
+      "category": {
+        "utility": "Service",
+        "marketing": "Marketing"
+      },
+      "dialog": {
+        "title": "Connecter WhatsApp",
+        "loginBody": "Connectez-vous à Meta pour relier votre entreprise.",
+        "businessBody": "Choisissez le portefeuille business Meta auquel appartient ce numéro.",
+        "numberBody": "Ajoutez le numéro sur lequel vos clients écrivent.",
+        "simulated": "Démo uniquement : remplace la fenêtre d’inscription de Meta.",
+        "continueAs": "Continuer en tant que {name}",
+        "portfolio": "Nom du portefeuille business",
+        "portfolioHint": "Nous en créerons un si vous n’en avez pas.",
+        "number": "Numéro WhatsApp",
+        "numberHint": "Meta envoie un code à ce numéro pour le confirmer.",
+        "displayName": "Nom affiché aux clients",
+        "finish": "Terminer"
+      }
+    },
+    "email": {
+      "managed": "Utiliser une adresse prête à l’emploi",
+      "managedBody": "Fonctionne tout de suite. Idéal pour commencer.",
+      "domain": "Utiliser votre domaine",
+      "domainBody": "Envoyez depuis votre adresse. Nécessite quelques enregistrements DNS.",
+      "useManaged": "Utiliser cette adresse",
+      "domainLabel": "Domaine",
+      "domainPlaceholder": "votreentreprise.com",
+      "address": "Nom de l’adresse",
+      "addDomain": "Ajouter le domaine",
+      "addRecords": "Ajoutez ces enregistrements chez le fournisseur de {domain}, puis vérifiez.",
+      "host": "Hôte",
+      "value": "Valeur",
+      "purpose": {
+        "spf": "Nous autorise à envoyer pour vous (SPF)",
+        "dkim": "Signe vos e-mails (DKIM)",
+        "dmarc": "Protège votre domaine (DMARC)",
+        "return_path": "Gère les retours"
+      },
+      "recordStatus": {
+        "pending": "Pas encore trouvé",
+        "verified": "Vérifié"
+      },
+      "verify": "Vérifier le DNS",
+      "checking": "Vérification…",
+      "partial": "{verified} sur {total} trouvés. Les nouveaux enregistrements peuvent mettre quelques minutes à apparaître.",
+      "changeDomain": "Utiliser un autre domaine"
+    },
+    "webchat": {
+      "placement": {
+        "booking_page": "Sur votre page de réservation",
+        "website": "Aussi sur votre site"
+      },
+      "bookingPageBody": "Rien à installer.",
+      "websiteBody": "Collez une ligne de code sur votre site.",
+      "turnOn": "Activer le chat web",
+      "snippet": "Code du chat web",
+      "snippetBody": "Collez ceci avant la balise body de fermeture sur chaque page. Les visiteurs doivent autoriser le chat au premier écran ; cela enregistre le consentement web."
+    },
+    "messenger": {
+      "label": "Page Facebook",
+      "hint": "Démo uniquement : une version réelle permet de choisir la page après connexion à Facebook.",
+      "connect": "Connecter la page"
+    },
+    "instagram": {
+      "label": "Identifiant Instagram",
+      "hint": "Doit être un compte professionnel ou créateur lié à une page Facebook.",
+      "connect": "Connecter Instagram"
+    },
+    "sms": {
+      "label": "Nom d’expéditeur",
+      "hint": "Jusqu’à 11 lettres ou chiffres. Certains réseaux exigent un enregistrement préalable.",
+      "connect": "Configurer les SMS"
+    }
+  },
+  "employee": {
+    "ai": "Créer un employé IA",
+    "aiBody": "Rédige réponses et réservations. Vous commencez en mode Suggestion : votre équipe approuve tout avant l’envoi.",
+    "recommended": "Recommandé",
+    "manual": "Manuel uniquement pour l’instant",
+    "manualBody": "Votre équipe répond à chaque message. Ajoutez un employé IA quand vous voulez.",
+    "pick": "Choisissez une option pour continuer.",
+    "nameTitle": "Donnez-lui un nom",
+    "nameBody": "Les clients voient toujours qu’il s’agit d’un assistant IA.",
+    "name": "Nom",
+    "toneTitle": "Ton",
+    "previewTitle": "Comment il se présente",
+    "previewBody": "Un aperçu. Les vraies réponses utilisent ce que vous lui avez appris.",
+    "greeting": {
+      "warm": "Bonjour ! Je suis {name}, l’assistant IA de {business}. Comment puis-je vous aider ?",
+      "professional": "Bonjour. Je suis {name}, l’assistant IA de {business}. Que puis-je faire pour vous ?",
+      "playful": "Salut ! Moi c’est {name}, l’assistant IA de {business}. Je peux t’aider ?"
+    },
+    "needsKnowledge": "Vous avez passé la formation de l’IA. Il faudra terminer cette étape avant de lancer avec elle.",
+    "manualNote": "Tout fonctionne : boîte partagée, réservations, rappels et page de réservation. Votre liste de configuration vous reproposera l’employé IA plus tard."
+  },
+  "compliance": {
+    "business": "Informations légales",
+    "legalName": "Raison sociale",
+    "legalNameHint": "Affichée dans votre politique de confidentialité et le pied des messages.",
+    "registeredAddress": "Adresse du siège",
+    "disclosure": "Mention IA",
+    "disclosureBody": "Les clients sont informés qu’ils parlent à une IA. Impossible à désactiver tant qu’un employé IA répond.",
+    "disclosureManual": "Vous n’utilisez pas d’employé IA, c’est donc facultatif pour l’instant.",
+    "disclosureSwitch": "Indiquer aux clients quand une réponse vient de l’IA",
+    "locked": "Obligatoire",
+    "disclosureText": "Message de mention",
+    "consent": "Consentement aux messages",
+    "consentBody": "Comment les clients acceptent de recevoir vos messages. Rappels et offres ne partent qu’aux personnes qui ont accepté.",
+    "consentText": "Texte de consentement",
+    "consentConfirm": "Je n’écrirai qu’aux clients qui ont accepté, et j’arrêterai à leur demande.",
+    "privacy": "Politique de confidentialité",
+    "privacyBody": "Obligatoire selon : {law}. Liée depuis votre page de réservation et le chat web.",
+    "generate": "La créer pour moi",
+    "generateBody": "Une politique simple basée sur vos réponses, hébergée sur votre page de réservation.",
+    "ownLink": "Lier ma propre politique",
+    "ownLinkBody": "Utilisez la politique de votre site.",
+    "privacyUrl": "Lien de la politique",
+    "privacyPlaceholder": "https://votreentreprise.com/confidentialite",
+    "recording": "Les appels ne sont pas enregistrés. La gestion des appels arrive dans une prochaine version.",
+    "agreements": "Accords",
+    "acceptPrefix": "J’accepte les",
+    "terms": "Conditions d’utilisation ({version})",
+    "dpa": "Accord de traitement des données ({version})",
+    "incomplete": "Ajoutez votre raison sociale, confirmez le consentement et acceptez les deux accords pour continuer."
+  },
+  "gates": {
+    "title": "Prêt à lancer ?",
+    "blocking": "{count, plural, one {# vérification restante} other {# vérifications restantes}}",
+    "allClear": "Tout est prêt.",
+    "notNeeded": "Inutile sans employé IA.",
+    "fix": "Corriger",
+    "status": {
+      "done": "Terminé",
+      "blocking": "Bloque le lancement",
+      "not_needed": "Inutile"
+    },
+    "channel": "Un canal est connecté",
+    "templates": "Modèles WhatsApp approuvés",
+    "knowledge": "L’IA en sait assez",
+    "compliance": "Conformité configurée",
+    "sandbox": "Tests du bac à sable réussis",
+    "handoff": "Quelqu’un reçoit les transferts",
+    "missing": {
+      "channel": "Connectez au moins un canal.",
+      "templates": "{count, plural, one {# modèle attend Meta.} other {# modèles attendent Meta.}}",
+      "services": "Ajoutez au moins un service.",
+      "prices": "{count, plural, one {Confirmez # prix.} other {Confirmez # prix.}}",
+      "hours": "Indiquez vos horaires d’ouverture.",
+      "location": "Ajoutez votre adresse.",
+      "faqs": "{count, plural, one {Confirmez encore # réponse.} other {Confirmez encore # réponses.}}",
+      "legalName": "Ajoutez votre raison sociale.",
+      "disclosure": "Activez la mention IA.",
+      "consent": "Confirmez votre texte de consentement.",
+      "privacy": "Choisissez une politique de confidentialité.",
+      "terms": "Acceptez les conditions et l’accord de traitement des données.",
+      "sandbox": "{count, plural, one {Marquez encore # test comme juste.} other {Marquez encore # tests comme justes.}}",
+      "sandboxRequired": "Test obligatoire pas encore réussi : {script}.",
+      "handoff": "Confirmez qui reçoit les transferts."
+    }
+  },
+  "sandbox": {
+    "title": "Essayez dans le bac à sable",
+    "body": "Dix messages clients réalistes. Rien n’est envoyé à personne. Marquez chaque réponse juste ou fausse.",
+    "runAll": "{count, plural, one {Lancer # test} other {Lancer # tests}}",
+    "runAgain": "Tout relancer",
+    "running": "En cours…",
+    "acceptAll": "{count, plural, one {Marquer # comme juste} other {Marquer # comme justes}}",
+    "progress": "{passed} sur {total} marqués justes.",
+    "required": "Obligatoire",
+    "wasItRight": "Était-ce juste ?",
+    "right": "Juste",
+    "wrong": "Faux",
+    "fixHint": "Corrigez la réponse, puis relancez ce test.",
+    "fixLink": "Modifier ce que sait l’IA",
+    "rerun": "Relancer",
+    "sources": "Basé sur : {sources}",
+    "chatTitle": "Posez vos propres questions",
+    "chatBody": "Écrivez ce qu’un client pourrait envoyer.",
+    "chatLabel": "Message en tant que client",
+    "chatPlaceholder": "ex. Êtes-vous ouverts le dimanche ?",
+    "send": "Envoyer",
+    "scripts": {
+      "price": "Demande un prix",
+      "booking": "Veut réserver",
+      "hours": "Demande les horaires",
+      "location": "Demande où vous êtes",
+      "cancellation": "Veut annuler",
+      "discount": "Demande une remise",
+      "language": "Écrit dans une autre langue",
+      "unknown_price": "Demande un prix non confirmé",
+      "angry": "Client mécontent",
+      "off_topic": "Demande hors sujet"
+    },
+    "kinds": {
+      "answer": "Réponse",
+      "handoff": "Transmis à l’équipe",
+      "refusal": "Refus poli",
+      "booking_offer": "Proposition de réservation"
+    },
+    "sourceKinds": {
+      "service": "Service",
+      "faq": "Réponse",
+      "hours": "Horaires",
+      "answer": "Entretien",
+      "rule": "Règle"
+    }
+  },
+  "test": {
+    "title": "Envoyez-vous un test",
+    "body": "Vérifiez qu’un vrai message arrive comme le verront vos clients.",
+    "noChannel": "Connectez d’abord un canal pour envoyer un test.",
+    "channel": "Canal",
+    "to": "Envoyer à",
+    "send": "Envoyer le test",
+    "sending": "Envoi…",
+    "sent": "Test envoyé à {to} par {channel} à {time}."
+  },
+  "handoff": {
+    "title": "Qui prend le relais",
+    "body": "Quand l’IA ne peut pas aider, cette personne est alertée aussitôt. Nous lui enverrons une alerte test.",
+    "person": "Personne",
+    "channel": "Alerter par",
+    "channels": {
+      "in_app": "Dans l’application",
+      "email": "E-mail",
+      "whatsapp": "WhatsApp"
+    },
+    "sendTest": "Envoyer une alerte test",
+    "sent": "Alerte test envoyée à {name} par {channel}. Est-elle arrivée ?",
+    "gotIt": "Oui, reçue",
+    "confirmed": "{name} reçoit les transferts."
+  },
+  "launch": {
+    "suggestNote": "{name} commence en mode Suggestion : il rédige les réponses et votre équipe approuve chacune. Vous pourrez lui donner plus de liberté plus tard.",
+    "goLive": "Lancer en mode Suggestion",
+    "goLiveManual": "Lancer",
+    "blocked": "Certaines vérifications ne sont pas terminées. Consultez la liste."
+  },
+  "live": {
+    "title": "{business} est en ligne",
+    "suggest": "{name} rédige des réponses que votre équipe approuve. Les nouveaux messages arrivent dans votre boîte de réception.",
+    "manual": "Votre boîte de réception et votre page de réservation sont prêtes. Votre équipe gère chaque réponse.",
+    "home": "Aller à l’accueil",
+    "bookingPage": "Voir la page de réservation"
+  },
+  "milestones": {
+    "profile_complete": "Profil de l’entreprise terminé",
+    "first_channel_live": "Votre premier canal est connecté",
+    "ai_taught": "Votre employé IA en sait assez pour lancer",
+    "ai_live": "Vous êtes en ligne en mode Suggestion",
+    "first_lead_handled": "Premier prospect traité",
+    "first_booking_or_payment": "Première réservation ou premier paiement",
+    "autopilot_replies": "Réponses en pilote automatique"
+  }
+}

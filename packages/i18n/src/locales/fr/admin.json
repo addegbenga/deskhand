@@ -1,0 +1,141 @@
+{
+  "consoleName": "Console {brand}",
+  "internal": "Interne",
+  "personas": {
+    "support": "Agent support",
+    "success": "Succès client",
+    "compliance": "Responsable conformité",
+    "finance": "Finance et facturation",
+    "ai_quality": "Qualité IA",
+    "pack_author": "Auteur de packs",
+    "market_manager": "Responsable marché",
+    "sre": "Ingénierie et SRE",
+    "trust_safety": "Confiance et sécurité",
+    "leadership": "Direction"
+  },
+  "nav": {
+    "label": "Navigation de la console",
+    "groups": {
+      "operate": "Opérations",
+      "quality": "Qualité et risques",
+      "configure": "Configuration",
+      "business": "Activité"
+    },
+    "overview": "Vue d'ensemble",
+    "tenants": "Clients",
+    "onboarding": "Suivi de configuration",
+    "usage": "Usage et coûts",
+    "ai": "Opérations IA",
+    "channels": "Canaux et fournisseurs",
+    "compliance": "Conformité",
+    "markets": "Marchés et régions",
+    "packs": "Packs métier",
+    "billing": "Facturation et revenus",
+    "plans": "Offres et droits",
+    "support": "Support",
+    "safety": "Confiance et sécurité",
+    "flags": "Fonctionnalités",
+    "system": "Santé du système",
+    "insights": "Analyses",
+    "users": "Utilisateurs et audit"
+  },
+  "modules": {
+    "overview": "Clients par état, activation, revenus, qualité IA, incidents et alertes de conformité.",
+    "tenants": "Rechercher un client et ouvrir sa fiche 360.",
+    "onboarding": "Entonnoir, clients bloqués et échecs de configuration.",
+    "usage": "Messages, usage et coût IA par client, offre, marché et canal.",
+    "ai": "Évaluations, incidents, versions de prompts et modèles, échantillons.",
+    "channels": "Qualité et modèles WhatsApp, réputation e-mail, état des fournisseurs.",
+    "compliance": "Audits de consentement, demandes, conservation et documents légaux.",
+    "markets": "Packs marché, statuts, régions et support local.",
+    "packs": "Studio de packs, versions, analyses et traductions.",
+    "billing": "Abonnements, factures, relances, crédits et revenu récurrent.",
+    "plans": "Définition des offres, limites, accès et tarifs.",
+    "support": "Tickets, notes, demandes et sessions d'accès support.",
+    "safety": "Files d'abus, scores de risque, suspensions et expéditeurs bloqués.",
+    "flags": "Fonctionnalités par client, marché et offre ; arrêts d'urgence ; expériences.",
+    "system": "Files, workers, webhooks, taux d'erreur et déploiements.",
+    "insights": "Analyses produit, cohortes, entonnoirs et requêtes.",
+    "users": "Utilisateurs internes, rôles, revues d'accès et audit.",
+    "placeholderTitle": "{module} arrive bientôt",
+    "placeholderBody": "Ce module est construit à l'étape {slice}. Les règles d'accès de votre profil s'appliquent déjà."
+  },
+  "noAccess": {
+    "title": "Votre profil ne peut pas ouvrir ce module",
+    "body": "Demandez à un administrateur principal l'accès à {module}. Chaque accès est journalisé."
+  },
+  "search": {
+    "placeholder": "Trouver un client par nom, propriétaire, e-mail ou ID",
+    "label": "Trouver un client",
+    "empty": "Aucun client ne correspond.",
+    "results": "{count, plural, one {# client} other {# clients}}",
+    "viewAll": "Voir tous les résultats"
+  },
+  "tenants": {
+    "allMarkets": "Tous les marchés",
+    "loadMore": "Charger plus",
+    "showing": "{shown} sur {total}",
+    "emptyTitle": "Aucun client ne correspond à ces filtres",
+    "emptyBody": "Essayez un autre nom, e-mail ou marché, ou effacez la recherche.",
+    "clear": "Effacer les filtres"
+  },
+  "region": {
+    "label": "Région",
+    "all": "Toutes les régions",
+    "africa": "Afrique",
+    "eu": "UE",
+    "us": "États-Unis"
+  },
+  "masked": {
+    "on": "Données personnelles masquées",
+    "off": "Données personnelles visibles",
+    "reveal": "Afficher les données personnelles",
+    "hide": "Masquer à nouveau",
+    "dialogTitle": "Afficher les données personnelles",
+    "dialogBody": "Chaque affichage est journalisé avec votre nom et la raison, et le client peut le voir dans son journal d'audit.",
+    "reason": "Raison",
+    "reasonPlaceholder": "ex. Ticket 4821 : le propriétaire signale une réservation manquante",
+    "reasonTooShort": "Indiquez une raison d'au moins 10 caractères.",
+    "confirm": "Afficher et journaliser",
+    "revealed": "Visible pendant 15 minutes. Journalisé.",
+    "until": "Visible jusqu'à {time}"
+  },
+  "impersonation": {
+    "banner": "Vous êtes en session support pour {tenant}. Toutes vos actions sont journalisées.",
+    "readOnly": "Lecture seule",
+    "ends": "Se termine à {time}",
+    "end": "Terminer la session",
+    "ended": "Session support terminée"
+  },
+  "login": {
+    "title": "Console {brand}",
+    "body": "Outil interne de l'équipe {brand}. Authentification unique et double authentification obligatoires.",
+    "cta": "Se connecter avec le SSO",
+    "note": "Connexion de démo. Choisissez un profil avec la clé."
+  },
+  "account": {
+    "label": "Votre compte",
+    "signOut": "Se déconnecter"
+  },
+  "overview": {
+    "subtitle": "Connecté en tant que {persona}.",
+    "tenants": "Clients",
+    "byState": "Par état du compte",
+    "byMarket": "Par marché",
+    "recent": "Créés récemment"
+  },
+  "table": {
+    "tenant": "Client",
+    "owner": "Propriétaire",
+    "created": "Créé le",
+    "market": "Marché",
+    "plan": "Offre",
+    "state": "État",
+    "health": "Santé"
+  },
+  "plans": {
+    "starter": "Starter",
+    "growth": "Growth",
+    "pro": "Pro"
+  }
+}

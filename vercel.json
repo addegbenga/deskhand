@@ -1,0 +1,53 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm build:vercel",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/admin/:path*", "destination": "/admin/index.html" },
+    { "source": "/_public", "destination": "/_public/index.html" },
+    { "source": "/_public/:path*", "destination": "/_public/index.html" },
+    { "source": "/b", "destination": "/_public/index.html" },
+    { "source": "/b/:path*", "destination": "/_public/index.html" },
+    { "source": "/p", "destination": "/_public/index.html" },
+    { "source": "/p/:path*", "destination": "/_public/index.html" },
+    { "source": "/pay", "destination": "/_public/index.html" },
+    { "source": "/pay/:path*", "destination": "/_public/index.html" },
+    { "source": "/r", "destination": "/_public/index.html" },
+    { "source": "/r/:path*", "destination": "/_public/index.html" },
+    { "source": "/l", "destination": "/_public/index.html" },
+    { "source": "/l/:path*", "destination": "/_public/index.html" },
+    { "source": "/embed", "destination": "/_public/index.html" },
+    { "source": "/embed/:path*", "destination": "/_public/index.html" },
+    { "source": "/f", "destination": "/_public/index.html" },
+    { "source": "/f/:path*", "destination": "/_public/index.html" },
+    { "source": "/preferences", "destination": "/_public/index.html" },
+    { "source": "/preferences/:path*", "destination": "/_public/index.html" },
+    { "source": "/privacy", "destination": "/_public/index.html" },
+    { "source": "/privacy/:path*", "destination": "/_public/index.html" },
+    { "source": "/:path*", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/mockServiceWorker.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" },
+        { "key": "Service-Worker-Allowed", "value": "/" }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    },
+    {
+      "source": "/admin/index.html",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    },
+    {
+      "source": "/_public/index.html",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    }
+  ]
+}

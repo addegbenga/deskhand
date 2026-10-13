@@ -1,0 +1,138 @@
+{
+  "title": "Boîte de réception",
+  "search": "Rechercher des conversations",
+  "views": {
+    "all": "Toutes",
+    "mine": "Les miennes",
+    "unassigned": "Non assignées",
+    "needs_human": "Besoin d'un humain",
+    "ai_handled": "Gérées par l'IA",
+    "waiting": "En attente du client",
+    "snoozed": "En pause",
+    "closed": "Fermées"
+  },
+  "unread": "{count, plural, one {# non lu} other {# non lus}}",
+  "waiting": "Attend {minutes} min",
+  "humanOnly": "Humain uniquement",
+  "windowOpen": "Fenêtre WhatsApp ouverte",
+  "windowClosed": "Fenêtre WhatsApp fermée — modèles approuvés seulement",
+  "filters": {
+    "button": "Filtres",
+    "title": "Filtres",
+    "clear": "Effacer",
+    "all": "Tous",
+    "channel": "Canal",
+    "location": "Lieu",
+    "employee": "Assigné",
+    "tag": "Tag",
+    "stage": "Étape",
+    "language": "Langue",
+    "date": "Date",
+    "dates": {
+      "all": "Tout moment",
+      "today": "Aujourd’hui",
+      "7d": "7 derniers jours",
+      "30d": "30 derniers jours"
+    }
+  },
+  "channelDown": "{channel} est hors service. Les envois sont en pause jusqu’à réparation.",
+  "channelDownFix": "Réparer la connexion",
+  "updated": "Conversation mise à jour",
+  "empty": {
+    "title": "Pas encore de conversations",
+    "body": "Les messages de {channels} apparaissent ici. Envoyez un test pour remplir le fil.",
+    "test": "Envoyer un message test",
+    "none": "Rien dans cette vue."
+  },
+  "select": "Choisissez une conversation",
+  "selectBody": "Ouvrez un fil pour lire et répondre.",
+  "composer": {
+    "placeholder": "Écrire un message",
+    "note": "Note interne",
+    "send": "Envoyer",
+    "schedule": "Planifier l'envoi",
+    "templates": "Modèles",
+    "replies": "Réponses enregistrées",
+    "attach": "Joindre",
+    "attachHint": "Le téléversement de fichier est une maquette.",
+    "emoji": "Emoji",
+    "scheduled": "Message planifié",
+    "sendAt": "Envoi prévu à {when}",
+    "translate": "Aperçu traduit",
+    "translating": "Aperçu",
+    "blocked": {
+      "opted_out": "Cette personne a demandé l’arrêt. L’envoi est bloqué.",
+      "consent_missing": "Aucun consentement enregistré pour ce canal.",
+      "window_closed": "La fenêtre WhatsApp de 24 h est fermée. Choisissez un modèle approuvé.",
+      "channel_down": "Ce canal est hors service. Les envois sont en pause.",
+      "readonly": "Votre rôle peut lire mais pas envoyer."
+    },
+    "blockedHint": {
+      "opted_out": "La personne s’est désinscrite de {channel}. Vous pouvez encore laisser une note interne. Elle doit vous réécrire avant que vous puissiez envoyer.",
+      "consent_missing": "Deskhand n’a pas d’opt-in enregistré pour {channel} pour cette personne. Enregistrez-le seulement si elle a déjà accepté (par exemple au téléphone). Sinon attendez l’opt-in, ou ouvrez son dossier de consentement.",
+      "consent_missing_webchat": "Cette personne est arrivée par le chat web. Elle doit autoriser le chat sur le premier écran du widget (avis de confidentialité et J’accepte). C’est le consentement du visiteur — l’équipe ne doit pas le cocher à sa place, sauf accord déjà donné ailleurs.",
+      "window_closed": "Plus de 24 h depuis le dernier message WhatsApp. Utilisez un modèle approuvé, ou attendez qu’elle écrive.",
+      "channel_down": "{channel} est déconnecté, rien ne peut partir. Réparez la connexion, puis réessayez.",
+      "readonly": "Demandez à un propriétaire ou un admin si vous devez répondre."
+    },
+    "recordConsent": "Enregistrer le consentement {channel}",
+    "consentRecorded": "Consentement enregistré. Vous pouvez envoyer.",
+    "consentFailed": "Impossible d’enregistrer le consentement.",
+    "seeConsent": "Voir le consentement dans ce fil",
+    "openContact": "Ouvrir le contact",
+    "openWidget": "Ouvrir le widget de chat"
+  },
+  "ai": {
+    "takeOver": "Prendre la main",
+    "handBack": "Rendre à l'IA",
+    "accept": "Envoyer ceci",
+    "edit": "Modifier puis envoyer",
+    "discard": "Jeter le brouillon",
+    "good": "Bonne réponse",
+    "bad": "À revoir",
+    "taken": "IA en pause sur cette conversation",
+    "handed": "L'IA gère à nouveau cette conversation"
+  },
+  "collision": "{name} consulte aussi ce fil",
+  "actions": {
+    "more": "Plus d’actions",
+    "assign": "Assigner",
+    "assignMe": "M'assigner",
+    "snooze": "Mettre en pause 4 h",
+    "close": "Fermer",
+    "reopen": "Rouvrir",
+    "markRead": "Marquer lu",
+    "booking": "Créer une réservation",
+    "payment": "Envoyer un lien de paiement",
+    "task": "Ajouter une tâche",
+    "contact": "Ouvrir le contact"
+  },
+  "bulk": {
+    "selected": "{count, plural, one {# sélectionnée} other {# sélectionnées}}",
+    "close": "Fermer la sélection",
+    "assign": "M'assigner"
+  },
+  "shortcuts": "j/k suivant et précédent · e m'assigner · s pause · c fermer · / rédiger",
+  "call": {
+    "title": "Enregistrement d'appel",
+    "play": "Lire (maquette)",
+    "logged": "La lecture est journalisée."
+  },
+  "panel": {
+    "open": "Contact",
+    "stage": "Étape",
+    "value": "Valeur",
+    "bookings": "Rendez-vous à venir",
+    "consent": "Consentement",
+    "summary": "Résumé",
+    "next": "Prochaine action suggérée",
+    "language": "Langue",
+    "optedOut": "Désinscrit",
+    "noContact": "Pas encore de téléphone ni d’e-mail",
+    "payments": "Paiements",
+    "timeline": "Historique"
+  },
+  "sent": "Message envoyé",
+  "noted": "Note ajoutée",
+  "noPermission": "La boîte de réception est réservée à qui gère les conversations."
+}
